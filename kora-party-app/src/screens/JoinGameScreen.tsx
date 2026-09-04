@@ -6,12 +6,19 @@ import { useLang } from "../context/LangContext";
 import { usePlayer } from "../context/PlayerContext";
 import { joinSession } from "../utils/sessionService";
 import FootballBackground from "../components/FootballBackground";
-import GradientButton from "../components/GradientButton";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/AppNavigator";
 
 type Props = {
   navigation: NativeStackNavigationProp<RootStackParamList, "JoinGame">;
+};
+
+const cardShadow = {
+  shadowColor: "#000000",
+  shadowOffset: { width: 0, height: 8 },
+  shadowOpacity: 0.28,
+  shadowRadius: 16,
+  elevation: 8,
 };
 
 export default function JoinGameScreen({ navigation }: Props) {
@@ -54,7 +61,10 @@ export default function JoinGameScreen({ navigation }: Props) {
         </View>
 
         <View className="flex-1 items-center justify-center">
-          <View className="bg-surfaceCard rounded-3xl p-8 w-full border border-border">
+          <View
+            className="bg-surfaceCard rounded-xl p-8 w-full"
+            style={[cardShadow, { borderRadius: 20, transform: [{ translateY: -40 }] }]}
+          >
             <View className="items-center mb-6">
               <View className="bg-accent/20 rounded-full w-20 h-20 items-center justify-center mb-4">
                 <Ionicons name="key" size={36} color="#FFC107" />
@@ -81,19 +91,29 @@ export default function JoinGameScreen({ navigation }: Props) {
               <Text className="text-danger text-center mt-3 text-sm">{error}</Text>
             )}
 
-            <GradientButton
+            <TouchableOpacity
               onPress={handleJoin}
-              loading={joining}
-              disabled={code.length < 4}
-              colors={
-                code.length >= 4
-                  ? ["#1B5E20", "#2E8B33"]
-                  : ["#232340", "#2A2A4A"]
-              }
-              label={t("join")}
-              labelClassName={`text-lg font-bold ${code.length >= 4 ? "text-white" : "text-textMuted"}`}
-              className="mt-6"
-            />
+              disabled={joining || code.length < 4}
+              activeOpacity={0.85}
+              className="self-center rounded-2xl overflow-hidden mt-6"
+              style={{
+                height: 68,
+                paddingHorizontal: 28,
+                opacity: code.length < 4 ? 0.4 : 1,
+                elevation: 0,
+                backgroundColor: "#4CAF50",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              {joining ? (
+                <ActivityIndicator color="white" />
+              ) : (
+                <Text className="text-white text-xl font-extrabold tracking-wide">
+                  {t("join")}
+                </Text>
+              )}
+            </TouchableOpacity>
           </View>
         </View>
       </View>

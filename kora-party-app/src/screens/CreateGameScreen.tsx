@@ -131,15 +131,13 @@ export default function CreateGameScreen({ navigation }: Props) {
                 <TouchableOpacity
                   key={bundle.id}
                   onPress={() => toggleBundle(bundle.id)}
-                  className="w-[49%] rounded-2xl mb-4 overflow-hidden"
+                  className="rounded-2xl mb-4 overflow-hidden"
                   style={{
+                    width: "48.5%",
+                    height: 130,
+                    borderRadius: 20,
                     transform: [{ scale: isSelected ? 0.98 : 1 }],
-                    opacity: isSelected ? 1 : 0.9,
-                    shadowColor: "#000",
-                    shadowOpacity: 0.25,
-                    shadowRadius: 6,
-                    shadowOffset: { width: 0, height: 3 },
-                    elevation: 4,
+                    opacity: 1,
                   }}
                   activeOpacity={0.85}
                 >
@@ -151,7 +149,8 @@ export default function CreateGameScreen({ navigation }: Props) {
                     }
                     start={{ x: 0, y: 0 }}
                     end={{ x: 0.9, y: 1 }}
-                    className="p-5 min-h-[180px] items-center justify-center"
+                    className="p-5 items-center justify-center"
+                    style={{ flex: 1, width: "100%", paddingTop: 10 }}
                   >
                     {isSelected && (
                       <View className="absolute top-3 right-3 w-6 h-6 rounded-full bg-white items-center justify-center">
