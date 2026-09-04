@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { View, Text, TouchableOpacity, StatusBar, TextInput, Modal, StyleSheet } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { useLang } from "../context/LangContext";
 import { usePlayer } from "../context/PlayerContext";
 import FootballBackground from "../components/FootballBackground";
+import GradientButton from "../components/GradientButton";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/AppNavigator";
 
@@ -76,70 +78,74 @@ export default function HomeScreen({ navigation }: Props) {
           </View>
 
           {/* Create Game Button */}
-          <TouchableOpacity
+          <GradientButton
             onPress={() => navigation.navigate("CreateGame")}
-            className="bg-primary rounded-2xl py-4 px-6 mb-3 items-center"
-            activeOpacity={0.8}
-          >
-            <View className="flex-row items-center">
-              <Ionicons name="add-circle" size={24} color="white" />
-              <Text className="text-white text-lg font-bold ml-3">
-                {t("createGame")}
-              </Text>
-            </View>
-          </TouchableOpacity>
+            className="mb-3"
+            icon={<Ionicons name="add-circle" size={24} color="white" />}
+            label={t("createGame")}
+            labelClassName="text-white text-lg font-bold ml-3"
+          />
 
           {/* Join Game Button */}
-          <TouchableOpacity
+          <GradientButton
             onPress={() => navigation.navigate("JoinGame")}
-            className="bg-surfaceLighter rounded-2xl py-4 px-6 items-center border border-border"
-            activeOpacity={0.8}
-          >
-            <View className="flex-row items-center">
-              <Ionicons name="log-in" size={24} color="#FFC107" />
-              <Text className="text-accent text-lg font-bold ml-3">
-                {t("joinGame")}
-              </Text>
-            </View>
-          </TouchableOpacity>
+            colors={["#232340", "#2A2A4A"]}
+            icon={<Ionicons name="log-in" size={24} color="#FFC107" />}
+            label={t("joinGame")}
+            labelClassName="text-accent text-lg font-bold ml-3"
+          />
         </View>
 
         {/* Daily Challenge */}
         <TouchableOpacity
-          className="bg-surface rounded-2xl p-4 border border-border mb-4"
+          className="rounded-2xl p-4 border border-border mb-4 overflow-hidden"
           activeOpacity={0.8}
         >
-          <View className="flex-row items-center">
-            <View className="bg-accent/20 rounded-xl w-12 h-12 items-center justify-center">
-              <Ionicons name="trophy" size={24} color="#FFC107" />
+          <LinearGradient
+            colors={["#3A2E0A", "#2A2208"]}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            className="p-4"
+          >
+            <View className="flex-row items-center">
+              <View className="bg-accent/25 rounded-xl w-12 h-12 items-center justify-center">
+                <Ionicons name="trophy" size={24} color="#FFC107" />
+              </View>
+              <View className="ml-4 flex-1">
+                <Text className="text-text font-bold">{t("dailyChallenge")}</Text>
+                <Text className="text-textMuted text-xs mt-1">
+                  {lang === "en" ? "Play solo & earn streaks" : "العب وحيداً واجمع السلاسل"}
+                </Text>
+              </View>
+              <Ionicons name="chevron-forward" size={20} color="#FFC107" />
             </View>
-            <View className="ml-4 flex-1">
-              <Text className="text-text font-bold">{t("dailyChallenge")}</Text>
-              <Text className="text-textMuted text-xs mt-1">
-                {lang === "en" ? "Play solo & earn streaks" : "العب وحيداً واجمع السلاسل"}
-              </Text>
-            </View>
-            <Ionicons name="chevron-forward" size={20} color="#6B6B8D" />
-          </View>
+          </LinearGradient>
         </TouchableOpacity>
 
         {/* Leaderboard */}
         <TouchableOpacity
-          className="bg-surface rounded-2xl p-4 border border-border"
+          className="rounded-2xl p-4 border border-border overflow-hidden"
           activeOpacity={0.8}
         >
-          <View className="flex-row items-center">
-            <View className="bg-primary/20 rounded-xl w-12 h-12 items-center justify-center">
-              <Ionicons name="stats-chart" size={24} color="#1B5E20" />
+          <LinearGradient
+            colors={["#12331A", "#0B1F0E"]}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            className="p-4"
+          >
+            <View className="flex-row items-center">
+              <View className="bg-primary/30 rounded-xl w-12 h-12 items-center justify-center">
+                <Ionicons name="stats-chart" size={24} color="#4CAF50" />
+              </View>
+              <View className="ml-4 flex-1">
+                <Text className="text-text font-bold">{t("leaderboard")}</Text>
+                <Text className="text-textMuted text-xs mt-1">
+                  {lang === "en" ? "See top players" : "شاهد أفضل اللاعبين"}
+                </Text>
+              </View>
+              <Ionicons name="chevron-forward" size={20} color="#4CAF50" />
             </View>
-            <View className="ml-4 flex-1">
-              <Text className="text-text font-bold">{t("leaderboard")}</Text>
-              <Text className="text-textMuted text-xs mt-1">
-                {lang === "en" ? "See top players" : "شاهد أفضل اللاعبين"}
-              </Text>
-            </View>
-            <Ionicons name="chevron-forward" size={20} color="#6B6B8D" />
-          </View>
+          </LinearGradient>
         </TouchableOpacity>
 
         {/* Footer */}

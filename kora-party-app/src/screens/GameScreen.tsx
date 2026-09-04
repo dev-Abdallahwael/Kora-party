@@ -6,6 +6,7 @@ import { useLang } from "../context/LangContext";
 import { usePlayer } from "../context/PlayerContext";
 import QuestionRenderer from "../components/QuestionRenderer";
 import FootballBackground from "../components/FootballBackground";
+import GradientButton from "../components/GradientButton";
 import {
   listenToSession,
   submitAnswer,
@@ -328,15 +329,11 @@ export default function GameScreen({ navigation, route }: Props) {
 
         {/* Next (host only, after time out) */}
         {isHost && timeLeft <= 0 && (
-          <TouchableOpacity
+          <GradientButton
             onPress={hostAdvance}
-            className="bg-primary rounded-2xl py-4 items-center mb-4"
-            activeOpacity={0.8}
-          >
-            <Text className="text-white text-lg font-bold">
-              {lang === "en" ? "Next" : "التالي"}
-            </Text>
-          </TouchableOpacity>
+            label={lang === "en" ? "Next" : "التالي"}
+            className="mb-4"
+          />
         )}
       </View>
       </FootballBackground>

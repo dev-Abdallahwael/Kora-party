@@ -6,6 +6,7 @@ import { useLang } from "../context/LangContext";
 import { usePlayer } from "../context/PlayerContext";
 import { listenToSession, FirebaseSession } from "../utils/sessionService";
 import FootballBackground from "../components/FootballBackground";
+import GradientButton from "../components/GradientButton";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { RouteProp } from "@react-navigation/native";
 import type { RootStackParamList } from "../navigation/AppNavigator";
@@ -100,20 +101,17 @@ export default function ResultScreen({ navigation, route }: Props) {
 
         {/* Actions */}
         <View className="mt-4">
-          <TouchableOpacity
+          <GradientButton
             onPress={() => navigation.navigate("Home")}
-            className="bg-primary rounded-2xl py-4 items-center mb-3"
-            activeOpacity={0.8}
-          >
-            <Text className="text-white text-lg font-bold">{t("playAgain")}</Text>
-          </TouchableOpacity>
-          <TouchableOpacity
+            label={t("playAgain")}
+            className="mb-3"
+          />
+          <GradientButton
             onPress={() => navigation.navigate("Home")}
-            className="bg-surfaceLighter rounded-2xl py-4 items-center border border-border"
-            activeOpacity={0.8}
-          >
-            <Text className="text-textSecondary text-lg font-bold">{t("backToHome")}</Text>
-          </TouchableOpacity>
+            colors={["#232340", "#2A2A4A"]}
+            label={t("backToHome")}
+            labelClassName="text-textSecondary text-lg font-bold"
+          />
         </View>
       </View>
       </FootballBackground>

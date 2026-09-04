@@ -6,6 +6,7 @@ import { useLang } from "../context/LangContext";
 import { usePlayer } from "../context/PlayerContext";
 import { joinSession } from "../utils/sessionService";
 import FootballBackground from "../components/FootballBackground";
+import GradientButton from "../components/GradientButton";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/AppNavigator";
 
@@ -80,26 +81,19 @@ export default function JoinGameScreen({ navigation }: Props) {
               <Text className="text-danger text-center mt-3 text-sm">{error}</Text>
             )}
 
-            <TouchableOpacity
+            <GradientButton
               onPress={handleJoin}
-              disabled={joining}
-              className={`rounded-2xl py-4 items-center mt-6 ${
-                code.length >= 4 ? "bg-primary" : "bg-surfaceLighter"
-              }`}
-              activeOpacity={0.8}
-            >
-              {joining ? (
-                <ActivityIndicator color="white" />
-              ) : (
-                <Text
-                  className={`text-lg font-bold ${
-                    code.length >= 4 ? "text-white" : "text-textMuted"
-                  }`}
-                >
-                  {t("join")}
-                </Text>
-              )}
-            </TouchableOpacity>
+              loading={joining}
+              disabled={code.length < 4}
+              colors={
+                code.length >= 4
+                  ? ["#1B5E20", "#2E8B33"]
+                  : ["#232340", "#2A2A4A"]
+              }
+              label={t("join")}
+              labelClassName={`text-lg font-bold ${code.length >= 4 ? "text-white" : "text-textMuted"}`}
+              className="mt-6"
+            />
           </View>
         </View>
       </View>

@@ -8,6 +8,7 @@ import { listenToSession, startGame, setupDisconnectHandler, checkAndTransferHos
 import { FirebaseSession } from "../utils/sessionService";
 import * as Clipboard from "expo-clipboard";
 import FootballBackground from "../components/FootballBackground";
+import GradientButton from "../components/GradientButton";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { RouteProp } from "@react-navigation/native";
 import type { RootStackParamList } from "../navigation/AppNavigator";
@@ -134,18 +135,12 @@ export default function LobbyScreen({ navigation, route }: Props) {
 
         {/* Start Button - only host */}
         {isHost ? (
-          <TouchableOpacity
+          <GradientButton
             onPress={handleStart}
-            disabled={starting}
-            className="bg-primary rounded-2xl py-4 items-center mb-4"
-            activeOpacity={0.8}
-          >
-            {starting ? (
-              <ActivityIndicator color="white" />
-            ) : (
-              <Text className="text-white text-lg font-bold">{t("start")}</Text>
-            )}
-          </TouchableOpacity>
+            loading={starting}
+            label={t("start")}
+            className="mb-4"
+          />
         ) : (
           <View className="mb-4 items-center py-4">
             <Text className="text-textMuted">{lang === "en" ? "Waiting for host to start..." : "في انتظار بدء المضيف..."}</Text>

@@ -5,7 +5,6 @@ import Svg, {
   Circle as CircleSvg,
   Line as LineSvg,
   Path as PathSvg,
-  G as GStroke,
 } from "react-native-svg";
 
 const PITCH_LINE = "#1E4526";
@@ -33,22 +32,6 @@ export default function FootballBackground({
       >
         {/* Pitch grass fill */}
         <RectSvg x={0} y={0} width={58} height={100} fill={BG} />
-
-        {/* Mowing stripes (horizontal) */}
-        <GStroke>
-          {[7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 95].map((y) => (
-            <LineSvg
-              key={y}
-              x1={0}
-              y1={y}
-              x2={58}
-              y2={y}
-              stroke={CENTER}
-              strokeWidth={0.7}
-              opacity={0.6}
-            />
-          ))}
-        </GStroke>
 
         {/* Outer boundary */}
         <RectSvg

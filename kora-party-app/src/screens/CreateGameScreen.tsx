@@ -7,6 +7,7 @@ import { usePlayer } from "../context/PlayerContext";
 import { createSession } from "../utils/sessionService";
 import { BundleType } from "../types";
 import FootballBackground from "../components/FootballBackground";
+import GradientButton from "../components/GradientButton";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/AppNavigator";
 
@@ -112,26 +113,19 @@ export default function CreateGameScreen({ navigation }: Props) {
         </ScrollView>
 
         {/* Start Button */}
-        <TouchableOpacity
+        <GradientButton
           onPress={handleCreate}
-          disabled={creating}
-          className={`rounded-2xl py-4 items-center mb-4 ${
-            selected.length > 0 ? "bg-primary" : "bg-surfaceLighter"
-          }`}
-          activeOpacity={0.8}
-        >
-          {creating ? (
-            <ActivityIndicator color="white" />
-          ) : (
-            <Text
-              className={`text-lg font-bold ${
-                selected.length > 0 ? "text-white" : "text-textMuted"
-              }`}
-            >
-              {t("start")} ({selected.length})
-            </Text>
-          )}
-        </TouchableOpacity>
+          loading={creating}
+          disabled={selected.length === 0}
+          colors={
+            selected.length > 0
+              ? ["#1B5E20", "#2E8B33"]
+              : ["#232340", "#2A2A4A"]
+          }
+          label={`${t("start")} (${selected.length})`}
+          labelClassName={`text-lg font-bold ${selected.length > 0 ? "text-white" : "text-textMuted"}`}
+          className="mb-4"
+        />
       </View>
       </FootballBackground>
     </SafeAreaView>
