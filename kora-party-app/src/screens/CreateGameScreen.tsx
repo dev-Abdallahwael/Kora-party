@@ -36,6 +36,43 @@ const DESCRIPTION: Record<string, { en: string; ar: string }> = {
   "true-or-false": { en: "Rate statements as true or false", ar: "صح أم خطأ" },
 };
 
+function hexToRgb(hex: string): [number, number, number] {
+  const h = hex.replace("#", "");
+  return [
+    parseInt(h.substring(0, 2), 16),
+    parseInt(h.substring(2, 4), 16),
+    parseInt(h.substring(4, 6), 16),
+  ];
+}
+
+function toHex(r: number, g: number, b: number): string {
+  const clamp = (v: number) => Math.max(0, Math.min(255, Math.round(v)));
+  return `#${[clamp(r), clamp(g), clamp(b)]
+    .map((v) => v.toString(16).padStart(2, "0"))
+    .join("")}`;
+}
+
+function shade(hex: string, percent: number): string {
+  const [r, g, b] = hexToRgb(hex);
+  const t = percent < 0 ? 0 : 255;
+  const p = Math.abs(percent) / 100;
+  return toHex(
+    r + (t - r) * p,
+    g + (t - g) * p,
+    b + (t - b) * p
+  );
+}
+
+function mixWithWhite(hex: string, percent: number): string {
+  const [r, g, b] = hexToRgb(hex);
+  const p = percent / 100;
+  return toHex(
+    r + (255 - r) * p,
+    g + (255 - g) * p,
+    b + (255 - b) * p
+  );
+}
+
 export default function CreateGameScreen({ navigation }: Props) {
   const { lang, t } = useLang();
   const { playerId, playerName, setIsHost } = usePlayer();
