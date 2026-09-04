@@ -33,6 +33,15 @@ export function getAllBundleTypes(): BundleType[] {
   return Object.keys(ALL_BUNDLES) as BundleType[];
 }
 
+function mulberry32(seed: number) {
+  return function () {
+    let t = (seed += 0x6d2b79f5);
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -42,23 +51,40 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+function seededShuffle<T>(arr: T[], seed: number): T[] {
+  const rand = mulberry32(seed);
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 export function buildQuestionSet(
   selectedBundles: BundleType[],
-  totalQuestions: number = 30
+  totalQuestions: number = 30,
+  seed?: number
 ): { type: BundleType; data: QuestionData }[] {
   const perBundle = Math.ceil(totalQuestions / selectedBundles.length);
   let allQuestions: { type: BundleType; data: QuestionData }[] = [];
 
-  for (const bundle of selectedBundles) {
-    const pool = shuffle(getBundleData(bundle));
+  for (let bi = 0; bi < selectedBundles.length; bi++) {
+    const bundle = selectedBundles[bi];
+    const pool = seed !== undefined
+      ? seededShuffle(getBundleData(bundle), seed + bi * 173)
+      : shuffle(getBundleData(bundle));
     const picked = pool.slice(0, perBundle);
     for (const q of picked) {
       allQuestions.push({ type: bundle, data: q });
     }
   }
 
-  allQuestions = shuffle(allQuestions).slice(0, totalQuestions);
-  return allQuestions;
+  allQuestions = seed !== undefined
+    ? seededShuffle(allQuestions, seed + 999)
+    : shuffle(allQuestions);
+
+  return allQuestions.slice(0, totalQuestions);
 }
 
 export function splitIntoLevels(

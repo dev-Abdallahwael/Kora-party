@@ -2,12 +2,10 @@ import {
   ref,
   set,
   get,
-  push,
   onValue,
   onDisconnect,
   remove,
-  serverTimestamp,
-  DatabaseReference,
+  update,
 } from "firebase/database";
 import { db } from "./firebase";
 import { BundleType } from "../types";
@@ -18,6 +16,7 @@ export interface FirebasePlayer {
   isHost: boolean;
   score: number;
   connected: boolean;
+  lastAnswerAt?: number;
 }
 
 export interface FirebaseSession {
@@ -27,7 +26,9 @@ export interface FirebaseSession {
   bundles: BundleType[];
   currentLevel: number;
   currentQuestionIndex: number;
-  questionOrder: string[];
+  seed: number;
+  questionCount: number;
+  phaseStartedAt: number;
   players: { [key: string]: FirebasePlayer };
   createdAt: number;
 }
@@ -56,7 +57,9 @@ export async function createSession(
     bundles,
     currentLevel: 0,
     currentQuestionIndex: 0,
-    questionOrder: [],
+    seed: Math.floor(Math.random() * 1_000_000),
+    questionCount: 30,
+    phaseStartedAt: Date.now(),
     players: {
       [hostId]: {
         id: hostId,
@@ -127,18 +130,23 @@ export function listenToSession(
   return unsubscribe;
 }
 
-export async function startGame(sessionId: string) {
-  const sessionRef = ref(db, `sessions/${sessionId}`);
-  await set(ref(db, `sessions/${sessionId}/status`), "playing");
+export async function startGame(sessionId: string, seed: number) {
+  await update(ref(db), {
+    [`sessions/${sessionId}/status`]: "playing",
+    [`sessions/${sessionId}/phaseStartedAt`]: Date.now(),
+    [`sessions/${sessionId}/currentLevel`]: 0,
+    [`sessions/${sessionId}/currentQuestionIndex`]: 0,
+    [`sessions/${sessionId}/seed`]: seed,
+  });
 }
 
-export async function updatePlayerScore(
-  sessionId: string,
-  playerId: string,
-  score: number
-) {
-  const playerRef = ref(db, `sessions/${sessionId}/players/${playerId}/score`);
-  await set(playerRef, score);
+export async function advanceToLevel(sessionId: string, level: number) {
+  await update(ref(db), {
+    [`sessions/${sessionId}/status`]: "playing",
+    [`sessions/${sessionId}/currentLevel`]: level,
+    [`sessions/${sessionId}/currentQuestionIndex`]: 0,
+    [`sessions/${sessionId}/phaseStartedAt`]: Date.now(),
+  });
 }
 
 export async function advanceQuestion(
@@ -146,8 +154,34 @@ export async function advanceQuestion(
   level: number,
   questionIndex: number
 ) {
-  await set(ref(db, `sessions/${sessionId}/currentLevel`), level);
-  await set(ref(db, `sessions/${sessionId}/currentQuestionIndex`), questionIndex);
+  await update(ref(db), {
+    [`sessions/${sessionId}/currentLevel`]: level,
+    [`sessions/${sessionId}/currentQuestionIndex`]: questionIndex,
+    [`sessions/${sessionId}/phaseStartedAt`]: Date.now(),
+  });
+}
+
+export async function submitAnswer(
+  sessionId: string,
+  playerId: string,
+  questionKey: string,
+  isCorrect: boolean,
+  newScore: number
+) {
+  await update(ref(db), {
+    [`sessions/${sessionId}/players/${playerId}/score`]: newScore,
+    [`sessions/${sessionId}/players/${playerId}/answers/${questionKey}`]: {
+      correct: isCorrect,
+      at: Date.now(),
+    },
+  });
+}
+
+export async function setLevelTransition(sessionId: string, level: number) {
+  await update(ref(db), {
+    [`sessions/${sessionId}/status`]: "level-transition",
+    [`sessions/${sessionId}/currentLevel`]: level,
+  });
 }
 
 export async function transferHost(
@@ -166,7 +200,6 @@ export async function transferHost(
   }
   updates[`sessions/${sessionId}/hostId`] = newHostId;
 
-  const { update } = await import("firebase/database");
   await update(ref(db), updates);
 }
 

@@ -50,7 +50,8 @@ export default function LobbyScreen({ navigation, route }: Props) {
     if (!isHost || starting) return;
     setStarting(true);
     try {
-      await startGame(sessionId);
+      const seed = session?.seed ?? Math.floor(Math.random() * 1_000_000);
+      await startGame(sessionId, seed);
       navigation.navigate("Game", {
         sessionId,
         bundles: (bundles as any) || ["guess-the-player", "true-or-false"],

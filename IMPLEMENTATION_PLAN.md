@@ -28,32 +28,34 @@
 15. [x] Build Result screen (winner card, leaderboard list, rematch button)
 
 ## Phase 4: Firebase Realtime Database
-16. [ ] Implement session creation (write to Firebase)
-17. [ ] Implement session joining (read by session code)
-18. [ ] Implement real-time player list sync
-19. [ ] Implement host disconnect detection via .info/connected
-20. [ ] Implement host auto-transfer to next player
-21. [ ] Implement question sync (all players locked to same question)
-22. [ ] Implement answer submission and scoring sync
+16. [x] Implement session creation (write to Firebase)
+17. [x] Implement session joining (read by session code)
+18. [x] Implement real-time player list sync
+19. [x] Implement host disconnect detection via .info/connected
+20. [x] Implement host auto-transfer to next player
+21. [x] Implement question sync (all players locked to same question, seeded from session)
+22. [x] Implement answer submission and scoring sync
+23. [x] Late join sync (GameScreen builds same seeded question set; livescore from Firebase)
+
+## Phase 4b: Player Identity
+23. [x] Create PlayerProvider with persistent identity (AsyncStorage)
+24. [x] First-launch name entry modal
+25. [x] Join flow joins real Firebase session + validates existence
 
 ## Phase 5: Question Data Integration
-23. [ ] Merge bilingual + updated JSON files into unified bundles per bundle type
-24. [ ] Build question data loader (local JSON or Firebase)
-25. [ ] Build question shuffling and distribution logic (10 per level, split across bundles)
-26. [ ] Build Guess the Player question component (text input + acceptedAnswers matching)
-27. [ ] Build Guess by History component (club badges + text input)
-28. [ ] Build Guess the Nation component (player photo + 4 options)
-29. [ ] Build Higher or Lower component (two player stats cards + choice)
-30. [ ] Build Complete the Lineup component (formation view + blanked slot)
-31. [ ] Build Guess by Silhouette component (silhouette image + text input)
-32. [ ] Build True or False component (statement + two buttons)
+x. [x] Merge bilingual + updated JSON files into unified bundles per bundle type
+x. [x] Build question data loader (local JSON or Firebase)
+x. [x] Build question shuffling and distribution logic (10 per level, split across bundles)
+x. [x] Build all 7 bundle-type question components (QuestionRenderer)
 
 ## Phase 6: Game Engine
-33. [ ] Implement level transition screen ("Level X Complete!" overlay)
-34. [ ] Implement question distribution across 3 levels
-35. [ ] Implement 15-second countdown timer with color transitions (green -> yellow -> red)
-36. [ ] Implement late join (sync to current question on join)
-37. [ ] Implement scoring (10 pts per correct, flat)
+33. [x] Implement level transition screen ("Level X Complete!" overlay)
+34. [x] Implement question distribution across 3 levels
+35. [x] Implement 15-second countdown timer with color transitions (green -> yellow -> red)
+36. [x] Implement late join (sync to current question on join)
+37. [x] Implement scoring (10 pts per correct, flat)
+38. [x] Sync answers + scores to Firebase so all players see live leaderboard
+38b. [x] Result screen reads live ranked players from Firebase
 
 ## Phase 7: Images & Assets
 38. [ ] Download player photos from Wikipedia/Wikimedia for Guess the Nation bundle
