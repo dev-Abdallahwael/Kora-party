@@ -123,6 +123,7 @@ export default function HomeScreen({ navigation }: Props) {
           className="rounded-2xl mt-8 mb-4 overflow-hidden"
           style={[cardShadow, { backgroundColor: "#2A2208" }]}
           activeOpacity={0.8}
+          onPress={() => navigation.navigate("DailyChallenge")}
         >
           <LinearGradient
             colors={["#3A2E0A", "#2A2208"]}

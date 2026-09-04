@@ -39,6 +39,7 @@ const translations: Record<string, Record<Lang, string>> = {
   false: { en: "False", ar: "خطأ" },
   higherOrLower: { en: "Higher or Lower", ar: "أعلى أو أقل" },
   submit: { en: "Submit", ar: "إرسال" },
+  next: { en: "Next", ar: "التالي" },
   host: { en: "Host", ar: "المضيف" },
   guest: { en: "Guest", ar: "ضيف" },
   disconnected: { en: "Host disconnected. New host assigned.", ar: "انقطع اتصال المضيف. تم تعيين مضيف جديد." },

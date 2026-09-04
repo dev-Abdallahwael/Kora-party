@@ -7,6 +7,7 @@ import JoinGameScreen from "../screens/JoinGameScreen";
 import LobbyScreen from "../screens/LobbyScreen";
 import GameScreen from "../screens/GameScreen";
 import ResultScreen from "../screens/ResultScreen";
+import DailyChallengeScreen from "../screens/DailyChallengeScreen";
 import { BundleType } from "../types";
 
 export type RootStackParamList = {
@@ -16,6 +17,7 @@ export type RootStackParamList = {
   Lobby: { sessionId: string; bundles?: BundleType[] };
   Game: { sessionId: string; bundles: BundleType[] };
   Result: { sessionId: string; bundles?: BundleType[] };
+  DailyChallenge: undefined;
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -35,6 +37,7 @@ export default function AppNavigator() {
         <Stack.Screen name="Lobby" component={LobbyScreen} />
         <Stack.Screen name="Game" component={GameScreen} />
         <Stack.Screen name="Result" component={ResultScreen} />
+        <Stack.Screen name="DailyChallenge" component={DailyChallengeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
