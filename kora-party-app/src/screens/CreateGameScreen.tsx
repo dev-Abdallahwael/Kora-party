@@ -8,7 +8,6 @@ import { usePlayer } from "../context/PlayerContext";
 import { createSession } from "../utils/sessionService";
 import { BundleType } from "../types";
 import FootballBackground from "../components/FootballBackground";
-import GradientButton from "../components/GradientButton";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/AppNavigator";
 
@@ -132,9 +131,10 @@ export default function CreateGameScreen({ navigation }: Props) {
                 <TouchableOpacity
                   key={bundle.id}
                   onPress={() => toggleBundle(bundle.id)}
-                  className="w-[48.5%] rounded-3xl mb-4 overflow-hidden"
+                  className="w-[49%] rounded-3xl mb-4 overflow-hidden"
                   style={{
                     transform: [{ scale: isSelected ? 0.98 : 1 }],
+                    opacity: isSelected ? 1 : 0.9,
                     shadowColor: "#000",
                     shadowOpacity: 0.25,
                     shadowRadius: 6,
@@ -151,35 +151,27 @@ export default function CreateGameScreen({ navigation }: Props) {
                     }
                     start={{ x: 0, y: 0 }}
                     end={{ x: 0.9, y: 1 }}
-                    className="p-4 min-h-[170px] items-center"
+                    className="p-5 min-h-[180px] items-center justify-center"
                   >
-                    <View className="w-12 h-12 rounded-2xl bg-white/15 items-center justify-center mb-3">
-                      <Ionicons name={bundle.icon} size={26} color="#FFFFFF" />
+                    {isSelected && (
+                      <View className="absolute top-3 right-3 w-6 h-6 rounded-full bg-white items-center justify-center">
+                        <Ionicons name="checkmark" size={16} color={bundle.color} />
+                      </View>
+                    )}
+                    <View className="w-14 h-14 rounded-2xl bg-white/20 items-center justify-center mb-3 self-center">
+                      <Ionicons name={bundle.icon} size={30} color="#FFFFFF" />
                     </View>
-                    <Text className="text-white font-bold text-base text-center">
+                    <Text className="text-white font-extrabold text-base text-center">
                       {bundle.id
                         .split("-")
                         .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
                         .join(" ")}
                     </Text>
-                    <Text className="text-white/80 text-xs mt-1 leading-4 text-center">
+                    <Text className="text-white/80 text-xs mt-1.5 leading-4 text-center">
                       {lang === "en"
                         ? DESCRIPTION[bundle.id]?.en
                         : DESCRIPTION[bundle.id]?.ar || ""}
                     </Text>
-                    <View
-                      className={`mt-4 rounded-full px-4 py-1.5 ${
-                        isSelected ? "bg-white" : "bg-white/15"
-                      }`}
-                    >
-                      {isSelected ? (
-                        <Text className="font-bold text-xs" style={{ color: bundle.color }}>
-                          ✓ Selected
-                        </Text>
-                      ) : (
-                        <Text className="text-white/90 text-xs font-semibold">Tap</Text>
-                      )}
-                    </View>
                   </LinearGradient>
                 </TouchableOpacity>
               );
@@ -188,19 +180,38 @@ export default function CreateGameScreen({ navigation }: Props) {
         </ScrollView>
 
         {/* Start Button */}
-        <GradientButton
-          onPress={handleCreate}
-          loading={creating}
-          disabled={selected.length === 0}
-          colors={
-            selected.length > 0
-              ? ["#1B5E20", "#2E8B33"]
-              : ["#232340", "#2A2A4A"]
-          }
-          label={`${t("start")} (${selected.length})`}
-          labelClassName={`text-lg font-bold ${selected.length > 0 ? "text-white" : "text-textMuted"}`}
-          className="mb-4"
-        />
+        <View className="items-center justify-end pb-2">
+          <TouchableOpacity
+            onPress={handleCreate}
+            disabled={creating || selected.length === 0}
+            activeOpacity={0.85}
+            className="self-center w-full rounded-2xl overflow-hidden"
+            style={{
+              height: 60,
+              opacity: selected.length === 0 ? 0.4 : 1,
+              shadowColor: "#4CAF50",
+              shadowOpacity: 0.4,
+              shadowRadius: 8,
+              shadowOffset: { width: 0, height: 4 },
+              elevation: 6,
+            }}
+          >
+            <LinearGradient
+              colors={["#66BB6A", "#4CAF50"]}
+              start={{ x: 0, y: 0 }}
+              end={{ x: 1, y: 1 }}
+              className="flex-1 items-center justify-center"
+            >
+              {creating ? (
+                <ActivityIndicator color="white" />
+              ) : (
+                <Text className="text-white text-xl font-extrabold tracking-wide">
+                  {t("start")} ({selected.length})
+                </Text>
+              )}
+            </LinearGradient>
+          </TouchableOpacity>
+        </View>
       </View>
       </FootballBackground>
     </SafeAreaView>
