@@ -187,26 +187,22 @@ export default function CreateGameScreen({ navigation }: Props) {
             activeOpacity={0.85}
             className="self-center rounded-2xl overflow-hidden"
             style={{
-              height: 60,
-              paddingHorizontal: 48,
+              height: 68,
+              paddingHorizontal: 64,
               opacity: selected.length === 0 ? 0.4 : 1,
               elevation: 0,
+              backgroundColor: "#4CAF50",
+              alignItems: "center",
+              justifyContent: "center",
             }}
           >
-            <LinearGradient
-              colors={["#66BB6A", "#4CAF50"]}
-              start={{ x: 0, y: 0 }}
-              end={{ x: 1, y: 1 }}
-              className="flex-1 items-center justify-center"
-            >
-              {creating ? (
-                <ActivityIndicator color="white" />
-              ) : (
-                <Text className="text-white text-xl font-extrabold tracking-wide">
-                  {t("start")} ({selected.length})
-                </Text>
-              )}
-            </LinearGradient>
+            {creating ? (
+              <ActivityIndicator color="white" />
+            ) : (
+              <Text className="text-white text-xl font-extrabold tracking-wide">
+                {t("start")} ({selected.length})
+              </Text>
+            )}
           </TouchableOpacity>
         </View>
       </View>
