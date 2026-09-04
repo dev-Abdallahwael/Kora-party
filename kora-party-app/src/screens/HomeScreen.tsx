@@ -80,32 +80,37 @@ export default function HomeScreen({ navigation }: Props) {
           {/* Create Game Button */}
           <GradientButton
             onPress={() => navigation.navigate("CreateGame")}
-            className="mb-3"
+            className="mb-3 rounded-md"
             icon={<Ionicons name="add-circle" size={24} color="white" />}
             label={t("createGame")}
             labelClassName="text-white text-lg font-bold ml-3"
+            contentClassName="py-0"
+            contentStyle={{ justifyContent: "center", minHeight: 50 }}
           />
 
           {/* Join Game Button */}
           <GradientButton
             onPress={() => navigation.navigate("JoinGame")}
             colors={["#232340", "#2A2A4A"]}
+            className="rounded-md"
             icon={<Ionicons name="log-in" size={24} color="#FFC107" />}
             label={t("joinGame")}
             labelClassName="text-accent text-lg font-bold ml-3"
+            contentClassName="py-0"
+            contentStyle={{ justifyContent: "center", minHeight: 50 }}
           />
         </View>
 
         {/* Daily Challenge */}
         <TouchableOpacity
-          className="rounded-2xl p-4 border border-border mb-4 overflow-hidden"
+          className="rounded-2xl border border-border mt-8 mb-4 overflow-hidden"
           activeOpacity={0.8}
         >
           <LinearGradient
             colors={["#3A2E0A", "#2A2208"]}
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 1 }}
-            className="p-4"
+            className="py-7 px-4"
           >
             <View className="flex-row items-center">
               <View className="bg-accent/25 rounded-xl w-12 h-12 items-center justify-center">
@@ -124,14 +129,14 @@ export default function HomeScreen({ navigation }: Props) {
 
         {/* Leaderboard */}
         <TouchableOpacity
-          className="rounded-2xl p-4 border border-border overflow-hidden"
+          className="rounded-2xl border border-border overflow-hidden"
           activeOpacity={0.8}
         >
           <LinearGradient
             colors={["#12331A", "#0B1F0E"]}
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 1 }}
-            className="p-4"
+            className="py-7 px-4"
           >
             <View className="flex-row items-center">
               <View className="bg-primary/30 rounded-xl w-12 h-12 items-center justify-center">

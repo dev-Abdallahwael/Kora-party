@@ -13,6 +13,8 @@ type Props = {
   className?: string;
   style?: ViewStyle;
   labelClassName?: string;
+  contentClassName?: string;
+  contentStyle?: ViewStyle;
 };
 
 const DEFAULT_COLORS: readonly [string, string, ...string[]] = [
@@ -31,6 +33,8 @@ export default function GradientButton({
   className = "",
   style,
   labelClassName = "text-white text-lg font-bold",
+  contentClassName = "",
+  contentStyle,
 }: Props) {
   const isDisabled = disabled || loading;
   return (
@@ -45,7 +49,13 @@ export default function GradientButton({
         colors={colors}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
-        className="py-4 px-6 items-center justify-center flex-row"
+        className={`py-4 px-6 items-center justify-center flex-row ${contentClassName}`}
+        style={{
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "flex-start",
+          ...contentStyle,
+        }}
       >
         {loading ? (
           <ActivityIndicator color="white" />
