@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, TouchableOpacity, StatusBar, TextInput, Modal } from "react-native";
+import { View, Text, TouchableOpacity, StatusBar, TextInput, Modal, StyleSheet } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { useLang } from "../context/LangContext";
@@ -16,10 +16,6 @@ export default function HomeScreen({ navigation }: Props) {
   const { playerName, setPlayerName, hasSetName } = usePlayer();
   const [nameModalVisible, setNameModalVisible] = useState(false);
   const [nameInput, setNameInput] = useState("");
-
-  React.useEffect(() => {
-    if (!hasSetName) setNameModalVisible(true);
-  }, [hasSetName]);
 
   const saveName = () => {
     if (nameInput.trim().length > 0) {
@@ -41,15 +37,15 @@ export default function HomeScreen({ navigation }: Props) {
             </Text>
           </View>
           <View className="flex-row items-center">
-            {hasSetName && (
-              <TouchableOpacity
-                onPress={() => setNameModalVisible(true)}
-                className="bg-surfaceLight rounded-full px-3 py-2 flex-row items-center mr-2"
-              >
-                <Ionicons name="person" size={14} color="#FFC107" />
-                <Text className="text-text text-xs font-semibold ml-1">{playerName}</Text>
-              </TouchableOpacity>
-            )}
+            <TouchableOpacity
+              onPress={() => setNameModalVisible(true)}
+              className="bg-surfaceLight rounded-full px-3 py-2 flex-row items-center mr-2"
+            >
+              <Ionicons name="person" size={14} color="#FFC107" />
+              <Text className="text-text text-xs font-semibold ml-1">
+                {hasSetName ? playerName : t("guest")}
+              </Text>
+            </TouchableOpacity>
             <TouchableOpacity
               onPress={toggleLang}
               className="bg-surfaceLight rounded-full w-10 h-10 items-center justify-center"
@@ -161,7 +157,21 @@ export default function HomeScreen({ navigation }: Props) {
         animationType="fade"
       >
         <View className="flex-1 bg-black/60 items-center justify-center px-6">
+          <TouchableOpacity
+            style={StyleSheet.absoluteFill}
+            activeOpacity={1}
+            onPress={() => setNameModalVisible(false)}
+          />
           <View className="bg-surfaceCard rounded-3xl p-8 w-full border border-border">
+            <View className="flex-row justify-end mb-2">
+              <TouchableOpacity
+                onPress={() => setNameModalVisible(false)}
+                className="w-8 h-8 items-center justify-center"
+                hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+              >
+                <Ionicons name="close" size={22} color="#8A8AB0" />
+              </TouchableOpacity>
+            </View>
             <View className="items-center mb-6">
               <View className="w-16 h-16 bg-primary/20 rounded-full items-center justify-center mb-4">
                 <Ionicons name="person" size={32} color="#1B5E20" />

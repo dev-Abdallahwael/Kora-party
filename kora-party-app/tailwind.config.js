@@ -41,10 +41,15 @@ module.exports = {
           lighter: "#2A2A4A",
           card: "#252545",
         },
+        surfaceLight: "#232340",
         background: {
-          DEFAULT: "#0F0F1A",
-          light: "#161625",
+          DEFAULT: "#0B1F0E",
+          light: "#0F2812",
         },
+        text: "#FFFFFF",
+        textMuted: "#8A8AB0",
+        textSecondary: "#B8B8D2",
+        border: "#2A2A4A",
       },
       fontFamily: {
         bold: ["InterBold"],
