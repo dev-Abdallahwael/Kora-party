@@ -112,11 +112,6 @@ export function setupDisconnectHandler(sessionId: string, playerId: string) {
   onValue(connectedRef, (snap) => {
     if (snap.val() === true) {
       onDisconnect(playerRef).update({ connected: false });
-      onDisconnect(playerRef).once("value", (playerSnap) => {
-        if (playerSnap.val()?.connected === false) {
-          remove(playerRef);
-        }
-      });
     }
   });
 }
