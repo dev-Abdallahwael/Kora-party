@@ -180,7 +180,7 @@ export default function CreateGameScreen({ navigation }: Props) {
         </ScrollView>
 
         {/* Start Button */}
-        <View className="items-center justify-end pb-2">
+        <View className="items-center justify-end pb-6">
           <TouchableOpacity
             onPress={handleCreate}
             disabled={creating || selected.length === 0}
@@ -188,7 +188,7 @@ export default function CreateGameScreen({ navigation }: Props) {
             className="self-center rounded-2xl overflow-hidden"
             style={{
               height: 68,
-              paddingHorizontal: 64,
+              paddingHorizontal: 52,
               opacity: selected.length === 0 ? 0.4 : 1,
               elevation: 0,
               backgroundColor: "#4CAF50",
