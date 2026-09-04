@@ -1,0 +1,33 @@
+export const Colors = {
+  primary: "#1B5E20",
+  primaryLight: "#2E7D32",
+  primaryDark: "#0D3B12",
+  accent: "#FFC107",
+  accentLight: "#FFD54F",
+  accentDark: "#FFA000",
+  danger: "#E53935",
+  dangerLight: "#EF5350",
+  success: "#4CAF50",
+  successLight: "#81C784",
+  background: "#0F0F1A",
+  backgroundLight: "#161625",
+  surface: "#1A1A2E",
+  surfaceLight: "#232340",
+  surfaceLighter: "#2A2A4A",
+  surfaceCard: "#252545",
+  text: "#FFFFFF",
+  textSecondary: "#A0A0C0",
+  textMuted: "#6B6B8D",
+  border: "#2A2A4A",
+  borderLight: "#3A3A5A",
+  white: "#FFFFFF",
+  black: "#000000",
+};
+
+export const Gradients = {
+  primary: ["#1B5E20", "#2E7D32"],
+  accent: ["#FFC107", "#FFA000"],
+  card: ["#1A1A2E", "#232340"],
+  danger: ["#E53935", "#C62828"],
+  success: ["#4CAF50", "#388E3C"],
+};
