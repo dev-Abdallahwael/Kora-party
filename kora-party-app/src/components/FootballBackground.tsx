@@ -12,10 +12,10 @@ const PITCH_LINE = "#1E4526";
 const CENTER = "#14371B";
 const BG = "#0B1F0E";
 
-// A full football pitch drawn in a viewBox of [0,100]x[0,58] (105m x 68m,
-// standard pitch aspect). Scaled with preserveAspectRatio "slice" so it
-// always covers the whole screen and reads as an entire pitch behind
-// the app content.
+// A full football pitch drawn VERTICALLY (portrait) in a viewBox of
+// [0,58] x [0,100] so that it fills a mobile screen top-to-bottom:
+// one goal at the top, one at the bottom, like viewing the pitch
+// standing on the halfway line.
 export default function FootballBackground({
   children,
 }: {
@@ -28,23 +28,23 @@ export default function FootballBackground({
         style={{ position: "absolute", top: 0, left: 0 }}
         width="100%"
         height="100%"
-        viewBox="0 0 100 58"
-        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 58 100"
+        preserveAspectRatio="xMidYMid slice"
       >
         {/* Pitch grass fill */}
-        <RectSvg x={0} y={0} width={100} height={58} fill={BG} />
+        <RectSvg x={0} y={0} width={58} height={100} fill={BG} />
 
-        {/* Mowing stripes */}
+        {/* Mowing stripes (horizontal) */}
         <GStroke>
-          {[7.5, 22.5, 37.5, 52.5].map((x) => (
+          {[7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 95].map((y) => (
             <LineSvg
-              key={x}
-              x1={x}
-              y1={0}
-              x2={x}
-              y2={58}
+              key={y}
+              x1={0}
+              y1={y}
+              x2={58}
+              y2={y}
               stroke={CENTER}
-              strokeWidth={0.6}
+              strokeWidth={0.7}
               opacity={0.6}
             />
           ))}
@@ -52,53 +52,53 @@ export default function FootballBackground({
 
         {/* Outer boundary */}
         <RectSvg
-          x={2.5}
-          y={2}
-          width={95}
-          height={54}
+          x={3}
+          y={2.5}
+          width={52}
+          height={95}
           fill="none"
           stroke={PITCH_LINE}
           strokeWidth={0.5}
         />
 
-        {/* Halfway line */}
-        <LineSvg x1={50} y1={2} x2={50} y2={56} stroke={PITCH_LINE} strokeWidth={0.4} />
+        {/* Halfway line (horizontal across middle) */}
+        <LineSvg x1={3} y1={50} x2={55} y2={50} stroke={PITCH_LINE} strokeWidth={0.4} />
 
         {/* Center circle + spot */}
-        <CircleSvg cx={50} cy={29} r={9.15} fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
-        <CircleSvg cx={50} cy={29} r={0.6} fill={PITCH_LINE} />
+        <CircleSvg cx={29} cy={50} r={9.15} fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
+        <CircleSvg cx={29} cy={50} r={0.6} fill={PITCH_LINE} />
 
-        {/* Penalty boxes */}
-        <RectSvg x={2.5} y={15} width={16.5} height={28} fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
-        <RectSvg x={81} y={15} width={16.5} height={28} fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
+        {/* Penalty boxes (top and bottom) */}
+        <RectSvg x={15} y={2.5} width={28} height={16.5} fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
+        <RectSvg x={15} y={81} width={28} height={16.5} fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
 
         {/* Goal areas */}
-        <RectSvg x={2.5} y={22.5} width={5.5} height={13} fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
-        <RectSvg x={92} y={22.5} width={5.5} height={13} fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
+        <RectSvg x={22.5} y={2.5} width={13} height={5.5} fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
+        <RectSvg x={22.5} y={92} width={13} height={5.5} fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
 
         {/* Penalty spots */}
-        <CircleSvg cx={11} cy={29} r={0.5} fill={PITCH_LINE} />
-        <CircleSvg cx={89} cy={29} r={0.5} fill={PITCH_LINE} />
+        <CircleSvg cx={29} cy={11} r={0.5} fill={PITCH_LINE} />
+        <CircleSvg cx={29} cy={89} r={0.5} fill={PITCH_LINE} />
 
         {/* Penalty arcs */}
         <PathSvg
-          d="M 2.5 24.5 A 9.15 9.15 0 0 0 2.5 33.5"
+          d="M 18.5 2.5 A 9.15 9.15 0 0 0 39.5 2.5"
           fill="none"
           stroke={PITCH_LINE}
           strokeWidth={0.4}
         />
         <PathSvg
-          d="M 97.5 24.5 A 9.15 9.15 0 0 1 97.5 33.5"
+          d="M 18.5 97.5 A 9.15 9.15 0 0 1 39.5 97.5"
           fill="none"
           stroke={PITCH_LINE}
           strokeWidth={0.4}
         />
 
         {/* Corner arcs */}
-        <PathSvg d="M 2.5 4.5 A 2 2 0 0 0 4.5 2" fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
-        <PathSvg d="M 97.5 2 A 2 2 0 0 0 95.5 4.5" fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
-        <PathSvg d="M 2.5 53.5 A 2 2 0 0 0 4.5 56" fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
-        <PathSvg d="M 97.5 56 A 2 2 0 0 0 95.5 53.5" fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
+        <PathSvg d="M 5 4.5 A 2 2 0 0 0 3 6.5" fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
+        <PathSvg d="M 53 4.5 A 2 2 0 0 1 55 6.5" fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
+        <PathSvg d="M 5 95.5 A 2 2 0 0 1 3 93.5" fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
+        <PathSvg d="M 53 95.5 A 2 2 0 0 0 55 93.5" fill="none" stroke={PITCH_LINE} strokeWidth={0.4} />
       </Svg>
 
       {/* Content on top */}
