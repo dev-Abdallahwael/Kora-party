@@ -188,7 +188,7 @@ export default function CreateGameScreen({ navigation }: Props) {
             className="self-center rounded-2xl overflow-hidden"
             style={{
               height: 68,
-              paddingHorizontal: 40,
+              paddingHorizontal: 28,
               opacity: selected.length === 0 ? 0.4 : 1,
               elevation: 0,
               backgroundColor: "#4CAF50",
