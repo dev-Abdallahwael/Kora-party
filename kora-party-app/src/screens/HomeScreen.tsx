@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, TouchableOpacity, StatusBar, TextInput, Modal, StyleSheet } from "react-native";
+import { View, Text, TouchableOpacity, StatusBar, TextInput, Modal, StyleSheet, ScrollView } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
@@ -12,6 +12,14 @@ import type { RootStackParamList } from "../navigation/AppNavigator";
 
 type Props = {
   navigation: NativeStackNavigationProp<RootStackParamList, "Home">;
+};
+
+const cardShadow = {
+  shadowColor: "#000000",
+  shadowOffset: { width: 0, height: 8 },
+  shadowOpacity: 0.28,
+  shadowRadius: 16,
+  elevation: 8,
 };
 
 export default function HomeScreen({ navigation }: Props) {
@@ -31,7 +39,11 @@ export default function HomeScreen({ navigation }: Props) {
     <SafeAreaView className="flex-1">
       <StatusBar barStyle="light-content" />
       <FootballBackground>
-      <View className="flex-1 px-6 pt-4 pb-8">
+      <ScrollView
+        className="flex-1"
+        contentContainerStyle={{ flexGrow: 1, paddingHorizontal: 24, paddingTop: 16, paddingBottom: 32 }}
+        showsVerticalScrollIndicator={false}
+      >
         {/* Header */}
         <View className="flex-row justify-between items-center mb-8">
           <View>
@@ -62,7 +74,10 @@ export default function HomeScreen({ navigation }: Props) {
         </View>
 
         {/* Main Card */}
-        <View className="bg-surfaceCard rounded-3xl p-6 mb-6 border border-border">
+        <View
+          className="bg-surfaceCard rounded-3xl p-6 mb-6"
+          style={[cardShadow, { borderRadius: 28 }]}
+        >
           <View className="items-center mb-6">
             <View className="w-24 h-24 bg-primary/20 rounded-full items-center justify-center mb-4">
               <Ionicons name="football" size={48} color="#1B5E20" />
@@ -80,7 +95,8 @@ export default function HomeScreen({ navigation }: Props) {
           {/* Create Game Button */}
           <GradientButton
             onPress={() => navigation.navigate("CreateGame")}
-            className="mb-3 rounded-md"
+            className="mb-4 rounded-md"
+            style={{ width: "96%", alignSelf: "center" }}
             icon={<Ionicons name="add-circle" size={24} color="white" />}
             label={t("createGame")}
             labelClassName="text-white text-lg font-bold ml-3"
@@ -93,6 +109,7 @@ export default function HomeScreen({ navigation }: Props) {
             onPress={() => navigation.navigate("JoinGame")}
             colors={["#232340", "#2A2A4A"]}
             className="rounded-md"
+            style={{ width: "96%", alignSelf: "center" }}
             icon={<Ionicons name="log-in" size={24} color="#FFC107" />}
             label={t("joinGame")}
             labelClassName="text-accent text-lg font-bold ml-3"
@@ -103,7 +120,8 @@ export default function HomeScreen({ navigation }: Props) {
 
         {/* Daily Challenge */}
         <TouchableOpacity
-          className="rounded-2xl border border-border mt-8 mb-4 overflow-hidden"
+          className="rounded-2xl mt-8 mb-4 overflow-hidden"
+          style={[cardShadow, { backgroundColor: "#2A2208" }]}
           activeOpacity={0.8}
         >
           <LinearGradient
@@ -117,8 +135,10 @@ export default function HomeScreen({ navigation }: Props) {
                 <Ionicons name="trophy" size={24} color="#FFC107" />
               </View>
               <View className="ml-4 flex-1">
-                <Text className="text-text font-bold">{t("dailyChallenge")}</Text>
-                <Text className="text-textMuted text-xs mt-1">
+                <Text className="text-text font-bold" style={{ color: "#FFFFFF" }}>
+                  {t("dailyChallenge")}
+                </Text>
+                <Text className="text-textMuted text-xs mt-1" style={{ color: "#A0A0C0" }}>
                   {lang === "en" ? "Play solo & earn streaks" : "العب وحيداً واجمع السلاسل"}
                 </Text>
               </View>
@@ -129,7 +149,8 @@ export default function HomeScreen({ navigation }: Props) {
 
         {/* Leaderboard */}
         <TouchableOpacity
-          className="rounded-2xl border border-border overflow-hidden"
+          className="rounded-2xl overflow-hidden"
+          style={[cardShadow, { backgroundColor: "#0B1F0E" }]}
           activeOpacity={0.8}
         >
           <LinearGradient
@@ -143,8 +164,10 @@ export default function HomeScreen({ navigation }: Props) {
                 <Ionicons name="stats-chart" size={24} color="#4CAF50" />
               </View>
               <View className="ml-4 flex-1">
-                <Text className="text-text font-bold">{t("leaderboard")}</Text>
-                <Text className="text-textMuted text-xs mt-1">
+                <Text className="text-text font-bold" style={{ color: "#FFFFFF" }}>
+                  {t("leaderboard")}
+                </Text>
+                <Text className="text-textMuted text-xs mt-1" style={{ color: "#A0A0C0" }}>
                   {lang === "en" ? "See top players" : "شاهد أفضل اللاعبين"}
                 </Text>
               </View>
@@ -154,14 +177,14 @@ export default function HomeScreen({ navigation }: Props) {
         </TouchableOpacity>
 
         {/* Footer */}
-        <View className="flex-1 justify-end items-center">
+        <View className="mt-8 items-center">
           <Text className="text-textMuted text-xs">
             {lang === "en"
               ? "Play with 7 bundle types • Bilingual EN/AR"
               : "7 أنواع أسئلة • ثنائية اللغة"}
           </Text>
         </View>
-      </View>
+      </ScrollView>
       </FootballBackground>
 
       {/* Name Modal */}

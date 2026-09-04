@@ -95,46 +95,54 @@ export default function CreateGameScreen({ navigation }: Props) {
                 <TouchableOpacity
                   key={bundle.id}
                   onPress={() => toggleBundle(bundle.id)}
-                  className="w-[48.5%] rounded-2xl mb-4 overflow-hidden border"
+                  className="w-[48.5%] rounded-3xl mb-4 overflow-hidden"
                   style={{
-                    borderColor: isSelected ? "#4CAF50" : "#A0A0B0",
+                    transform: [{ scale: isSelected ? 0.98 : 1 }],
+                    shadowColor: "#000",
+                    shadowOpacity: 0.25,
+                    shadowRadius: 6,
+                    shadowOffset: { width: 0, height: 3 },
+                    elevation: 4,
                   }}
                   activeOpacity={0.85}
                 >
                   <LinearGradient
                     colors={
                       isSelected
-                        ? [bundle.color, "#14371B"]
-                        : ["#1A1A2E", "#232340"]
+                        ? [bundle.color, shade(bundle.color, -30)]
+                        : [mixWithWhite(bundle.color, 25), shade(bundle.color, -18)]
                     }
                     start={{ x: 0, y: 0 }}
-                    end={{ x: 1, y: 1 }}
-                    className="p-4 min-h-[150px]"
+                    end={{ x: 0.9, y: 1 }}
+                    className="p-4 min-h-[170px] items-center"
                   >
-                    <View className="flex-row items-center justify-between">
-                      <View
-                        className="w-12 h-12 rounded-xl items-center justify-center"
-                        style={{ backgroundColor: `${bundle.color}26` }}
-                      >
-                        <Ionicons name={bundle.icon} size={24} color={bundle.color} />
-                      </View>
-                      {isSelected && (
-                        <View className="bg-primary rounded-full w-6 h-6 items-center justify-center">
-                          <Ionicons name="checkmark" size={16} color="white" />
-                        </View>
-                      )}
+                    <View className="w-12 h-12 rounded-2xl bg-white/15 items-center justify-center mb-3">
+                      <Ionicons name={bundle.icon} size={26} color="#FFFFFF" />
                     </View>
-                    <Text className="text-text font-bold text-base mt-4">
+                    <Text className="text-white font-bold text-base text-center">
                       {bundle.id
                         .split("-")
                         .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
                         .join(" ")}
                     </Text>
-                    <Text className="text-textMuted text-xs mt-1 leading-4">
+                    <Text className="text-white/80 text-xs mt-1 leading-4 text-center">
                       {lang === "en"
                         ? DESCRIPTION[bundle.id]?.en
                         : DESCRIPTION[bundle.id]?.ar || ""}
                     </Text>
+                    <View
+                      className={`mt-4 rounded-full px-4 py-1.5 ${
+                        isSelected ? "bg-white" : "bg-white/15"
+                      }`}
+                    >
+                      {isSelected ? (
+                        <Text className="font-bold text-xs" style={{ color: bundle.color }}>
+                          ✓ Selected
+                        </Text>
+                      ) : (
+                        <Text className="text-white/90 text-xs font-semibold">Tap</Text>
+                      )}
+                    </View>
                   </LinearGradient>
                 </TouchableOpacity>
               );
