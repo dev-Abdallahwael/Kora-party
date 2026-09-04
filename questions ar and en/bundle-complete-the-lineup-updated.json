@@ -1,0 +1,910 @@
+{
+  "note": "This bundle needs a formation graphic per lineup, not just text — flagged as a content-production task, see README. Sample data below for one lineup only.",
+  "lineups": [
+    {
+      "id": "ctl001",
+      "title": "Argentina — 2022 World Cup Final Starting XI (vs France)",
+      "knownPlayers": [
+        "Emiliano Martinez (GK)",
+        "Nahuel Molina",
+        "Cristian Romero",
+        "Nicolas Otamendi",
+        "Nicolas Tagliafico",
+        "Rodrigo De Paul",
+        "Enzo Fernandez",
+        "Alexis Mac Allister",
+        "Angel Di Maria",
+        "Julian Alvarez"
+      ],
+      "blankedPosition": "Forward / Captain",
+      "answer": "Lionel Messi"
+    },
+    {
+      "id": "ctl002",
+      "title": "Brazil — 2002 World Cup Final XI",
+      "knownPlayers": [
+        "Marcos (GK)",
+        "Cafu",
+        "Lucio",
+        "Roque Junior",
+        "Roberto Carlos",
+        "Gilberto Silva",
+        "Kleberson",
+        "Ronaldinho",
+        "Rivaldo"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Ronaldo Nazario"
+    },
+    {
+      "id": "ctl003",
+      "title": "France — 1998 World Cup Final XI",
+      "knownPlayers": [
+        "Fabien Barthez (GK)",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Frank Leboeuf",
+        "Bixente Lizarazu",
+        "Didier Deschamps",
+        "Patrick Vieira",
+        "Youri Djorkaeff",
+        "Thierry Henry"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Zinedine Zidane"
+    },
+    {
+      "id": "ctl004",
+      "title": "Spain — 2010 World Cup Final XI",
+      "knownPlayers": [
+        "Iker Casillas (GK)",
+        "Sergio Ramos",
+        "Carles Puyol",
+        "Gerard Pique",
+        "Joan Capdevila",
+        "Sergio Busquets",
+        "Xavi",
+        "Pedro",
+        "David Villa"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Andres Iniesta"
+    },
+    {
+      "id": "ctl005",
+      "title": "Germany — 2014 World Cup Final XI",
+      "knownPlayers": [
+        "Manuel Neuer (GK)",
+        "Philipp Lahm",
+        "Jerome Boateng",
+        "Mats Hummels",
+        "Benedikt Howedes",
+        "Bastian Schweinsteiger",
+        "Christoph Kramer",
+        "Toni Kroos",
+        "Mesut Ozil",
+        "Miroslav Klose"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Mario Gotze"
+    },
+    {
+      "id": "ctl006",
+      "title": "Italy — 2006 World Cup Final XI",
+      "knownPlayers": [
+        "Gianluigi Buffon (GK)",
+        "Gianluca Zambrotta",
+        "Marco Materazzi",
+        "Fabio Cannavaro",
+        "Gennaro Gattuso",
+        "Andrea Pirlo",
+        "Simone Perrotta",
+        "Francesco Totti",
+        "Luca Toni"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Fabio Grosso"
+    },
+    {
+      "id": "ctl007",
+      "title": "Barcelona — 2011 Champions League Final XI",
+      "knownPlayers": [
+        "Victor Valdes (GK)",
+        "Dani Alves",
+        "Javier Mascherano",
+        "Eric Abidal",
+        "Sergio Busquets",
+        "Andres Iniesta",
+        "Pedro",
+        "Lionel Messi",
+        "David Villa"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Xavi"
+    },
+    {
+      "id": "ctl008",
+      "title": "Manchester United — 1999 Champions League Final XI",
+      "knownPlayers": [
+        "Peter Schmeichel (GK)",
+        "Gary Neville",
+        "Jaap Stam",
+        "Ronny Johnsen",
+        "Ryan Giggs",
+        "David Beckham",
+        "Nicky Butt",
+        "Paul Scholes",
+        "Jesper Blomqvist",
+        "Andy Cole"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Teddy Sheringham"
+    },
+    {
+      "id": "ctl009",
+      "title": "Real Madrid — 2014 Champions League Final XI",
+      "knownPlayers": [
+        "Iker Casillas (GK)",
+        "Dani Carvajal",
+        "Raphael Varane",
+        "Sergio Ramos",
+        "Fabio Coentrao",
+        "Luka Modric",
+        "Sami Khedira",
+        "Angel Di Maria",
+        "Gareth Bale",
+        "Karim Benzema"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Cristiano Ronaldo"
+    },
+    {
+      "id": "ctl010",
+      "title": "AC Milan — 2007 Champions League Final XI",
+      "knownPlayers": [
+        "Dida (GK)",
+        "Massimo Oddo",
+        "Alessandro Nesta",
+        "Paolo Maldini",
+        "Marek Jankulovski",
+        "Gennaro Gattuso",
+        "Andrea Pirlo",
+        "Clarence Seedorf",
+        "Kaka"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Filippo Inzaghi"
+    },
+    {
+      "id": "ctl011",
+      "title": "Liverpool — 2005 Champions League Final XI",
+      "knownPlayers": [
+        "Jerzy Dudek (GK)",
+        "Steve Finnan",
+        "Jamie Carragher",
+        "Sami Hyypia",
+        "Djimi Traore",
+        "Luis Garcia",
+        "Xabi Alonso",
+        "Steven Gerrard",
+        "John Arne Riise",
+        "Milan Baros"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Harry Kewell"
+    },
+    {
+      "id": "ctl012",
+      "title": "Chelsea — 2012 Champions League Final XI",
+      "knownPlayers": [
+        "Petr Cech (GK)",
+        "Jose Bosingwa",
+        "Gary Cahill",
+        "David Luiz",
+        "Ashley Cole",
+        "John Obi Mikel",
+        "Frank Lampard",
+        "Salomon Kalou",
+        "Juan Mata",
+        "Ryan Bertrand"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Didier Drogba"
+    },
+    {
+      "id": "ctl013",
+      "title": "Inter Milan — 2010 Champions League Final XI",
+      "knownPlayers": [
+        "Julio Cesar (GK)",
+        "Maicon",
+        "Lucio",
+        "Walter Samuel",
+        "Cristian Chivu",
+        "Javier Zanetti",
+        "Esteban Cambiasso",
+        "Wesley Sneijder",
+        "Goran Pandev"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Diego Milito"
+    },
+    {
+      "id": "ctl014",
+      "title": "Bayern Munich — 2013 Champions League Final XI",
+      "knownPlayers": [
+        "Manuel Neuer (GK)",
+        "Philipp Lahm",
+        "Jerome Boateng",
+        "Dante",
+        "David Alaba",
+        "Javi Martinez",
+        "Bastian Schweinsteiger",
+        "Arjen Robben",
+        "Thomas Muller",
+        "Franck Ribery"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Mario Mandzukic"
+    },
+    {
+      "id": "ctl015",
+      "title": "Borussia Dortmund — 2013 Champions League Final XI",
+      "knownPlayers": [
+        "Roman Weidenfeller (GK)",
+        "Lukasz Piszczek",
+        "Neven Subotic",
+        "Mats Hummels",
+        "Marcel Schmelzer",
+        "Ilkay Gundogan",
+        "Sven Bender",
+        "Jakub Blaszczykowski",
+        "Marco Reus",
+        "Kevin Grosskreutz"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Robert Lewandowski"
+    },
+    {
+      "id": "ctl016",
+      "title": "Juventus — 2015 Champions League Final XI",
+      "knownPlayers": [
+        "Gianluigi Buffon (GK)",
+        "Stephan Lichtsteiner",
+        "Andrea Barzagli",
+        "Leonardo Bonucci",
+        "Patrice Evra",
+        "Claudio Marchisio",
+        "Andrea Pirlo",
+        "Paul Pogba",
+        "Arturo Vidal",
+        "Alvaro Morata"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Carlos Tevez"
+    },
+    {
+      "id": "ctl017",
+      "title": "Atletico Madrid — 2014 Champions League Final XI",
+      "knownPlayers": [
+        "Thibaut Courtois (GK)",
+        "Juanfran",
+        "Miranda",
+        "Diego Godin",
+        "Filipe Luis",
+        "Tiago",
+        "Gabi",
+        "Raul Garcia",
+        "Koke",
+        "David Villa"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Diego Costa"
+    },
+    {
+      "id": "ctl018",
+      "title": "Netherlands — 2010 World Cup Final XI",
+      "knownPlayers": [
+        "Maarten Stekelenburg (GK)",
+        "Gregory van der Wiel",
+        "John Heitinga",
+        "Joris Mathijsen",
+        "Giovanni van Bronckhorst",
+        "Mark van Bommel",
+        "Nigel de Jong",
+        "Arjen Robben",
+        "Wesley Sneijder",
+        "Dirk Kuyt"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Robin van Persie"
+    },
+    {
+      "id": "ctl019",
+      "title": "Argentina — 2014 World Cup Final XI",
+      "knownPlayers": [
+        "Sergio Romero (GK)",
+        "Pablo Zabaleta",
+        "Martin Demichelis",
+        "Ezequiel Garay",
+        "Marcos Rojo",
+        "Javier Mascherano",
+        "Lucas Biglia",
+        "Enzo Perez",
+        "Ezequiel Lavezzi",
+        "Lionel Messi"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Gonzalo Higuain"
+    },
+    {
+      "id": "ctl020",
+      "title": "Portugal — Euro 2016 Final XI",
+      "knownPlayers": [
+        "Rui Patricio (GK)",
+        "Cedric Soares",
+        "Pepe",
+        "Jose Fonte",
+        "Raphael Guerreiro",
+        "William Carvalho",
+        "Joao Mario",
+        "Adrien Silva",
+        "Renato Sanches",
+        "Nani"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Eder"
+    },
+    {
+      "id": "ctl021",
+      "title": "Croatia — 2018 World Cup Final XI",
+      "knownPlayers": [
+        "Danijel Subasic (GK)",
+        "Sime Vrsaljko",
+        "Dejan Lovren",
+        "Domagoj Vida",
+        "Ivan Strinic",
+        "Marcelo Brozovic",
+        "Luka Modric",
+        "Ivan Rakitic",
+        "Ante Rebic",
+        "Mario Mandzukic"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Ivan Perisic"
+    },
+    {
+      "id": "ctl022",
+      "title": "Arsenal — Invincibles 2003-04 XI",
+      "knownPlayers": [
+        "Jens Lehmann (GK)",
+        "Lauren",
+        "Kolo Toure",
+        "Sol Campbell",
+        "Ashley Cole",
+        "Gilberto Silva",
+        "Patrick Vieira",
+        "Freddie Ljungberg",
+        "Robert Pires",
+        "Dennis Bergkamp"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Thierry Henry"
+    },
+    {
+      "id": "ctl023",
+      "title": "Chelsea — 2004-05 Premier League XI",
+      "knownPlayers": [
+        "Petr Cech (GK)",
+        "Paulo Ferreira",
+        "John Terry",
+        "Ricardo Carvalho",
+        "William Gallas",
+        "Claude Makelele",
+        "Frank Lampard",
+        "Arjen Robben",
+        "Joe Cole",
+        "Damien Duff"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Didier Drogba"
+    },
+    {
+      "id": "ctl024",
+      "title": "Manchester United — 2007-08 Champions League Final XI",
+      "knownPlayers": [
+        "Edwin van der Sar (GK)",
+        "Wes Brown",
+        "Rio Ferdinand",
+        "Nemanja Vidic",
+        "Patrice Evra",
+        "Cristiano Ronaldo",
+        "Michael Carrick",
+        "Paul Scholes",
+        "Owen Hargreaves",
+        "Wayne Rooney"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Carlos Tevez"
+    },
+    {
+      "id": "ctl025",
+      "title": "Barcelona — 2009 Champions League Final XI",
+      "knownPlayers": [
+        "Victor Valdes (GK)",
+        "Dani Alves",
+        "Carles Puyol",
+        "Gerard Pique",
+        "Sylvinho",
+        "Sergio Busquets",
+        "Xavi",
+        "Andres Iniesta",
+        "Lionel Messi",
+        "Samuel Eto'o"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Thierry Henry"
+    },
+    {
+      "id": "ctl026",
+      "title": "Real Madrid — 2016 Champions League Final XI",
+      "knownPlayers": [
+        "Keylor Navas (GK)",
+        "Dani Carvajal",
+        "Sergio Ramos",
+        "Pepe",
+        "Marcelo",
+        "Casemiro",
+        "Toni Kroos",
+        "Luka Modric",
+        "Gareth Bale",
+        "Cristiano Ronaldo"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Karim Benzema"
+    },
+    {
+      "id": "ctl027",
+      "title": "Bayern Munich — 2020 Champions League Final XI",
+      "knownPlayers": [
+        "Manuel Neuer (GK)",
+        "Benjamin Pavard",
+        "Jerome Boateng",
+        "David Alaba",
+        "Alphonso Davies",
+        "Joshua Kimmich",
+        "Leon Goretzka",
+        "Serge Gnabry",
+        "Thomas Muller",
+        "Kingsley Coman"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Robert Lewandowski"
+    },
+    {
+      "id": "ctl028",
+      "title": "Liverpool — 2019 Champions League Final XI",
+      "knownPlayers": [
+        "Alisson (GK)",
+        "Trent Alexander-Arnold",
+        "Joel Matip",
+        "Virgil van Dijk",
+        "Andy Robertson",
+        "Jordan Henderson",
+        "Fabinho",
+        "Georginio Wijnaldum",
+        "Mohamed Salah",
+        "Roberto Firmino"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Sadio Mane"
+    },
+    {
+      "id": "ctl029",
+      "title": "Manchester City — 2023 Champions League Final XI",
+      "knownPlayers": [
+        "Ederson (GK)",
+        "Kyle Walker",
+        "Ruben Dias",
+        "Manuel Akanji",
+        "John Stones",
+        "Rodri",
+        "Bernardo Silva",
+        "Kevin De Bruyne",
+        "Ilkay Gundogan",
+        "Jack Grealish"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Erling Haaland"
+    },
+    {
+      "id": "ctl030",
+      "title": "Italy — Euro 2020 Final XI",
+      "knownPlayers": [
+        "Gianluigi Donnarumma (GK)",
+        "Giovanni Di Lorenzo",
+        "Leonardo Bonucci",
+        "Giorgio Chiellini",
+        "Emerson Palmieri",
+        "Nicolo Barella",
+        "Jorginho",
+        "Marco Verratti",
+        "Federico Chiesa",
+        "Ciro Immobile"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Lorenzo Insigne"
+    },
+    {
+      "id": "ctl031",
+      "title": "France — 2018 World Cup Final XI",
+      "knownPlayers": [
+        "Hugo Lloris (GK)",
+        "Benjamin Pavard",
+        "Raphael Varane",
+        "Samuel Umtiti",
+        "Lucas Hernandez",
+        "N'Golo Kante",
+        "Paul Pogba",
+        "Kylian Mbappe",
+        "Antoine Griezmann",
+        "Blaise Matuidi"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Olivier Giroud"
+    },
+    {
+      "id": "ctl032",
+      "title": "Argentina — 2022 World Cup Final XI",
+      "knownPlayers": [
+        "Emiliano Martinez (GK)",
+        "Nahuel Molina",
+        "Cristian Romero",
+        "Nicolas Otamendi",
+        "Nicolas Tagliafico",
+        "Rodrigo De Paul",
+        "Enzo Fernandez",
+        "Alexis Mac Allister",
+        "Angel Di Maria",
+        "Julian Alvarez"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Lionel Messi"
+    },
+    {
+      "id": "ctl033",
+      "title": "Spain — Euro 2012 Final XI",
+      "knownPlayers": [
+        "Iker Casillas (GK)",
+        "Alvaro Arbeloa",
+        "Sergio Ramos",
+        "Gerard Pique",
+        "Jordi Alba",
+        "Sergio Busquets",
+        "Xabi Alonso",
+        "Xavi",
+        "Andres Iniesta",
+        "David Silva"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Cesc Fabregas"
+    },
+    {
+      "id": "ctl034",
+      "title": "Germany — 1990 World Cup Final XI",
+      "knownPlayers": [
+        "Bodo Illgner (GK)",
+        "Thomas Berthold",
+        "Jurgen Kohler",
+        "Guido Buchwald",
+        "Lothar Matthaus",
+        "Pierre Littbarski",
+        "Thomas Hassler",
+        "Rudi Voller",
+        "Jurgen Klinsmann"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Andreas Brehme"
+    },
+    {
+      "id": "ctl035",
+      "title": "Brazil — 1994 World Cup Final XI",
+      "knownPlayers": [
+        "Claudio Taffarel (GK)",
+        "Jorginho",
+        "Aldair",
+        "Marcio Santos",
+        "Branco",
+        "Dunga",
+        "Mauro Silva",
+        "Mazinho",
+        "Zinho",
+        "Romario"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Bebeto"
+    },
+    {
+      "id": "ctl036",
+      "title": "France — Euro 2000 Final XI",
+      "knownPlayers": [
+        "Fabien Barthez (GK)",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Frank Leboeuf",
+        "Bixente Lizarazu",
+        "Patrick Vieira",
+        "Didier Deschamps",
+        "Zinedine Zidane",
+        "Youri Djorkaeff",
+        "Christophe Dugarry"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Thierry Henry"
+    },
+    {
+      "id": "ctl037",
+      "title": "Italy — 1982 World Cup Final XI",
+      "knownPlayers": [
+        "Dino Zoff (GK)",
+        "Claudio Gentile",
+        "Gaetano Scirea",
+        "Fulvio Collovati",
+        "Antonio Cabrini",
+        "Gabriele Oriali",
+        "Bruno Conti",
+        "Francesco Graziani",
+        "Paolo Rossi"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Marco Tardelli"
+    },
+    {
+      "id": "ctl038",
+      "title": "AC Milan — 2003 Champions League Final XI",
+      "knownPlayers": [
+        "Dida (GK)",
+        "Roque Junior",
+        "Alessandro Nesta",
+        "Paolo Maldini",
+        "Kakhaber Kaladze",
+        "Gennaro Gattuso",
+        "Andrea Pirlo",
+        "Clarence Seedorf",
+        "Rui Costa",
+        "Filippo Inzaghi"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Andriy Shevchenko"
+    },
+    {
+      "id": "ctl039",
+      "title": "Barcelona — 2006 Champions League Final XI",
+      "knownPlayers": [
+        "Victor Valdes (GK)",
+        "Oleguer",
+        "Carles Puyol",
+        "Rafael Marquez",
+        "Giovanni van Bronckhorst",
+        "Edmilson",
+        "Mark van Bommel",
+        "Deco",
+        "Ludovic Giuly",
+        "Samuel Eto'o"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Ronaldinho"
+    },
+    {
+      "id": "ctl040",
+      "title": "Real Madrid — 2002 Champions League Final XI",
+      "knownPlayers": [
+        "Iker Casillas (GK)",
+        "Micheal Salgado",
+        "Fernando Hierro",
+        "Ivan Helguera",
+        "Roberto Carlos",
+        "Claude Makelele",
+        "Luis Figo",
+        "Zinedine Zidane",
+        "Santiago Solari",
+        "Raul"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Fernando Morientes"
+    },
+    {
+      "id": "ctl041",
+      "title": "Manchester United — 2008 Premier League XI",
+      "knownPlayers": [
+        "Edwin van der Sar (GK)",
+        "Wes Brown",
+        "Rio Ferdinand",
+        "Nemanja Vidic",
+        "Patrice Evra",
+        "Cristiano Ronaldo",
+        "Michael Carrick",
+        "Paul Scholes",
+        "Ryan Giggs",
+        "Wayne Rooney"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Carlos Tevez"
+    },
+    {
+      "id": "ctl042",
+      "title": "Inter Milan — 2010 Serie A XI",
+      "knownPlayers": [
+        "Julio Cesar (GK)",
+        "Maicon",
+        "Lucio",
+        "Walter Samuel",
+        "Cristian Chivu",
+        "Javier Zanetti",
+        "Esteban Cambiasso",
+        "Thiago Motta",
+        "Wesley Sneijder",
+        "Diego Milito"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Samuel Eto'o"
+    },
+    {
+      "id": "ctl043",
+      "title": "Liverpool — 1984 European Cup Final XI",
+      "knownPlayers": [
+        "Bruce Grobbelaar (GK)",
+        "Phil Neal",
+        "Mark Lawrenson",
+        "Alan Kennedy",
+        "Alan Hansen",
+        "Graeme Souness",
+        "Ronnie Whelan",
+        "Ian Rush",
+        "John Wark"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Kenny Dalglish"
+    },
+    {
+      "id": "ctl044",
+      "title": "Ajax — 1995 Champions League Final XI",
+      "knownPlayers": [
+        "Edwin van der Sar (GK)",
+        "Michael Reiziger",
+        "Frank de Boer",
+        "Danny Blind",
+        "Frank Rijkaard",
+        "Edgar Davids",
+        "Ronald de Boer",
+        "Jari Litmanen",
+        "Clarence Seedorf",
+        "Marc Overmars"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Patrick Kluivert"
+    },
+    {
+      "id": "ctl045",
+      "title": "Porto — 2004 Champions League Final XI",
+      "knownPlayers": [
+        "Vitor Baia (GK)",
+        "Jorge Costa",
+        "Ricardo Carvalho",
+        "Nuno Valente",
+        "Costinha",
+        "Maniche",
+        "Deco",
+        "Derlei"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Carlos Alberto"
+    },
+    {
+      "id": "ctl046",
+      "title": "Chelsea — 2021 Champions League Final XI",
+      "knownPlayers": [
+        "Edouard Mendy (GK)",
+        "Cesar Azpilicueta",
+        "Thiago Silva",
+        "Antonio Rudiger",
+        "Reece James",
+        "N'Golo Kante",
+        "Jorginho",
+        "Ben Chilwell",
+        "Mason Mount",
+        "Kai Havertz"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Timo Werner"
+    },
+    {
+      "id": "ctl047",
+      "title": "Real Madrid — 2018 Champions League Final XI",
+      "knownPlayers": [
+        "Keylor Navas (GK)",
+        "Dani Carvajal",
+        "Raphael Varane",
+        "Sergio Ramos",
+        "Marcelo",
+        "Luka Modric",
+        "Casemiro",
+        "Toni Kroos",
+        "Isco",
+        "Karim Benzema"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Cristiano Ronaldo"
+    },
+    {
+      "id": "ctl048",
+      "title": "Bayern Munich — 2013 Bundesliga XI",
+      "knownPlayers": [
+        "Manuel Neuer (GK)",
+        "Philipp Lahm",
+        "Jerome Boateng",
+        "Dante",
+        "David Alaba",
+        "Javi Martinez",
+        "Bastian Schweinsteiger",
+        "Arjen Robben",
+        "Thomas Muller",
+        "Franck Ribery"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Mario Mandzukic"
+    },
+    {
+      "id": "ctl049",
+      "title": "Juventus — 1996 Champions League Final XI",
+      "knownPlayers": [
+        "Angelo Peruzzi (GK)",
+        "Moreno Torricelli",
+        "Ciro Ferrara",
+        "Gianluca Pessotto",
+        "Antonio Conte",
+        "Didier Deschamps",
+        "Paulo Sousa",
+        "Alessio Tacchinardi",
+        "Fabrizio Ravanelli",
+        "Gianluca Vialli"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Del Piero"
+    },
+    {
+      "id": "ctl050",
+      "title": "AC Milan — 1994 Champions League Final XI",
+      "knownPlayers": [
+        "Sebastiano Rossi (GK)",
+        "Mauro Tassotti",
+        "Alessandro Costacurta",
+        "Marcel Desailly",
+        "Paolo Maldini",
+        "Demetrio Albertini",
+        "Zvonimir Boban",
+        "Roberto Donadoni",
+        "Dejan Savicevic"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Daniele Massaro"
+    },
+    {
+      "id": "ctl051",
+      "title": "Liverpool — 2020-21 Premier League XI",
+      "knownPlayers": [
+        "Alisson (GK)",
+        "Trent Alexander-Arnold",
+        "Joel Matip",
+        "Virgil van Dijk",
+        "Andrew Robertson",
+        "Fabinho",
+        "Jordan Henderson",
+        "Thiago Alcantara",
+        "Mohamed Salah",
+        "Roberto Firmino"
+      ],
+      "blankedPosition": "One player blanked",
+      "answer": "Sadio Mane"
+    }
+  ]
+}

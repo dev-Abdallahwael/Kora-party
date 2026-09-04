@@ -1,0 +1,993 @@
+[
+  {
+    "id": "gbh001",
+    "clubs": [
+      "Barcelona",
+      "Paris Saint-Germain",
+      "Inter Miami"
+    ],
+    "answer": "Lionel Messi",
+    "acceptedAnswers": [
+      "messi",
+      "lionel messi"
+    ],
+    "difficulty": "easy",
+    "clubsAr": [
+      "برشلونة",
+      "باريس سان جيرمان",
+      "إنتر ميامي"
+    ],
+    "answerAr": "ليونيل ميسي",
+    "acceptedAnswersAr": [
+      "ليونيل ميسي"
+    ]
+  },
+  {
+    "id": "gbh002",
+    "clubs": [
+      "Sporting CP",
+      "Manchester United",
+      "Real Madrid",
+      "Juventus",
+      "Al Nassr"
+    ],
+    "answer": "Cristiano Ronaldo",
+    "acceptedAnswers": [
+      "ronaldo",
+      "cristiano ronaldo",
+      "cr7"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "سبورتينغ لشبونة",
+      "مانشستر يونايتد",
+      "ريال مدريد",
+      "يوفنتوس",
+      "النصر"
+    ],
+    "answerAr": "كريستيانو رونالدو",
+    "acceptedAnswersAr": [
+      "كريستيانو رونالدو"
+    ]
+  },
+  {
+    "id": "gbh003",
+    "clubs": [
+      "Santos",
+      "Barcelona",
+      "Paris Saint-Germain",
+      "Al-Hilal"
+    ],
+    "answer": "Neymar",
+    "acceptedAnswers": [
+      "neymar"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "سانتوس",
+      "برشلونة",
+      "باريس سان جيرمان",
+      "الهلال"
+    ],
+    "answerAr": "نيمار",
+    "acceptedAnswersAr": [
+      "نيمار"
+    ]
+  },
+  {
+    "id": "gbh004",
+    "clubs": [
+      "Monaco",
+      "Paris Saint-Germain",
+      "Real Madrid"
+    ],
+    "answer": "Kylian Mbappe",
+    "acceptedAnswers": [
+      "mbappe",
+      "kylian mbappe"
+    ],
+    "difficulty": "easy",
+    "clubsAr": [
+      "موناكو",
+      "باريس سان جيرمان",
+      "ريال مدريد"
+    ],
+    "answerAr": "كيليان مبابي",
+    "acceptedAnswersAr": [
+      "كيليان مبابي"
+    ]
+  },
+  {
+    "id": "gbh005",
+    "clubs": [
+      "Genk",
+      "Chelsea",
+      "Wolfsburg",
+      "Manchester City"
+    ],
+    "answer": "Kevin De Bruyne",
+    "acceptedAnswers": [
+      "de bruyne",
+      "kevin de bruyne"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "جينك",
+      "تشيلسي",
+      "فولفسبورغ",
+      "مانشستر سيتي"
+    ],
+    "answerAr": "كيفن دي بروين",
+    "acceptedAnswersAr": [
+      "كيفن دي بروين"
+    ]
+  },
+  {
+    "id": "gbh006",
+    "clubs": [
+      "Borussia Dortmund",
+      "Bayern Munich",
+      "Barcelona"
+    ],
+    "answer": "Robert Lewandowski",
+    "acceptedAnswers": [
+      "lewandowski",
+      "robert lewandowski"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "بوروسيا دورتموند",
+      "بايرن ميونيخ",
+      "برشلونة"
+    ],
+    "answerAr": "روبرت ليفاندوفسكي",
+    "acceptedAnswersAr": [
+      "روبرت ليفاندوفسكي"
+    ]
+  },
+  {
+    "id": "gbh007",
+    "clubs": [
+      "Basel",
+      "Chelsea",
+      "Fiorentina",
+      "Roma",
+      "Liverpool"
+    ],
+    "answer": "Mohamed Salah",
+    "acceptedAnswers": [
+      "salah",
+      "mohamed salah"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "بازل",
+      "تشيلسي",
+      "فيورنتينا",
+      "روما",
+      "ليفربول"
+    ],
+    "answerAr": "محمد صلاح",
+    "acceptedAnswersAr": [
+      "محمد صلاح"
+    ]
+  },
+  {
+    "id": "gbh008",
+    "clubs": [
+      "Dinamo Zagreb",
+      "Tottenham Hotspur",
+      "Real Madrid"
+    ],
+    "answer": "Luka Modric",
+    "acceptedAnswers": [
+      "modric",
+      "luka modric"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "دينامو زغرب",
+      "توتنهام هوتسبير",
+      "ريال مدريد"
+    ],
+    "answerAr": "لوكا مودريتش",
+    "acceptedAnswersAr": [
+      "لوكا مودريتش"
+    ]
+  },
+  {
+    "id": "gbh009",
+    "clubs": [
+      "Molde",
+      "Red Bull Salzburg",
+      "Borussia Dortmund",
+      "Manchester City"
+    ],
+    "answer": "Erling Haaland",
+    "acceptedAnswers": [
+      "haaland",
+      "erling haaland"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "مولده",
+      "ريد بُل سالزبورغ",
+      "بوروسيا دورتموند",
+      "مانشستر سيتي"
+    ],
+    "answerAr": "إيرلينغ هالاند",
+    "acceptedAnswersAr": [
+      "إيرلينغ هالاند"
+    ]
+  },
+  {
+    "id": "gbh010",
+    "clubs": [
+      "Bayer Leverkusen",
+      "Real Madrid"
+    ],
+    "answer": "Toni Kroos",
+    "acceptedAnswers": [
+      "kroos",
+      "toni kroos"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "باير ليفركوزن",
+      "ريال مدريد"
+    ],
+    "answerAr": "توني كروس",
+    "acceptedAnswersAr": [
+      "توني كروس"
+    ]
+  },
+  {
+    "id": "gbh011",
+    "clubs": [
+      "Nacional",
+      "Groningen",
+      "Ajax",
+      "Liverpool",
+      "Barcelona",
+      "Atletico Madrid"
+    ],
+    "answer": "Luis Suarez",
+    "acceptedAnswers": [
+      "suarez",
+      "luis suarez"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "ناسيونال",
+      "غرونينغن",
+      "أياكس",
+      "ليفربول",
+      "برشلونة",
+      "أتلتيكو مدريد"
+    ],
+    "answerAr": "لويس سواريز",
+    "acceptedAnswersAr": [
+      "لويس سواريز"
+    ]
+  },
+  {
+    "id": "gbh012",
+    "clubs": [
+      "Metz",
+      "Red Bull Salzburg",
+      "Southampton",
+      "Liverpool",
+      "Al-Ahli"
+    ],
+    "answer": "Sadio Mane",
+    "acceptedAnswers": [
+      "mane",
+      "sadio mane"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "ميتز",
+      "ريد بُل سالزبورغ",
+      "ساوثهامبتون",
+      "ليفربول",
+      "الأهلي"
+    ],
+    "answerAr": "ساديو ماني",
+    "acceptedAnswersAr": [
+      "ساديو ماني"
+    ]
+  },
+  {
+    "id": "gbh013",
+    "clubs": [
+      "Barcelona",
+      "Al Sadd"
+    ],
+    "answer": "Xavi Hernandez",
+    "acceptedAnswers": [
+      "xavi",
+      "xavi hernandez"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "برشلونة",
+      "السد"
+    ],
+    "answerAr": "تشافي هيرنانديز",
+    "acceptedAnswersAr": [
+      "تشافي هيرنانديز"
+    ]
+  },
+  {
+    "id": "gbh014",
+    "clubs": [
+      "Groningen",
+      "Celtic",
+      "Southampton",
+      "Liverpool"
+    ],
+    "answer": "Virgil van Dijk",
+    "acceptedAnswers": [
+      "van dijk",
+      "virgil van dijk"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "غرونينغن",
+      "سيلتيك",
+      "ساوثهامبتون",
+      "ليفربول"
+    ],
+    "answerAr": "فيرجيل فان دايك",
+    "acceptedAnswersAr": [
+      "فيرجيل فان دايك"
+    ]
+  },
+  {
+    "id": "gbh015",
+    "clubs": [
+      "Groningen",
+      "PSV Eindhoven",
+      "Chelsea",
+      "Real Madrid",
+      "Bayern Munich"
+    ],
+    "answer": "Arjen Robben",
+    "acceptedAnswers": [
+      "robben",
+      "arjen robben"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "غرونينغن",
+      "آيندهوفن",
+      "تشيلسي",
+      "ريال مدريد",
+      "بايرن ميونيخ"
+    ],
+    "answerAr": "آريين روبن",
+    "acceptedAnswersAr": [
+      "آريين روبن"
+    ]
+  },
+  {
+    "id": "gbh016",
+    "clubs": [
+      "Gremio",
+      "Paris Saint-Germain",
+      "Barcelona",
+      "AC Milan",
+      "Flamengo"
+    ],
+    "answer": "Ronaldinho",
+    "acceptedAnswers": [
+      "ronaldinho"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "غريميو",
+      "باريس سان جيرمان",
+      "برشلونة",
+      "ميلان",
+      "فلامنغو"
+    ],
+    "answerAr": "رونالدينيو",
+    "acceptedAnswersAr": [
+      "رونالدينيو"
+    ]
+  },
+  {
+    "id": "gbh017",
+    "clubs": [
+      "Cannes",
+      "Bordeaux",
+      "Juventus",
+      "Real Madrid"
+    ],
+    "answer": "Zinedine Zidane",
+    "acceptedAnswers": [
+      "zidane",
+      "zinedine zidane"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "كان",
+      "بوردو",
+      "يوفنتوس",
+      "ريال مدريد"
+    ],
+    "answerAr": "زين الدين زيدان",
+    "acceptedAnswersAr": [
+      "زين الدين زيدان"
+    ]
+  },
+  {
+    "id": "gbh018",
+    "clubs": [
+      "Cruzeiro",
+      "PSV Eindhoven",
+      "Barcelona",
+      "Inter Milan",
+      "Real Madrid",
+      "AC Milan"
+    ],
+    "answer": "Ronaldo Nazario",
+    "acceptedAnswers": [
+      "ronaldo",
+      "ronaldo nazario"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "كروزيرو",
+      "آيندهوفن",
+      "برشلونة",
+      "إنتر ميلان",
+      "ريال مدريد",
+      "ميلان"
+    ],
+    "answerAr": "رونالدو نازاريو",
+    "acceptedAnswersAr": [
+      "رونالدو نازاريو"
+    ]
+  },
+  {
+    "id": "gbh019",
+    "clubs": [
+      "Manchester United",
+      "Real Madrid",
+      "LA Galaxy",
+      "AC Milan",
+      "Paris Saint-Germain"
+    ],
+    "answer": "David Beckham",
+    "acceptedAnswers": [
+      "beckham",
+      "david beckham"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "مانشستر يونايتد",
+      "ريال مدريد",
+      "لوس أنجلوس غالاكسي",
+      "ميلان",
+      "باريس سان جيرمان"
+    ],
+    "answerAr": "ديفيد بيكهام",
+    "acceptedAnswersAr": [
+      "ديفيد بيكهام"
+    ]
+  },
+  {
+    "id": "gbh020",
+    "clubs": [
+      "Monaco",
+      "Juventus",
+      "Arsenal",
+      "Barcelona",
+      "New York Red Bulls"
+    ],
+    "answer": "Thierry Henry",
+    "acceptedAnswers": [
+      "henry",
+      "thierry henry"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "موناكو",
+      "يوفنتوس",
+      "أرسنال",
+      "برشلونة",
+      "نيويورك ريد بولز"
+    ],
+    "answerAr": "تييري هنري",
+    "acceptedAnswersAr": [
+      "تييري هنري"
+    ]
+  },
+  {
+    "id": "gbh021",
+    "clubs": [
+      "Brescia",
+      "Inter Milan",
+      "AC Milan",
+      "Juventus",
+      "New York City FC"
+    ],
+    "answer": "Andrea Pirlo",
+    "acceptedAnswers": [
+      "pirlo",
+      "andrea pirlo"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "بريشيا",
+      "إنتر ميلان",
+      "ميلان",
+      "يوفنتوس",
+      "نيويورك سيتي"
+    ],
+    "answerAr": "أندريا بيرلو",
+    "acceptedAnswersAr": [
+      "أندريا بيرلو"
+    ]
+  },
+  {
+    "id": "gbh022",
+    "clubs": [
+      "Real Madrid",
+      "Porto"
+    ],
+    "answer": "Iker Casillas",
+    "acceptedAnswers": [
+      "casillas",
+      "iker casillas"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "ريال مدريد",
+      "بورتو"
+    ],
+    "answerAr": "إيكر كاسياس",
+    "acceptedAnswersAr": [
+      "إيكر كاسياس"
+    ]
+  },
+  {
+    "id": "gbh023",
+    "clubs": [
+      "Parma",
+      "Juventus",
+      "Paris Saint-Germain"
+    ],
+    "answer": "Gianluigi Buffon",
+    "acceptedAnswers": [
+      "buffon",
+      "gianluigi buffon"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "بارما",
+      "يوفنتوس",
+      "باريس سان جيرمان"
+    ],
+    "answerAr": "جانلويجي بوفون",
+    "acceptedAnswersAr": [
+      "جانلويجي بوفون"
+    ]
+  },
+  {
+    "id": "gbh024",
+    "clubs": [
+      "Le Mans",
+      "Guingamp",
+      "Marseille",
+      "Chelsea",
+      "Shanghai Shenhua",
+      "Galatasaray"
+    ],
+    "answer": "Didier Drogba",
+    "acceptedAnswers": [
+      "drogba",
+      "didier drogba"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "لو مان",
+      "غانغان",
+      "مارسيليا",
+      "تشيلسي",
+      "شنغهاي شينهوا",
+      "غلطة سراي"
+    ],
+    "answerAr": "ديدييه دروغبا",
+    "acceptedAnswersAr": [
+      "ديدييه دروغبا"
+    ]
+  },
+  {
+    "id": "gbh025",
+    "clubs": [
+      "Barcelona",
+      "Vissel Kobe"
+    ],
+    "answer": "Andres Iniesta",
+    "acceptedAnswers": [
+      "iniesta",
+      "andres iniesta"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "برشلونة",
+      "فيسيل كوبي"
+    ],
+    "answerAr": "أندريس إنييستا",
+    "acceptedAnswersAr": [
+      "أندريس إنييستا"
+    ]
+  },
+  {
+    "id": "gbh026",
+    "clubs": [
+      "Sevilla",
+      "Real Madrid",
+      "Paris Saint-Germain"
+    ],
+    "answer": "Sergio Ramos",
+    "acceptedAnswers": [
+      "ramos",
+      "sergio ramos"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "إشبيلية",
+      "ريال مدريد",
+      "باريس سان جيرمان"
+    ],
+    "answerAr": "سيرخيو راموس",
+    "acceptedAnswersAr": [
+      "سيرخيو راموس"
+    ]
+  },
+  {
+    "id": "gbh027",
+    "clubs": [
+      "Everton",
+      "Manchester United",
+      "DC United"
+    ],
+    "answer": "Wayne Rooney",
+    "acceptedAnswers": [
+      "rooney",
+      "wayne rooney"
+    ],
+    "difficulty": "easy",
+    "clubsAr": [
+      "إيفرتون",
+      "مانشستر يونايتد",
+      "دي سي يونايتد"
+    ],
+    "answerAr": "واين روني",
+    "acceptedAnswersAr": [
+      "واين روني"
+    ]
+  },
+  {
+    "id": "gbh028",
+    "clubs": [
+      "Liverpool",
+      "LA Galaxy"
+    ],
+    "answer": "Steven Gerrard",
+    "acceptedAnswers": [
+      "gerrard",
+      "steven gerrard"
+    ],
+    "difficulty": "easy",
+    "clubsAr": [
+      "ليفربول",
+      "لوس أنجلوس غالاكسي"
+    ],
+    "answerAr": "ستيفن جيرارد",
+    "acceptedAnswersAr": [
+      "ستيفن جيرارد"
+    ]
+  },
+  {
+    "id": "gbh029",
+    "clubs": [
+      "Real Sociedad",
+      "Liverpool",
+      "Real Madrid",
+      "Bayern Munich"
+    ],
+    "answer": "Xabi Alonso",
+    "acceptedAnswers": [
+      "xabi alonso",
+      "alonso"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "ريال سوسيداد",
+      "ليفربول",
+      "ريال مدريد",
+      "بايرن ميونيخ"
+    ],
+    "answerAr": "تشابي ألونسو",
+    "acceptedAnswersAr": [
+      "تشابي ألونسو"
+    ]
+  },
+  {
+    "id": "gbh030",
+    "clubs": [
+      "Real Madrid",
+      "Mallorca",
+      "Barcelona",
+      "Inter Milan",
+      "Chelsea",
+      "Everton"
+    ],
+    "answer": "Samuel Eto'o",
+    "acceptedAnswers": [
+      "eto'o",
+      "samuel eto'o"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "ريال مدريد",
+      "ريال مايوركا",
+      "برشلونة",
+      "إنتر ميلان",
+      "تشيلسي",
+      "إيفرتون"
+    ],
+    "answerAr": "صامويل إيتو",
+    "acceptedAnswersAr": [
+      "صامويل إيتو"
+    ]
+  },
+  {
+    "id": "gbh031",
+    "clubs": [
+      "Sao Paulo",
+      "AC Milan",
+      "Real Madrid",
+      "Orlando City"
+    ],
+    "answer": "Kaka",
+    "acceptedAnswers": [
+      "kaka",
+      "kaká"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "ساو باولو",
+      "ميلان",
+      "ريال مدريد",
+      "أورلاندو سيتي"
+    ],
+    "answerAr": "كاكا",
+    "acceptedAnswersAr": [
+      "كاكا"
+    ]
+  },
+  {
+    "id": "gbh032",
+    "clubs": [
+      "Malmo",
+      "Ajax",
+      "Juventus",
+      "Inter Milan",
+      "Barcelona",
+      "AC Milan",
+      "Paris Saint-Germain",
+      "Manchester United",
+      "LA Galaxy"
+    ],
+    "answer": "Zlatan Ibrahimovic",
+    "acceptedAnswers": [
+      "zlatan",
+      "ibrahimovic"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "مالمو",
+      "أياكس",
+      "يوفنتوس",
+      "إنتر ميلان",
+      "برشلونة",
+      "ميلان",
+      "باريس سان جيرمان",
+      "مانشستر يونايتد",
+      "لوس أنجلوس غالاكسي"
+    ],
+    "answerAr": "زلاتان إبراهيموفيتش",
+    "acceptedAnswersAr": [
+      "زلاتان إبراهيموفيتش"
+    ]
+  },
+  {
+    "id": "gbh033",
+    "clubs": [
+      "Southampton",
+      "Tottenham Hotspur",
+      "Real Madrid",
+      "LAFC"
+    ],
+    "answer": "Gareth Bale",
+    "acceptedAnswers": [
+      "bale",
+      "gareth bale"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "ساوثهامبتون",
+      "توتنهام هوتسبير",
+      "ريال مدريد",
+      "لوس أنجلوس إف سي"
+    ],
+    "answerAr": "غاريث بيل",
+    "acceptedAnswersAr": [
+      "غاريث بيل"
+    ]
+  },
+  {
+    "id": "gbh034",
+    "clubs": [
+      "Rot Weiss Ahlen",
+      "Borussia Monchengladbach",
+      "Borussia Dortmund"
+    ],
+    "answer": "Marco Reus",
+    "acceptedAnswers": [
+      "reus",
+      "marco reus"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "روت فايس آلن",
+      "بوروسيا مونشنغلادباخ",
+      "بوروسيا دورتموند"
+    ],
+    "answerAr": "ماركو رويس",
+    "acceptedAnswersAr": [
+      "ماركو رويس"
+    ]
+  },
+  {
+    "id": "gbh035",
+    "clubs": [
+      "Schalke 04",
+      "Bayern Munich"
+    ],
+    "answer": "Manuel Neuer",
+    "acceptedAnswers": [
+      "neuer",
+      "manuel neuer"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "شالكه 04",
+      "بايرن ميونيخ"
+    ],
+    "answerAr": "مانويل نوير",
+    "acceptedAnswersAr": [
+      "مانويل نوير"
+    ]
+  },
+  {
+    "id": "gbh036",
+    "clubs": [
+      "Bayern Munich"
+    ],
+    "answer": "Thomas Muller",
+    "acceptedAnswers": [
+      "muller",
+      "thomas muller"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "بايرن ميونيخ"
+    ],
+    "answerAr": "توماس مولر",
+    "acceptedAnswersAr": [
+      "توماس مولر"
+    ]
+  },
+  {
+    "id": "gbh037",
+    "clubs": [
+      "Schalke 04",
+      "Werder Bremen",
+      "Real Madrid",
+      "Arsenal",
+      "Fenerbahce"
+    ],
+    "answer": "Mesut Ozil",
+    "acceptedAnswers": [
+      "ozil",
+      "mesut ozil"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "شالكه 04",
+      "فيردر بريمن",
+      "ريال مدريد",
+      "أرسنال",
+      "فنربخشه"
+    ],
+    "answerAr": "مسعود أوزيل",
+    "acceptedAnswersAr": [
+      "مسعود أوزيل"
+    ]
+  },
+  {
+    "id": "gbh038",
+    "clubs": [
+      "Real Sociedad",
+      "Atletico Madrid",
+      "Barcelona"
+    ],
+    "answer": "Antoine Griezmann",
+    "acceptedAnswers": [
+      "griezmann",
+      "antoine griezmann"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "ريال سوسيداد",
+      "أتلتيكو مدريد",
+      "برشلونة"
+    ],
+    "answerAr": "أنطوان غريزمان",
+    "acceptedAnswersAr": [
+      "أنطوان غريزمان"
+    ]
+  },
+  {
+    "id": "gbh039",
+    "clubs": [
+      "Manchester United",
+      "Juventus"
+    ],
+    "answer": "Paul Pogba",
+    "acceptedAnswers": [
+      "pogba",
+      "paul pogba"
+    ],
+    "difficulty": "medium",
+    "clubsAr": [
+      "مانشستر يونايتد",
+      "يوفنتوس"
+    ],
+    "answerAr": "بول بوغبا",
+    "acceptedAnswersAr": [
+      "بول بوغبا"
+    ]
+  },
+  {
+    "id": "gbh040",
+    "clubs": [
+      "Real Madrid",
+      "Borussia Dortmund",
+      "Inter Milan",
+      "Paris Saint-Germain"
+    ],
+    "answer": "Achraf Hakimi",
+    "acceptedAnswers": [
+      "hakimi",
+      "achraf hakimi"
+    ],
+    "difficulty": "hard",
+    "clubsAr": [
+      "ريال مدريد",
+      "بوروسيا دورتموند",
+      "إنتر ميلان",
+      "باريس سان جيرمان"
+    ],
+    "answerAr": "أشرف حكيمي",
+    "acceptedAnswersAr": [
+      "أشرف حكيمي"
+    ]
+  }
+]

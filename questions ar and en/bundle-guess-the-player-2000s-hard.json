@@ -1,0 +1,1061 @@
+[
+  {
+    "id": "gtp005",
+    "clue": "Belgian playmaker, spent the peak of his career at Manchester City, renowned for elite vision and assist numbers.",
+    "answer": "Kevin De Bruyne",
+    "acceptedAnswers": [
+      "de bruyne",
+      "kevin de bruyne",
+      "kdb"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp008",
+    "clue": "Croatian midfielder, broke the Messi-Ronaldo Ballon d'Or streak by winning it in 2018, a longtime Real Madrid player.",
+    "answer": "Luka Modric",
+    "acceptedAnswers": [
+      "modric",
+      "luka modric",
+      "modrić"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp010",
+    "clue": "German midfielder, World Cup winner in 2014, a key figure for both Bayern Munich and Real Madrid.",
+    "answer": "Toni Kroos",
+    "acceptedAnswers": [
+      "kroos",
+      "toni kroos"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp012",
+    "clue": "Senegalese forward, AFCON winner in 2022, spent his prime years at Liverpool before moving to Saudi Arabia with Al-Ahli.",
+    "answer": "Sadio Mane",
+    "acceptedAnswers": [
+      "mane",
+      "sadio mane",
+      "mané"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp013",
+    "clue": "Legendary Barcelona and Spain midfielder, orchestrated the tiki-taka era, later became Barcelona's manager.",
+    "answer": "Xavi Hernandez",
+    "acceptedAnswers": [
+      "xavi",
+      "xavi hernandez"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp015",
+    "clue": "French defensive midfielder, won the Premier League with two different clubs, part of France's 2018 World Cup win.",
+    "answer": "N'Golo Kante",
+    "acceptedAnswers": [
+      "kante",
+      "ngolo kante",
+      "n'golo kante",
+      "kanté"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp018",
+    "clue": "Brazilian striker known simply as 'the Phenomenon,' won the World Cup in 2002, starred for Inter Milan and Real Madrid despite serious knee injuries.",
+    "answer": "Ronaldo Nazario",
+    "acceptedAnswers": [
+      "ronaldo",
+      "ronaldo nazario",
+      "r9",
+      "ronaldo luis nazario"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp021",
+    "clue": "Italian deep-lying playmaker known for his composure and free kicks, key to Italy's 2006 World Cup win, starred for Milan and Juventus.",
+    "answer": "Andrea Pirlo",
+    "acceptedAnswers": [
+      "pirlo",
+      "andrea pirlo"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp023",
+    "clue": "Italian goalkeeper with one of the longest careers in top-level football, World Cup winner in 2006, longtime Juventus number one.",
+    "answer": "Gianluigi Buffon",
+    "acceptedAnswers": [
+      "buffon",
+      "gianluigi buffon",
+      "gigi buffon"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp029",
+    "clue": "Spanish midfielder known for his passing range, won World Cups and European Championships with Spain, played for Liverpool, Real Madrid, and Bayern Munich.",
+    "answer": "Xabi Alonso",
+    "acceptedAnswers": [
+      "xabi alonso",
+      "alonso"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp030",
+    "clue": "Cameroonian striker, won the Champions League with three different clubs, starred for Barcelona and Inter Milan.",
+    "answer": "Samuel Eto'o",
+    "acceptedAnswers": [
+      "eto'o",
+      "samuel eto'o",
+      "etoo"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp034",
+    "clue": "German attacker, long-serving captain of Borussia Dortmund known for his versatility and resilience through injuries.",
+    "answer": "Marco Reus",
+    "acceptedAnswers": [
+      "reus",
+      "marco reus"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp036",
+    "clue": "German forward known for his unusual off-the-ball movement, described his own role as 'Raumdeuter' (space interpreter), longtime Bayern Munich player.",
+    "answer": "Thomas Muller",
+    "acceptedAnswers": [
+      "muller",
+      "thomas muller",
+      "müller"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp040",
+    "clue": "Moroccan right-back known for his pace, came through Real Madrid's academy before starring for Borussia Dortmund, Inter Milan, and PSG.",
+    "answer": "Achraf Hakimi",
+    "acceptedAnswers": [
+      "hakimi",
+      "achraf hakimi"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp041",
+    "clue": "Argentine midfielder who starred under Diego Simeone at Atletico Madrid and later moved to Manchester City.",
+    "answer": "Rodrigo De Paul",
+    "acceptedAnswers": [
+      "rodrigo de paul",
+      "paul"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp042",
+    "clue": "Belgian winger who became a Chelsea icon after starring at Lille before moving to Real Madrid.",
+    "answer": "Eden Hazard",
+    "acceptedAnswers": [
+      "eden hazard",
+      "hazard"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp043",
+    "clue": "Spanish midfielder who won Euro 2008, the 2010 World Cup and Euro 2012, and played for Valencia and Barcelona.",
+    "answer": "David Silva",
+    "acceptedAnswers": [
+      "david silva",
+      "silva"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp044",
+    "clue": "Dutch winger famous for cutting inside onto his left foot, who played for PSV, Chelsea, Real Madrid and Bayern.",
+    "answer": "Arjen Robben",
+    "acceptedAnswers": [
+      "arjen robben",
+      "robben"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp045",
+    "clue": "Spanish striker who won the 2010 World Cup and Champions League with Barcelona after starring for Valencia.",
+    "answer": "David Villa",
+    "acceptedAnswers": [
+      "david villa",
+      "villa"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp046",
+    "clue": "Uruguayan defender who captained Atletico Madrid and played for Villarreal and Inter Miami.",
+    "answer": "Diego Godin",
+    "acceptedAnswers": [
+      "diego godin",
+      "godin"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp047",
+    "clue": "French center-back who won the 2018 World Cup and four Champions League titles with Real Madrid.",
+    "answer": "Raphael Varane",
+    "acceptedAnswers": [
+      "raphael varane",
+      "varane"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp048",
+    "clue": "Croatian winger who played for Tottenham, Borussia Dortmund, Wolfsburg and Inter Milan.",
+    "answer": "Ivan Perisic",
+    "acceptedAnswers": [
+      "ivan perisic",
+      "perisic"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp049",
+    "clue": "Spanish holding midfielder who won the World Cup and two European Championships with Spain.",
+    "answer": "Sergio Busquets",
+    "acceptedAnswers": [
+      "sergio busquets",
+      "busquets"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp050",
+    "clue": "Brazilian center-back who captained PSG and Chelsea and won the 2012 Champions League.",
+    "answer": "Thiago Silva",
+    "acceptedAnswers": [
+      "thiago silva",
+      "silva"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp053",
+    "clue": "Czech goalkeeper who won the Premier League and Champions League with Chelsea and wore a protective headguard.",
+    "answer": "Petr Cech",
+    "acceptedAnswers": [
+      "petr cech",
+      "cech",
+      "petr čech"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp054",
+    "clue": "Ivorian midfielder who won the Champions League with Barcelona before becoming a Manchester City great.",
+    "answer": "Yaya Toure",
+    "acceptedAnswers": [
+      "yaya toure",
+      "toure"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp055",
+    "clue": "Spanish defender who scored a famous extra-time goal in the 2010 World Cup final and played for Barcelona.",
+    "answer": "Carles Puyol",
+    "acceptedAnswers": [
+      "carles puyol",
+      "puyol"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp056",
+    "clue": "Italian forward who scored in the 2006 World Cup semifinal and spent most of his career at Juventus.",
+    "answer": "Alessandro Del Piero",
+    "acceptedAnswers": [
+      "alessandro del piero",
+      "piero"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp057",
+    "clue": "Argentine winger who scored the opening goal of the 2014 Champions League final and later joined PSG.",
+    "answer": "Angel Di Maria",
+    "acceptedAnswers": [
+      "angel di maria",
+      "maria"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp058",
+    "clue": "German forward who scored the winning goal in the 2014 World Cup final.",
+    "answer": "Mario Gotze",
+    "acceptedAnswers": [
+      "mario gotze",
+      "gotze"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp059",
+    "clue": "Brazilian full-back who won three Champions League titles with Barcelona and later played for Juventus.",
+    "answer": "Dani Alves",
+    "acceptedAnswers": [
+      "dani alves",
+      "alves"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp060",
+    "clue": "Spanish midfielder who played for Arsenal, Barcelona and Chelsea and won the 2010 World Cup.",
+    "answer": "Cesc Fabregas",
+    "acceptedAnswers": [
+      "cesc fabregas",
+      "fabregas"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp061",
+    "clue": "German center-back who played for Bayern Munich and Borussia Dortmund and won the 2014 World Cup.",
+    "answer": "Mats Hummels",
+    "acceptedAnswers": [
+      "mats hummels",
+      "hummels"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp062",
+    "clue": "Dutch striker famous for a diving header against Spain in 2014 and later played for Manchester United.",
+    "answer": "Robin van Persie",
+    "acceptedAnswers": [
+      "robin van persie",
+      "persie"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp063",
+    "clue": "Argentine defender who played for Liverpool and Barcelona before becoming a 2022 World Cup winner.",
+    "answer": "Javier Mascherano",
+    "acceptedAnswers": [
+      "javier mascherano",
+      "mascherano"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp064",
+    "clue": "English defender who captained Chelsea and scored the decisive penalty in the 2008 Champions League final shootout.",
+    "answer": "John Terry",
+    "acceptedAnswers": [
+      "john terry",
+      "terry"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp065",
+    "clue": "German goalkeeper who won the 2014 World Cup and spent his senior club career at Schalke and Bayern.",
+    "answer": "Manuel Neuer",
+    "acceptedAnswers": [
+      "manuel neuer",
+      "neuer"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp066",
+    "clue": "German striker who scored a record 16 World Cup goals across four tournaments.",
+    "answer": "Miroslav Klose",
+    "acceptedAnswers": [
+      "miroslav klose",
+      "klose"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp067",
+    "clue": "French midfielder who won the 2018 World Cup and played for Saint-Etienne, PSG and Manchester United.",
+    "answer": "Blaise Matuidi",
+    "acceptedAnswers": [
+      "blaise matuidi",
+      "matuidi"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp068",
+    "clue": "English midfielder who scored in the 2008 Champions League final and became Chelsea's record scorer.",
+    "answer": "Frank Lampard",
+    "acceptedAnswers": [
+      "frank lampard",
+      "lampard"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp069",
+    "clue": "Dutch goalkeeper who won the Champions League with Ajax and Manchester United.",
+    "answer": "Edwin van der Sar",
+    "acceptedAnswers": [
+      "edwin van der sar",
+      "sar"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp071",
+    "clue": "Spanish striker who scored in the 2010 World Cup final and won Euro 2008.",
+    "answer": "Fernando Torres",
+    "acceptedAnswers": [
+      "fernando torres",
+      "torres"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp072",
+    "clue": "French striker who won the 1998 World Cup and Euro 2000 and later starred for Arsenal.",
+    "answer": "Thierry Henry",
+    "acceptedAnswers": [
+      "thierry henry",
+      "henry"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp074",
+    "clue": "German playmaker who won the 2014 World Cup and played for Schalke, Werder Bremen, Real Madrid and Arsenal.",
+    "answer": "Mesut Ozil",
+    "acceptedAnswers": [
+      "mesut ozil",
+      "ozil"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp075",
+    "clue": "Swedish striker who played for Ajax, Juventus, Inter, Barcelona, Milan and Manchester United.",
+    "answer": "Zlatan Ibrahimovic",
+    "acceptedAnswers": [
+      "zlatan ibrahimovic",
+      "ibrahimovic"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp076",
+    "clue": "French midfielder who captained France and played for Chelsea, Marseille and Real Madrid.",
+    "answer": "Claude Makelele",
+    "acceptedAnswers": [
+      "claude makelele",
+      "makelele"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp077",
+    "clue": "Portuguese winger who won Euro 2016 and played for Sporting CP, Manchester United and Lazio.",
+    "answer": "Nani",
+    "acceptedAnswers": [
+      "nani"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp079",
+    "clue": "Ivorian striker who scored Chelsea's equalizer in the 2012 Champions League final.",
+    "answer": "Didier Drogba",
+    "acceptedAnswers": [
+      "didier drogba",
+      "drogba"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp080",
+    "clue": "English midfielder who spent his senior career at Liverpool and scored in the 2005 Champions League final.",
+    "answer": "Steven Gerrard",
+    "acceptedAnswers": [
+      "steven gerrard",
+      "gerrard"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp083",
+    "clue": "Welsh forward who scored twice in the 2018 Champions League final.",
+    "answer": "Gareth Bale",
+    "acceptedAnswers": [
+      "gareth bale",
+      "bale"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp084",
+    "clue": "French striker who won the 2022 Ballon d'Or after his Real Madrid career and started at Lyon.",
+    "answer": "Karim Benzema",
+    "acceptedAnswers": [
+      "karim benzema",
+      "benzema"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp085",
+    "clue": "Brazilian playmaker who won the 2007 Ballon d'Or and the Champions League with AC Milan.",
+    "answer": "Kaka",
+    "acceptedAnswers": [
+      "kaka"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp087",
+    "clue": "French midfielder who won the 1998 World Cup and later coached Real Madrid.",
+    "answer": "Zinedine Zidane",
+    "acceptedAnswers": [
+      "zinedine zidane",
+      "zidane",
+      "zizou"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp088",
+    "clue": "Spanish goalkeeper who captained Spain to the 2010 World Cup and won three Champions League titles.",
+    "answer": "Iker Casillas",
+    "acceptedAnswers": [
+      "iker casillas",
+      "casillas"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp091",
+    "clue": "Mario Balotelli",
+    "answer": "Italian striker whose career included Inter, Manchester City, AC Milan, Liverpool and Nice; won the 2010 Champions League with Inter.",
+    "acceptedAnswers": [
+      "balotelli",
+      "mario balotelli"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp092",
+    "clue": "Alexandre Pato",
+    "answer": "Brazilian forward who broke through at Internacional, starred at AC Milan and later had spells with Corinthians, Chelsea and São Paulo.",
+    "acceptedAnswers": [
+      "pato",
+      "alexandre pato"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp093",
+    "clue": "Wilfried Bony",
+    "answer": "Ivorian striker who became a prolific scorer at Vitesse before moving to Swansea City, Manchester City and Stoke City.",
+    "acceptedAnswers": [
+      "bony",
+      "wilfried bony"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp094",
+    "clue": "Javier Hernández",
+    "answer": "Mexican striker who moved from Guadalajara to Manchester United, later played for Real Madrid, Bayer Leverkusen and West Ham.",
+    "acceptedAnswers": [
+      "chicharito",
+      "javier hernandez",
+      "javier hernández"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp095",
+    "clue": "Daniel Sturridge",
+    "answer": "English forward who played for Manchester City, Chelsea, Bolton, Liverpool and West Brom; scored in the 2019 Champions League final season.",
+    "acceptedAnswers": [
+      "sturridge",
+      "daniel sturridge"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp096",
+    "clue": "Iago Aspas",
+    "answer": "Spanish forward who became a Celta Vigo icon after spells with Liverpool and Sevilla and is known for his prolific La Liga scoring.",
+    "acceptedAnswers": [
+      "aspas",
+      "iago aspas"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp097",
+    "clue": "Christian Benteke",
+    "answer": "Belgian striker who starred at Genk and Aston Villa before joining Liverpool, Crystal Palace and later D.C. United.",
+    "acceptedAnswers": [
+      "benteke",
+      "christian benteke"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp098",
+    "clue": "Kevin-Prince Boateng",
+    "answer": "Ghanaian-German attacking midfielder whose clubs included Hertha, Tottenham, Dortmund, Portsmouth, Milan, Schalke, Las Palmas and Barcelona.",
+    "acceptedAnswers": [
+      "boateng",
+      "kevin-prince boateng",
+      "kevin prince boateng"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp099",
+    "clue": "Alexandre Lacazette",
+    "answer": "French striker who became Lyon captain, then joined Arsenal before returning to Lyon and later becoming a club captain again.",
+    "acceptedAnswers": [
+      "lacazette",
+      "alexandre lacazette"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp100",
+    "clue": "Memphis Depay",
+    "answer": "Dutch attacker who moved from PSV to Manchester United, then Lyon, Barcelona and Atletico Madrid, while becoming a key Netherlands forward.",
+    "acceptedAnswers": [
+      "memphis",
+      "memphis depay"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp101",
+    "clue": "Mario Mandžukić",
+    "answer": "Croatian striker who played for Wolfsburg, Bayern, Atletico Madrid, Juventus and AC Milan, scoring in the 2018 World Cup final.",
+    "acceptedAnswers": [
+      "mandzukic",
+      "mario mandzukic",
+      "mario mandžukić"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp102",
+    "clue": "Cédric Bakambu",
+    "answer": "Congolese striker who scored heavily for Bursaspor and Villarreal before playing in China, Marseille, Real Betis and Galatasaray.",
+    "acceptedAnswers": [
+      "bakambu",
+      "cedric bakambu",
+      "cédric bakambu"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp103",
+    "clue": "Claudio Marchisio",
+    "answer": "Italian midfielder who came through Juventus, became a key part of their midfield in the 2010s, and later played for Zenit Saint Petersburg.",
+    "acceptedAnswers": [
+      "marchisio",
+      "claudio marchisio"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp104",
+    "clue": "Borja Valero",
+    "answer": "Spanish midfielder known for his passing, who played for Mallorca, West Brom, Villarreal, Fiorentina and Inter.",
+    "acceptedAnswers": [
+      "borja valero",
+      "valero"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp105",
+    "clue": "João Moutinho",
+    "answer": "Portuguese midfielder who played for Sporting CP, Porto, Monaco and Wolverhampton Wanderers and was a long-serving Portugal international.",
+    "acceptedAnswers": [
+      "moutinho",
+      "joao moutinho",
+      "joão moutinho"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp106",
+    "clue": "Ricardo Quaresma",
+    "answer": "Portuguese winger famous for his outside-of-the-boot deliveries, with major spells at Porto, Inter, Besiktas and the Portugal national team.",
+    "acceptedAnswers": [
+      "quaresma",
+      "ricardo quaresma"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp107",
+    "clue": "Ramires",
+    "answer": "Brazilian midfielder who played for Benfica and Chelsea before moving to Jiangsu Suning; won the 2012 Champions League with Chelsea.",
+    "acceptedAnswers": [
+      "ramires"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp108",
+    "clue": "Willian",
+    "answer": "Brazilian winger who starred for Shakhtar Donetsk, Anzhi and Chelsea before later spells at Arsenal and Fulham.",
+    "acceptedAnswers": [
+      "willian",
+      "willian borges"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp109",
+    "clue": "Oscar",
+    "answer": "Brazilian attacking midfielder who played for Internacional and Chelsea before making a major move to Shanghai SIPG.",
+    "acceptedAnswers": [
+      "oscar",
+      "oscar dos santos"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp110",
+    "clue": "Hulk",
+    "answer": "Brazilian forward known for his powerful left foot, with major spells at Porto, Zenit, Shanghai SIPG and Atletico Mineiro.",
+    "acceptedAnswers": [
+      "hulk",
+      "givanildo hulk"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp111",
+    "clue": "Jackson Martínez",
+    "answer": "Colombian striker who became a Porto star after playing in Colombia and Mexico, then moved to Atletico Madrid and Guangzhou Evergrande.",
+    "acceptedAnswers": [
+      "jackson martinez",
+      "jackson martínez"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp112",
+    "clue": "Carlos Bacca",
+    "answer": "Colombian striker who scored for Club Brugge and Sevilla before spells at AC Milan, Villarreal and Granada.",
+    "acceptedAnswers": [
+      "bacca",
+      "carlos bacca"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp113",
+    "clue": "Fredy Guarín",
+    "answer": "Colombian midfielder who played for Saint-Étienne, Porto, Inter and Shanghai Shenhua and was known for his long-range shooting.",
+    "acceptedAnswers": [
+      "guarin",
+      "fredy guarin",
+      "fredy guarín"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp114",
+    "clue": "Miralem Pjanić",
+    "answer": "Bosnian midfielder who played for Metz, Lyon, Roma, Juventus and Barcelona before later moving through Turkey and the UAE.",
+    "acceptedAnswers": [
+      "pjanic",
+      "miralem pjanic",
+      "miralem pjanić"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp115",
+    "clue": "Marek Hamšík",
+    "answer": "Slovak midfielder who became Napoli's long-serving captain, then played in China, Sweden and Turkey.",
+    "acceptedAnswers": [
+      "hamsik",
+      "marek hamsik",
+      "marek hamšík"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp116",
+    "clue": "Dries Mertens",
+    "answer": "Belgian forward who played for PSV and Napoli, becoming Napoli's all-time leading scorer before later moving to Galatasaray.",
+    "acceptedAnswers": [
+      "mertens",
+      "dries mertens"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp117",
+    "clue": "José Callejón",
+    "answer": "Spanish winger who played for Real Madrid, Espanyol, Napoli and Fiorentina, with a particularly prolific spell in Naples.",
+    "acceptedAnswers": [
+      "callejon",
+      "jose callejon",
+      "josé callejón"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp118",
+    "clue": "Juan Mata",
+    "answer": "Spanish midfielder who played for Valencia, Chelsea, Manchester United and Galatasaray, and won the 2010 World Cup.",
+    "acceptedAnswers": [
+      "mata",
+      "juan mata"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp119",
+    "clue": "Santi Cazorla",
+    "answer": "Spanish midfielder whose career included Villarreal, Malaga, Arsenal and a later return to Villarreal before moving to Qatar and Oviedo.",
+    "acceptedAnswers": [
+      "cazorla",
+      "santi cazorla"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp120",
+    "clue": "Aritz Aduriz",
+    "answer": "Spanish striker who became an Athletic Club legend, with spells at Valladolid, Mallorca, Valencia and Levante before returning to Bilbao.",
+    "acceptedAnswers": [
+      "aduriz",
+      "aritz aduriz"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp121",
+    "clue": "Carlos Vela",
+    "answer": "Mexican attacker who played for Arsenal, Salamanca, Osasuna, West Brom and Real Sociedad before becoming a major MLS star with LAFC.",
+    "acceptedAnswers": [
+      "vela",
+      "carlos vela"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp122",
+    "clue": "Giovani dos Santos",
+    "answer": "Mexican attacker who came through Barcelona, then played for Tottenham, Ipswich, Galatasaray, Villarreal, LA Galaxy and Club América.",
+    "acceptedAnswers": [
+      "giovani dos santos",
+      "gio dos santos"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp123",
+    "clue": "Rafinha Alcântara",
+    "answer": "Brazilian-Spanish midfielder who came through Barcelona and later played for Inter, Celta, PSG, Real Sociedad and Al-Arabi.",
+    "acceptedAnswers": [
+      "rafinha",
+      "rafinha alcantara",
+      "rafinha alcântara"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp124",
+    "clue": "Adel Taarabt",
+    "answer": "Moroccan attacking midfielder known for his QPR spell, with later careers at Tottenham, Milan, Benfica and Genoa.",
+    "acceptedAnswers": [
+      "taarabt",
+      "adel taarabt"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp125",
+    "clue": "Moussa Sow",
+    "answer": "Senegalese striker who won the Ligue 1 title and Golden Boot with Lille before playing for Fenerbahce, Al Ahli and Bursaspor.",
+    "acceptedAnswers": [
+      "sow",
+      "moussa sow"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp126",
+    "clue": "Kevin Gameiro",
+    "answer": "French striker whose career included Strasbourg, Lorient, PSG, Sevilla, Atletico Madrid, Valencia and Strasbourg again.",
+    "acceptedAnswers": [
+      "gameiro",
+      "kevin gameiro"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp127",
+    "clue": "Lassana Diarra",
+    "answer": "French midfielder who played for Le Havre, Chelsea, Arsenal, Portsmouth, Real Madrid, Anzhi, Lokomotiv Moscow, Marseille and PSG.",
+    "acceptedAnswers": [
+      "lassana diarra",
+      "diarra"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp128",
+    "clue": "Mikel Arteta",
+    "answer": "Spanish midfielder who played for Rangers, Real Sociedad, Everton and Arsenal before becoming Arsenal manager.",
+    "acceptedAnswers": [
+      "arteta",
+      "mikel arteta"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp129",
+    "clue": "Marko Marin",
+    "answer": "German winger whose career took him from Werder Bremen and Chelsea through Sevilla, Fiorentina, Trabzonspor, Red Star Belgrade and other clubs.",
+    "acceptedAnswers": [
+      "marin",
+      "marko marin"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp130",
+    "clue": "Obafemi Martins",
+    "answer": "Nigerian forward who played for Inter, Newcastle, Wolfsburg, Rubin Kazan, Birmingham, Seattle Sounders and Shanghai Shenhua.",
+    "acceptedAnswers": [
+      "martins",
+      "obafemi martins"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp131",
+    "clue": "Papiss Cissé",
+    "answer": "Senegalese striker who became a Newcastle hero after starring for Freiburg, then later played in China and Turkey.",
+    "acceptedAnswers": [
+      "papiss cisse",
+      "papiss cissé",
+      "cisse"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp132",
+    "clue": "Demba Ba",
+    "answer": "Senegalese striker who played for West Ham, Newcastle and Chelsea, then became a Besiktas and Istanbul Basaksehir title winner.",
+    "acceptedAnswers": [
+      "demba ba"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp133",
+    "clue": "Hatem Ben Arfa",
+    "answer": "French dribbler whose career included Lyon, Marseille, Newcastle, Hull, Nice, PSG, Rennes, Valladolid and Bordeaux.",
+    "acceptedAnswers": [
+      "ben arfa",
+      "hatem ben arfa"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp134",
+    "clue": "Michy Batshuayi",
+    "answer": "Belgian striker who played for Standard Liege, Marseille, Chelsea, Borussia Dortmund, Valencia, Crystal Palace and Fenerbahce.",
+    "acceptedAnswers": [
+      "batshuayi",
+      "michy batshuayi"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp135",
+    "clue": "Moussa Dembélé",
+    "answer": "Belgian midfielder/forward whose career included AZ, Fulham, Tottenham, Guangzhou R&F and Al-Ettifaq.",
+    "acceptedAnswers": [
+      "moussa dembele",
+      "moussa dembélé"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp136",
+    "clue": "Dimitri Payet",
+    "answer": "French attacking midfielder who played for Nantes, Saint-Etienne, Lille, Marseille, West Ham and Vasco da Gama.",
+    "acceptedAnswers": [
+      "payet",
+      "dimitri payet"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp137",
+    "clue": "Yannick Carrasco",
+    "answer": "Belgian winger who played for Monaco and Atletico Madrid, moved to Dalian Professional, returned to Atletico and later joined Al-Shabab.",
+    "acceptedAnswers": [
+      "carrasco",
+      "yannick carrasco"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp138",
+    "clue": "Keita Baldé",
+    "answer": "Senegalese forward who came through Barcelona's youth setup and played for Lazio, Monaco, Inter, Sampdoria and Spartak Moscow.",
+    "acceptedAnswers": [
+      "keita balde",
+      "keita baldé"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp139",
+    "clue": "Gervinho",
+    "answer": "Ivorian attacker who played for Le Mans, Lille, Arsenal, Roma, Hebei China Fortune, Parma and Trabzonspor.",
+    "acceptedAnswers": [
+      "gervinho"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gtp140",
+    "clue": "Jeremy Menez",
+    "answer": "French attacker who played for Sochaux, Monaco, Roma, PSG, Milan and Bordeaux, with later spells in Mexico and Italy.",
+    "acceptedAnswers": [
+      "menez",
+      "jeremy menez",
+      "jérémy ménez"
+    ],
+    "difficulty": "hard"
+  }
+]

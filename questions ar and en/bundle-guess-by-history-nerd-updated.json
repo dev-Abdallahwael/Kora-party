@@ -1,0 +1,1577 @@
+[
+  {
+    "id": "gbh034",
+    "clubs": [
+      "Rot Weiss Ahlen",
+      "Borussia Monchengladbach",
+      "Borussia Dortmund"
+    ],
+    "answer": "Marco Reus",
+    "acceptedAnswers": [
+      "reus",
+      "marco reus"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh037",
+    "clubs": [
+      "Schalke 04",
+      "Werder Bremen",
+      "Real Madrid",
+      "Arsenal",
+      "Fenerbahce"
+    ],
+    "answer": "Mesut Ozil",
+    "acceptedAnswers": [
+      "ozil",
+      "mesut ozil"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh040",
+    "clubs": [
+      "Real Madrid",
+      "Borussia Dortmund",
+      "Inter Milan",
+      "Paris Saint-Germain"
+    ],
+    "answer": "Achraf Hakimi",
+    "acceptedAnswers": [
+      "hakimi",
+      "achraf hakimi"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh041",
+    "clubs": [
+      "River Plate",
+      "Real Madrid",
+      "Manchester City"
+    ],
+    "answer": "Julian Alvarez",
+    "acceptedAnswers": [
+      "julian alvarez",
+      "alvarez"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh042",
+    "clubs": [
+      "Racing Club",
+      "Inter Milan",
+      "Manchester City"
+    ],
+    "answer": "Lautaro Martinez",
+    "acceptedAnswers": [
+      "lautaro martinez",
+      "martinez"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh043",
+    "clubs": [
+      "Genoa",
+      "AC Milan",
+      "Roma",
+      "Liverpool"
+    ],
+    "answer": "Stephan El Shaarawy",
+    "acceptedAnswers": [
+      "stephan el shaarawy",
+      "shaarawy"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh044",
+    "clubs": [
+      "Shakhtar Donetsk",
+      "Manchester City",
+      "Arsenal"
+    ],
+    "answer": "Oleksandr Zinchenko",
+    "acceptedAnswers": [
+      "oleksandr zinchenko",
+      "zinchenko"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh045",
+    "clubs": [
+      "Bayer Leverkusen",
+      "Chelsea",
+      "Real Madrid"
+    ],
+    "answer": "Michael Ballack",
+    "acceptedAnswers": [
+      "michael ballack",
+      "ballack"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh046",
+    "clubs": [
+      "Monaco",
+      "Juventus",
+      "Arsenal",
+      "Manchester City"
+    ],
+    "answer": "Patrick Vieira",
+    "acceptedAnswers": [
+      "patrick vieira",
+      "vieira"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh047",
+    "clubs": [
+      "Lyon",
+      "Newcastle United",
+      "Fenerbahce"
+    ],
+    "answer": "Hatem Ben Arfa",
+    "acceptedAnswers": [
+      "hatem ben arfa",
+      "arfa"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh050",
+    "clubs": [
+      "Ajax",
+      "Inter Milan",
+      "Arsenal",
+      "Barcelona"
+    ],
+    "answer": "Dennis Bergkamp",
+    "acceptedAnswers": [
+      "dennis bergkamp",
+      "bergkamp"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh051",
+    "clubs": [
+      "Ajax",
+      "AC Milan",
+      "Juventus",
+      "Barcelona"
+    ],
+    "answer": "Frank Rijkaard",
+    "acceptedAnswers": [
+      "frank rijkaard",
+      "rijkaard"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh052",
+    "clubs": [
+      "Feyenoord",
+      "PSV",
+      "Chelsea",
+      "Real Madrid"
+    ],
+    "answer": "Ruud Gullit",
+    "acceptedAnswers": [
+      "ruud gullit",
+      "gullit"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh053",
+    "clubs": [
+      "PSV",
+      "Manchester United",
+      "Real Madrid",
+      "Lazio"
+    ],
+    "answer": "Ruud van Nistelrooy",
+    "acceptedAnswers": [
+      "ruud van nistelrooy",
+      "nistelrooy"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh054",
+    "clubs": [
+      "West Ham",
+      "Manchester United",
+      "Real Madrid",
+      "Inter Miami"
+    ],
+    "answer": "Javier Hernandez",
+    "acceptedAnswers": [
+      "javier hernandez",
+      "hernandez"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh057",
+    "clubs": [
+      "Sporting CP",
+      "Manchester United",
+      "Real Madrid"
+    ],
+    "answer": "Nani",
+    "acceptedAnswers": [
+      "nani"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh058",
+    "clubs": [
+      "Ajax",
+      "Tottenham",
+      "Inter Milan"
+    ],
+    "answer": "Christian Eriksen",
+    "acceptedAnswers": [
+      "christian eriksen",
+      "eriksen"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh059",
+    "clubs": [
+      "Bordeaux",
+      "Arsenal",
+      "Barcelona"
+    ],
+    "answer": "Alexandre Song",
+    "acceptedAnswers": [
+      "alexandre song",
+      "song"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh060",
+    "clubs": [
+      "Sevilla",
+      "Real Madrid",
+      "Bayern Munich",
+      "Inter Milan"
+    ],
+    "answer": "Ivan Rakitic",
+    "acceptedAnswers": [
+      "ivan rakitic",
+      "rakitic"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh061",
+    "clubs": [
+      "Valencia",
+      "Manchester City",
+      "Lazio"
+    ],
+    "answer": "David Silva",
+    "acceptedAnswers": [
+      "david silva",
+      "silva"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh062",
+    "clubs": [
+      "Manchester City",
+      "Barcelona"
+    ],
+    "answer": "Yaya Toure",
+    "acceptedAnswers": [
+      "yaya toure",
+      "toure"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh063",
+    "clubs": [
+      "West Ham",
+      "Chelsea",
+      "Manchester City"
+    ],
+    "answer": "Joe Cole",
+    "acceptedAnswers": [
+      "joe cole",
+      "cole"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh064",
+    "clubs": [
+      "Roma",
+      "Real Madrid",
+      "Inter Milan",
+      "AC Milan"
+    ],
+    "answer": "Antonio Cassano",
+    "acceptedAnswers": [
+      "antonio cassano",
+      "cassano"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh065",
+    "clubs": [
+      "Benfica",
+      "Atletico Madrid",
+      "Wolverhampton Wanderers"
+    ],
+    "answer": "Joao Moutinho",
+    "acceptedAnswers": [
+      "joao moutinho",
+      "moutinho"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh066",
+    "clubs": [
+      "Porto",
+      "Inter Milan",
+      "Chelsea",
+      "Real Madrid"
+    ],
+    "answer": "Ricardo Quaresma",
+    "acceptedAnswers": [
+      "ricardo quaresma",
+      "quaresma"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh067",
+    "clubs": [
+      "Benfica",
+      "Real Madrid",
+      "Manchester City"
+    ],
+    "answer": "Eder Militao",
+    "acceptedAnswers": [
+      "eder militao",
+      "militao"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh068",
+    "clubs": [
+      "Hamburg",
+      "Real Madrid",
+      "Tottenham"
+    ],
+    "answer": "Rafael van der Vaart",
+    "acceptedAnswers": [
+      "rafael van der vaart",
+      "vaart"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh069",
+    "clubs": [
+      "Ajax",
+      "Real Madrid",
+      "Inter Milan"
+    ],
+    "answer": "Wesley Sneijder",
+    "acceptedAnswers": [
+      "wesley sneijder",
+      "sneijder"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh070",
+    "clubs": [
+      "Atletico Madrid",
+      "Bayern Munich",
+      "Manchester City"
+    ],
+    "answer": "Lucas Hernandez",
+    "acceptedAnswers": [
+      "lucas hernandez",
+      "hernandez"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh071",
+    "clubs": [
+      "Atletico Madrid",
+      "Chelsea",
+      "Monaco"
+    ],
+    "answer": "Radamel Falcao",
+    "acceptedAnswers": [
+      "radamel falcao",
+      "falcao"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh072",
+    "clubs": [
+      "Real Madrid",
+      "Porto",
+      "Besiktas"
+    ],
+    "answer": "Pepe",
+    "acceptedAnswers": [
+      "pepe"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh073",
+    "clubs": [
+      "Benfica",
+      "Real Madrid",
+      "Monaco",
+      "Manchester United"
+    ],
+    "answer": "Fabio Coentrao",
+    "acceptedAnswers": [
+      "fabio coentrao",
+      "coentrao"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh075",
+    "clubs": [
+      "Barcelona",
+      "Arsenal",
+      "Chelsea",
+      "Monaco"
+    ],
+    "answer": "Cesc Fabregas",
+    "acceptedAnswers": [
+      "cesc fabregas",
+      "fabregas"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh076",
+    "clubs": [
+      "Sao Paulo",
+      "Real Madrid",
+      "Arsenal"
+    ],
+    "answer": "Denilson",
+    "acceptedAnswers": [
+      "denilson"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh077",
+    "clubs": [
+      "Santos",
+      "Real Madrid",
+      "AC Milan"
+    ],
+    "answer": "Robinho",
+    "acceptedAnswers": [
+      "robinho"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh078",
+    "clubs": [
+      "Fluminense",
+      "Real Madrid",
+      "Al-Rayyan"
+    ],
+    "answer": "Marcelo",
+    "acceptedAnswers": [
+      "marcelo"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh079",
+    "clubs": [
+      "Bayern Munich",
+      "Manchester United",
+      "Lazio"
+    ],
+    "answer": "Bastian Schweinsteiger",
+    "acceptedAnswers": [
+      "bastian schweinsteiger",
+      "schweinsteiger"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh080",
+    "clubs": [
+      "River Plate",
+      "Real Madrid",
+      "Napoli",
+      "Juventus"
+    ],
+    "answer": "Gonzalo Higuain",
+    "acceptedAnswers": [
+      "gonzalo higuain",
+      "higuain"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh081",
+    "clubs": [
+      "River Plate",
+      "Bayern Munich",
+      "Manchester City"
+    ],
+    "answer": "Martin Demichelis",
+    "acceptedAnswers": [
+      "martin demichelis",
+      "demichelis"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh082",
+    "clubs": [
+      "Independiente",
+      "Manchester United",
+      "Villarreal",
+      "Atletico Madrid"
+    ],
+    "answer": "Gabriel Heinze",
+    "acceptedAnswers": [
+      "gabriel heinze",
+      "heinze"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh083",
+    "clubs": [
+      "Newell's Old Boys",
+      "Barcelona",
+      "Lazio",
+      "Inter Milan"
+    ],
+    "answer": "Maxi Lopez",
+    "acceptedAnswers": [
+      "maxi lopez",
+      "lopez"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh084",
+    "clubs": [
+      "Boca Juniors",
+      "Villarreal",
+      "Barcelona",
+      "Manchester United"
+    ],
+    "answer": "Juan Roman Riquelme",
+    "acceptedAnswers": [
+      "juan roman riquelme",
+      "riquelme"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh085",
+    "clubs": [
+      "Boca Juniors",
+      "Real Madrid",
+      "Manchester United",
+      "PSG"
+    ],
+    "answer": "Carlos Tevez",
+    "acceptedAnswers": [
+      "carlos tevez",
+      "tevez"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh086",
+    "clubs": [
+      "Santos",
+      "FC Porto",
+      "Real Madrid"
+    ],
+    "answer": "Danilo",
+    "acceptedAnswers": [
+      "danilo"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh088",
+    "clubs": [
+      "Lyon",
+      "Real Madrid",
+      "New York Red Bulls"
+    ],
+    "answer": "Juninho Pernambucano",
+    "acceptedAnswers": [
+      "juninho pernambucano",
+      "pernambucano",
+      "juninho"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh090",
+    "clubs": [
+      "Schalke 04",
+      "Real Madrid",
+      "Al Sadd"
+    ],
+    "answer": "Raul",
+    "acceptedAnswers": [
+      "raul"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh091",
+    "clubs": [
+      "Inter Milan",
+      "Newcastle United",
+      "Wolfsburg",
+      "Rubin Kazan",
+      "Birmingham City",
+      "Seattle Sounders",
+      "Shanghai Shenhua"
+    ],
+    "answer": "Obafemi Martins",
+    "acceptedAnswers": [
+      "obafemi martins",
+      "martins"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh092",
+    "clubs": [
+      "Olimpia",
+      "Bayern Munich",
+      "Blackburn Rovers",
+      "Manchester City",
+      "Malaga",
+      "Cruz Azul",
+      "Olimpia"
+    ],
+    "answer": "Roque Santa Cruz",
+    "acceptedAnswers": [
+      "roque santa cruz",
+      "cruz"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh093",
+    "clubs": [
+      "Strasbourg",
+      "Lorient",
+      "Paris Saint-Germain",
+      "Sevilla",
+      "Atletico Madrid",
+      "Valencia",
+      "Strasbourg"
+    ],
+    "answer": "Kevin Gameiro",
+    "acceptedAnswers": [
+      "kevin gameiro",
+      "gameiro"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh094",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Rangers",
+      "Real Sociedad",
+      "Everton",
+      "Arsenal"
+    ],
+    "answer": "Mikel Arteta",
+    "acceptedAnswers": [
+      "mikel arteta",
+      "arteta"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh095",
+    "clubs": [
+      "Werder Bremen",
+      "Chelsea",
+      "Sevilla",
+      "Fiorentina",
+      "Trabzonspor",
+      "Red Star Belgrade"
+    ],
+    "answer": "Marko Marin",
+    "acceptedAnswers": [
+      "marko marin",
+      "marin"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh096",
+    "clubs": [
+      "Le Havre",
+      "Chelsea",
+      "Arsenal",
+      "Portsmouth",
+      "Real Madrid",
+      "Anzhi Makhachkala",
+      "Lokomotiv Moscow",
+      "Marseille"
+    ],
+    "answer": "Lassana Diarra",
+    "acceptedAnswers": [
+      "lassana diarra",
+      "diarra"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh097",
+    "clubs": [
+      "Brommapojkarna",
+      "Manchester City",
+      "Burnley",
+      "Feyenoord",
+      "Celtic",
+      "Celta Vigo",
+      "Alaves",
+      "Hannover 96"
+    ],
+    "answer": "John Guidetti",
+    "acceptedAnswers": [
+      "john guidetti",
+      "guidetti"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh098",
+    "clubs": [
+      "Hoffenheim",
+      "West Ham United",
+      "Newcastle United",
+      "Chelsea",
+      "Besiktas",
+      "Shanghai Shenhua",
+      "Istanbul Basaksehir"
+    ],
+    "answer": "Demba Ba",
+    "acceptedAnswers": [
+      "demba ba",
+      "ba"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh099",
+    "clubs": [
+      "Metz",
+      "Freiburg",
+      "Newcastle United",
+      "Shandong Luneng",
+      "Alanyaspor"
+    ],
+    "answer": "Papiss Cisse",
+    "acceptedAnswers": [
+      "papiss cisse",
+      "cisse"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh100",
+    "clubs": [
+      "Rennes",
+      "Sedan",
+      "Lille",
+      "Fenerbahce",
+      "Al Ahli",
+      "Bursaspor"
+    ],
+    "answer": "Moussa Sow",
+    "acceptedAnswers": [
+      "moussa sow",
+      "sow"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh101",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Arsenal",
+      "Real Madrid",
+      "Liverpool",
+      "Manchester City",
+      "Fenerbahce",
+      "Bolton Wanderers",
+      "Chelsea",
+      "Shanghai Shenhua",
+      "Juventus",
+      "West Bromwich Albion",
+      "Mumbai City"
+    ],
+    "answer": "Nicolas Anelka",
+    "acceptedAnswers": [
+      "nicolas anelka",
+      "anelka"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh102",
+    "clubs": [
+      "OFI Crete",
+      "Vitesse",
+      "Lyon",
+      "Real Madrid",
+      "Monaco",
+      "Fulham"
+    ],
+    "answer": "Mahamadou Diarra",
+    "acceptedAnswers": [
+      "mahamadou diarra",
+      "diarra"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh103",
+    "clubs": [
+      "Lyon",
+      "Monaco",
+      "Barcelona",
+      "Roma",
+      "Paris Saint-Germain",
+      "Monaco",
+      "Lorient"
+    ],
+    "answer": "Ludovic Giuly",
+    "acceptedAnswers": [
+      "ludovic giuly",
+      "giuly"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh104",
+    "clubs": [
+      "Chateauroux",
+      "Guingamp",
+      "Lyon",
+      "Chelsea",
+      "Trabzonspor",
+      "Delhi Dynamos",
+      "FC Differdange"
+    ],
+    "answer": "Florent Malouda",
+    "acceptedAnswers": [
+      "florent malouda",
+      "malouda"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh105",
+    "clubs": [
+      "Rennes",
+      "Deportivo La Coruna",
+      "Bordeaux",
+      "Arsenal",
+      "Lyon",
+      "Marseille",
+      "Metz",
+      "Rennes"
+    ],
+    "answer": "Sylvain Wiltord",
+    "acceptedAnswers": [
+      "sylvain wiltord",
+      "wiltord"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh106",
+    "clubs": [
+      "Auxerre",
+      "Liverpool",
+      "Marseille",
+      "Sunderland",
+      "Panathinaikos",
+      "Lazio",
+      "Queens Park Rangers",
+      "Kubani Krasnodar",
+      "Bastia",
+      "Yverdon-Sport"
+    ],
+    "answer": "Djibril Cisse",
+    "acceptedAnswers": [
+      "djibril cisse",
+      "cisse"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh107",
+    "clubs": [
+      "River Plate",
+      "Parma",
+      "Lazio",
+      "Inter Milan",
+      "Chelsea",
+      "AC Milan",
+      "Inter Milan",
+      "Parma"
+    ],
+    "answer": "Hernan Crespo",
+    "acceptedAnswers": [
+      "hernan crespo",
+      "crespo"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh108",
+    "clubs": [
+      "River Plate",
+      "Barcelona",
+      "Monaco",
+      "Sevilla",
+      "Real Madrid",
+      "Benfica",
+      "Malaga",
+      "Olympiacos",
+      "Verona",
+      "River Plate"
+    ],
+    "answer": "Javier Saviola",
+    "acceptedAnswers": [
+      "javier saviola",
+      "saviola"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh109",
+    "clubs": [
+      "Castellon",
+      "Valencia",
+      "Lazio",
+      "Barcelona",
+      "Middlesbrough"
+    ],
+    "answer": "Gaizka Mendieta",
+    "acceptedAnswers": [
+      "gaizka mendieta",
+      "mendieta"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh110",
+    "clubs": [
+      "Real Madrid",
+      "Elche",
+      "Merida",
+      "Celta Vigo",
+      "Valencia"
+    ],
+    "answer": "Santiago Canizares",
+    "acceptedAnswers": [
+      "santiago canizares",
+      "canizares"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh111",
+    "clubs": [
+      "Albacete",
+      "Real Zaragoza",
+      "Real Madrid",
+      "Monaco",
+      "Liverpool",
+      "Valencia",
+      "Marseille"
+    ],
+    "answer": "Fernando Morientes",
+    "acceptedAnswers": [
+      "fernando morientes",
+      "morientes"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh112",
+    "clubs": [
+      "Mallorca",
+      "Deportivo La Coruna",
+      "Newcastle United",
+      "Ajax",
+      "Malaga"
+    ],
+    "answer": "Albert Luque",
+    "acceptedAnswers": [
+      "albert luque",
+      "luque"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh113",
+    "clubs": [
+      "Newells Old Boys",
+      "Boca Juniors",
+      "Roma",
+      "Real Madrid",
+      "Inter Milan",
+      "Basel"
+    ],
+    "answer": "Walter Samuel",
+    "acceptedAnswers": [
+      "walter samuel",
+      "samuel"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh114",
+    "clubs": [
+      "Argentinos Juniors",
+      "Real Madrid",
+      "Inter Milan",
+      "Leicester City",
+      "Olympiacos"
+    ],
+    "answer": "Esteban Cambiasso",
+    "acceptedAnswers": [
+      "esteban cambiasso",
+      "cambiasso"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh115",
+    "clubs": [
+      "Boca Juniors",
+      "Inter Milan",
+      "Roma",
+      "Genoa",
+      "Roma",
+      "Torino"
+    ],
+    "answer": "Nicolas Burdisso",
+    "acceptedAnswers": [
+      "nicolas burdisso",
+      "burdisso"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh116",
+    "clubs": [
+      "Resita",
+      "Universitatea Craiova",
+      "Ajax",
+      "Roma",
+      "Inter Milan"
+    ],
+    "answer": "Cristian Chivu",
+    "acceptedAnswers": [
+      "cristian chivu",
+      "chivu"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh117",
+    "clubs": [
+      "Cruzeiro",
+      "Ajax",
+      "Inter Milan",
+      "Barcelona",
+      "Paris Saint-Germain",
+      "FC Barcelona"
+    ],
+    "answer": "Maxwell",
+    "acceptedAnswers": [
+      "maxwell"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh118",
+    "clubs": [
+      "Baník Ostrava",
+      "Napoli",
+      "Udinese",
+      "AC Milan",
+      "Baník Ostrava"
+    ],
+    "answer": "Marek Jankulovski",
+    "acceptedAnswers": [
+      "marek jankulovski",
+      "jankulovski"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh119",
+    "clubs": [
+      "Juventus",
+      "Bari",
+      "Verona",
+      "Juventus",
+      "Bologna",
+      "Chievo",
+      "Roma"
+    ],
+    "answer": "Simone Perrotta",
+    "acceptedAnswers": [
+      "simone perrotta",
+      "perrotta"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh120",
+    "clubs": [
+      "Santiago Wanderers",
+      "Udinese",
+      "Inter Milan",
+      "Roma",
+      "Manchester City",
+      "Roma",
+      "Fiorentina"
+    ],
+    "answer": "David Pizarro",
+    "acceptedAnswers": [
+      "david pizarro",
+      "pizarro"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh121",
+    "clubs": [
+      "Estudiantes",
+      "Sampdoria",
+      "Parma",
+      "Lazio",
+      "Manchester United",
+      "Chelsea",
+      "Inter Milan",
+      "Estudiantes"
+    ],
+    "answer": "Juan Sebastian Veron",
+    "acceptedAnswers": [
+      "juan sebastian veron",
+      "veron"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh122",
+    "clubs": [
+      "Danubio",
+      "Napoli",
+      "Inter Milan",
+      "Parma",
+      "Monterrey",
+      "Peñarol"
+    ],
+    "answer": "Walter Gargano",
+    "acceptedAnswers": [
+      "walter gargano",
+      "gargano"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh123",
+    "clubs": [
+      "Colo-Colo",
+      "Villarreal",
+      "Sporting CP",
+      "Fiorentina",
+      "AC Milan",
+      "Necaxa",
+      "Deportivo Cali"
+    ],
+    "answer": "Matias Fernandez",
+    "acceptedAnswers": [
+      "matias fernandez",
+      "fernandez"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh124",
+    "clubs": [
+      "Estudiantes",
+      "Bayern Munich",
+      "Napoli",
+      "Metalist Kharkiv",
+      "Atletico Madrid",
+      "Besiktas",
+      "AC Milan",
+      "Trabzonspor",
+      "Estudiantes"
+    ],
+    "answer": "Jose Sosa",
+    "acceptedAnswers": [
+      "jose sosa",
+      "sosa"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh125",
+    "clubs": [
+      "Piacenza",
+      "Verona",
+      "Parma",
+      "AC Milan",
+      "Fiorentina",
+      "Genoa",
+      "Bologna",
+      "Guangzhou Evergrande",
+      "Palermo",
+      "Empoli",
+      "Pescara",
+      "Spezia"
+    ],
+    "answer": "Alberto Gilardino",
+    "acceptedAnswers": [
+      "alberto gilardino",
+      "gilardino"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh126",
+    "clubs": [
+      "Empoli",
+      "Iperzola",
+      "Varese",
+      "Viareggio",
+      "Empoli",
+      "Udinese"
+    ],
+    "answer": "Antonio Di Natale",
+    "acceptedAnswers": [
+      "antonio di natale",
+      "natale"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh127",
+    "clubs": [
+      "Platense",
+      "Monaco",
+      "Juventus",
+      "Hercules",
+      "Baniyas",
+      "Newells Old Boys",
+      "FC Pune City"
+    ],
+    "answer": "David Trezeguet",
+    "acceptedAnswers": [
+      "david trezeguet",
+      "trezeguet"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh128",
+    "clubs": [
+      "Colo-Colo",
+      "Rayo Vallecano",
+      "Servette",
+      "Colo-Colo",
+      "Al-Ain",
+      "Palmeiras",
+      "Al-Wahda",
+      "Colo-Colo",
+      "Mazatlan"
+    ],
+    "answer": "Jorge Valdivia",
+    "acceptedAnswers": [
+      "jorge valdivia",
+      "valdivia"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh129",
+    "clubs": [
+      "Deportivo Pesquero",
+      "Alianza Lima",
+      "Werder Bremen",
+      "Bayern Munich",
+      "Chelsea",
+      "Werder Bremen",
+      "Bayern Munich",
+      "Werder Bremen",
+      "FC Bayern II"
+    ],
+    "answer": "Claudio Pizarro",
+    "acceptedAnswers": [
+      "claudio pizarro",
+      "pizarro"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh130",
+    "clubs": [
+      "Sao Paulo",
+      "AC Milan",
+      "Leeds United",
+      "Siena",
+      "Bayer Leverkusen",
+      "Duisburg",
+      "Palmeiras",
+      "Ituano",
+      "Novorizontino"
+    ],
+    "answer": "Roque Junior",
+    "acceptedAnswers": [
+      "roque junior",
+      "junior"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh131",
+    "clubs": [
+      "Gremio",
+      "Bayer Leverkusen",
+      "Roma",
+      "Juventus",
+      "Real Madrid",
+      "AC Milan",
+      "Santos"
+    ],
+    "answer": "Emerson Ferreira",
+    "acceptedAnswers": [
+      "emerson ferreira",
+      "ferreira"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh132",
+    "clubs": [
+      "Internacional",
+      "AC Milan",
+      "Corinthians",
+      "Sao Paulo",
+      "Chelsea",
+      "Villarreal",
+      "Tianjin Tianhai",
+      "Orlando City",
+      "Sao Paulo"
+    ],
+    "answer": "Alexandre Pato",
+    "acceptedAnswers": [
+      "alexandre pato",
+      "pato"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh133",
+    "clubs": [
+      "Sparta Prague",
+      "Vitesse",
+      "Swansea City",
+      "Manchester City",
+      "Stoke City",
+      "Al-Arabi",
+      "Al-Ittihad"
+    ],
+    "answer": "Wilfried Bony",
+    "acceptedAnswers": [
+      "wilfried bony",
+      "bony"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh134",
+    "clubs": [
+      "Celta Vigo",
+      "Liverpool",
+      "Sevilla",
+      "Celta Vigo"
+    ],
+    "answer": "Iago Aspas",
+    "acceptedAnswers": [
+      "iago aspas",
+      "aspas"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh135",
+    "clubs": [
+      "Genk",
+      "Standard Liege",
+      "Aston Villa",
+      "Liverpool",
+      "Crystal Palace",
+      "Besiktas",
+      "Crystal Palace",
+      "D.C. United"
+    ],
+    "answer": "Christian Benteke",
+    "acceptedAnswers": [
+      "christian benteke",
+      "benteke"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh136",
+    "clubs": [
+      "Hertha Berlin",
+      "Tottenham Hotspur",
+      "Borussia Dortmund",
+      "Portsmouth",
+      "AC Milan",
+      "Schalke 04",
+      "Las Palmas",
+      "Eintracht Frankfurt",
+      "Sassuolo",
+      "Fiorentina",
+      "Barcelona",
+      "Besiktas",
+      "Monza",
+      "Hertha Berlin"
+    ],
+    "answer": "Kevin-Prince Boateng",
+    "acceptedAnswers": [
+      "kevin-prince boateng",
+      "kevin prince boateng",
+      "boateng"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh137",
+    "clubs": [
+      "Sochaux",
+      "Bursaspor",
+      "Villarreal",
+      "Beijing Guoan",
+      "Marseille",
+      "Olympiacos",
+      "Galatasaray",
+      "Real Betis"
+    ],
+    "answer": "Cédric Bakambu",
+    "acceptedAnswers": [
+      "cédric bakambu",
+      "cedric bakambu",
+      "bakambu"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh138",
+    "clubs": [
+      "Lens",
+      "Tottenham Hotspur",
+      "Queens Park Rangers",
+      "Fulham",
+      "AC Milan",
+      "Genoa",
+      "Benfica",
+      "Al-Nasr",
+      "Benfica"
+    ],
+    "answer": "Adel Taarabt",
+    "acceptedAnswers": [
+      "adel taarabt",
+      "taarabt"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh139",
+    "clubs": [
+      "Barcelona",
+      "Celta Vigo",
+      "Inter Milan",
+      "Barcelona",
+      "Paris Saint-Germain",
+      "Real Sociedad",
+      "Al-Arabi"
+    ],
+    "answer": "Rafinha Alcantara",
+    "acceptedAnswers": [
+      "rafinha alcantara",
+      "alcantara"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "gbh140",
+    "clubs": [
+      "Barcelona",
+      "Tottenham Hotspur",
+      "Ipswich Town",
+      "Galatasaray",
+      "Racing Santander",
+      "Mallorca",
+      "Villarreal",
+      "LA Galaxy",
+      "Club America"
+    ],
+    "answer": "Giovani dos Santos",
+    "acceptedAnswers": [
+      "giovani dos santos",
+      "santos"
+    ],
+    "difficulty": "hard"
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "id": "tof001",
+    "statement": "Lionel Messi has won the FIFA World Cup.",
+    "answer": true,
+    "statementAr": "ليونيل ميسي فاز بكأس العالم FIFA.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof002",
+    "statement": "Cristiano Ronaldo has played for Real Madrid.",
+    "answer": true,
+    "statementAr": "كريستيانو رونالدو لعب مع ريال مدريد.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof003",
+    "statement": "Neymar has played for Manchester United.",
+    "answer": false,
+    "statementAr": "نيمار لعب مع مانشستر يونايتد.",
+    "answerAr": "خطأ"
+  },
+  {
+    "id": "tof004",
+    "statement": "Kylian Mbappe won the World Cup as a teenager in 2018.",
+    "answer": true,
+    "statementAr": "كيليان مبابي فاز بكأس العالم عام 2018 وهو في سن المراهقة.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof005",
+    "statement": "Luka Modric has never played for Real Madrid.",
+    "answer": false,
+    "statementAr": "لوكا مودريتش لم يلعب أبدًا مع ريال مدريد.",
+    "answerAr": "خطأ"
+  },
+  {
+    "id": "tof006",
+    "statement": "Erling Haaland is Swedish.",
+    "answer": false,
+    "statementAr": "إيرلينغ هالاند سويدي.",
+    "answerAr": "خطأ"
+  },
+  {
+    "id": "tof007",
+    "statement": "Mohamed Salah previously played for Chelsea.",
+    "answer": true,
+    "statementAr": "محمد صلاح لعب سابقًا مع تشيلسي.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof008",
+    "statement": "Robert Lewandowski has played for Barcelona.",
+    "answer": true,
+    "statementAr": "روبرت ليفاندوفسكي لعب مع برشلونة.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof009",
+    "statement": "Virgil van Dijk started his senior career at Ajax.",
+    "answer": false,
+    "statementAr": "فيرجيل فان دايك بدأ مسيرته مع الفريق الأول في أياكس.",
+    "answerAr": "خطأ"
+  },
+  {
+    "id": "tof010",
+    "statement": "Kevin De Bruyne was signed by Chelsea earlier in his career.",
+    "answer": true,
+    "statementAr": "كيفن دي بروين تعاقد معه تشيلسي في وقت مبكر من مسيرته.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof011",
+    "statement": "Xavi Hernandez played his entire senior club career only for Barcelona.",
+    "answer": false,
+    "statementAr": "تشافي هيرنانديز قضى كامل مسيرته مع الأندية فقط في برشلونة.",
+    "answerAr": "خطأ"
+  },
+  {
+    "id": "tof012",
+    "statement": "Karim Benzema won the Ballon d'Or in 2022.",
+    "answer": true,
+    "statementAr": "كريم بنزيما فاز بالكرة الذهبية عام 2022.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof013",
+    "statement": "N'Golo Kante has won the Premier League with two different clubs.",
+    "answer": true,
+    "statementAr": "نغولو كانتي فاز بالدوري الإنجليزي الممتاز مع ناديين مختلفين.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof014",
+    "statement": "Sadio Mane played for Liverpool.",
+    "answer": true,
+    "statementAr": "ساديو ماني لعب مع ليفربول.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof015",
+    "statement": "Son Heung-min plays as a goalkeeper.",
+    "answer": false,
+    "statementAr": "سون هيونغ مين يلعب كحارس مرمى.",
+    "answerAr": "خطأ"
+  },
+  {
+    "id": "tof016",
+    "statement": "Zinedine Zidane was sent off in the 2006 World Cup final.",
+    "answer": true,
+    "statementAr": "زين الدين زيدان طُرد في نهائي كأس العالم 2006.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof017",
+    "statement": "David Beckham never played for a club outside England.",
+    "answer": false,
+    "statementAr": "ديفيد بيكهام لم يلعب أبدًا لنادٍ خارج إنجلترا.",
+    "answerAr": "خطأ"
+  },
+  {
+    "id": "tof018",
+    "statement": "Thierry Henry is Arsenal's all-time record Premier League goalscorer.",
+    "answer": true,
+    "statementAr": "تييري هنري هو الهداف التاريخي لأرسنال في الدوري الإنجليزي الممتاز.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof019",
+    "statement": "Andrea Pirlo played for both AC Milan and Juventus.",
+    "answer": true,
+    "statementAr": "أندريا بيرلو لعب لكل من ميلان ويوفنتوس.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof020",
+    "statement": "Iker Casillas played his entire career for Barcelona.",
+    "answer": false,
+    "statementAr": "إيكر كاسياس قضى مسيرته كاملة مع برشلونة.",
+    "answerAr": "خطأ"
+  },
+  {
+    "id": "tof021",
+    "statement": "Didier Drogba scored the winning penalty in the 2012 Champions League final shootout for Chelsea.",
+    "answer": true,
+    "statementAr": "ديدييه دروغبا سجل ركلة الترجيح الحاسمة لتشيلسي في نهائي دوري أبطال أوروبا 2012.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof022",
+    "statement": "Andres Iniesta scored the winning goal in the 2010 World Cup final.",
+    "answer": true,
+    "statementAr": "أندريس إنييستا سجل هدف الفوز في نهائي كأس العالم 2010.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof023",
+    "statement": "Sergio Ramos has played for Real Madrid.",
+    "answer": true,
+    "statementAr": "سيرخيو راموس لعب مع ريال مدريد.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof024",
+    "statement": "Wayne Rooney is Manchester United's all-time record goalscorer.",
+    "answer": true,
+    "statementAr": "واين روني هو الهداف التاريخي لمانشستر يونايتد.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof025",
+    "statement": "Steven Gerrard won a Premier League title while playing for Liverpool.",
+    "answer": false,
+    "statementAr": "ستيفن جيرارد فاز بلقب الدوري الإنجليزي الممتاز أثناء لعبه مع ليفربول.",
+    "answerAr": "خطأ"
+  },
+  {
+    "id": "tof026",
+    "statement": "Zlatan Ibrahimovic has played for Barcelona.",
+    "answer": true,
+    "statementAr": "زلاتان إبراهيموفيتش لعب مع برشلونة.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof027",
+    "statement": "Gareth Bale played for Real Madrid.",
+    "answer": true,
+    "statementAr": "غاريث بيل لعب مع ريال مدريد.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof028",
+    "statement": "Manuel Neuer is known for playing as a 'sweeper-keeper.'",
+    "answer": true,
+    "statementAr": "مانويل نوير معروف بأسلوب لعبه كـ«حارس ليبرو».",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof029",
+    "statement": "Mesut Ozil became Arsenal's record Premier League assist provider.",
+    "answer": true,
+    "statementAr": "مسعود أوزيل أصبح صاحب الرقم القياسي في صناعة التمريرات الحاسمة لأرسنال في الدوري الإنجليزي الممتاز.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof030",
+    "statement": "Antoine Griezmann has never played for Barcelona.",
+    "answer": false,
+    "statementAr": "أنطوان غريزمان لم يلعب أبدًا مع برشلونة.",
+    "answerAr": "خطأ"
+  },
+  {
+    "id": "tof031",
+    "statement": "Paul Pogba won the World Cup with France in 2018.",
+    "answer": true,
+    "statementAr": "بول بوغبا فاز بكأس العالم مع فرنسا عام 2018.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof032",
+    "statement": "Achraf Hakimi came through Real Madrid's youth academy.",
+    "answer": true,
+    "statementAr": "أشرف حكيمي تدرج في أكاديمية ريال مدريد للشباب.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof033",
+    "statement": "Samuel Eto'o has won the Champions League with three different clubs.",
+    "answer": true,
+    "statementAr": "صامويل إيتو فاز بدوري أبطال أوروبا مع ثلاثة أندية مختلفة.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof034",
+    "statement": "Kaka won the Ballon d'Or in 2007.",
+    "answer": true,
+    "statementAr": "كاكا فاز بالكرة الذهبية عام 2007.",
+    "answerAr": "صح"
+  },
+  {
+    "id": "tof035",
+    "statement": "Ronaldinho won the Ballon d'Or.",
+    "answer": true,
+    "statementAr": "رونالدينيو فاز بالكرة الذهبية.",
+    "answerAr": "صح"
+  }
+]
