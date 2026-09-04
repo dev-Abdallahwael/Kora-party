@@ -190,11 +190,7 @@ export default function CreateGameScreen({ navigation }: Props) {
               height: 60,
               paddingHorizontal: 48,
               opacity: selected.length === 0 ? 0.4 : 1,
-              shadowColor: "#4CAF50",
-              shadowOpacity: 0.4,
-              shadowRadius: 8,
-              shadowOffset: { width: 0, height: 4 },
-              elevation: 6,
+              elevation: 0,
             }}
           >
             <LinearGradient
