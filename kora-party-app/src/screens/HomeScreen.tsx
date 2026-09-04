@@ -156,13 +156,13 @@ export default function HomeScreen({ navigation }: Props) {
         transparent
         animationType="fade"
       >
-        <View className="flex-1 bg-surface/95 items-center justify-center px-6">
+        <View className="flex-1 bg-black/30 items-center justify-center px-6">
           <TouchableOpacity
             style={StyleSheet.absoluteFill}
             activeOpacity={1}
             onPress={() => setNameModalVisible(false)}
           />
-          <View className="bg-surfaceCard rounded-3xl p-8 w-full border border-border">
+          <View className="bg-surface/95 rounded-3xl p-8 w-full border border-border">
             <View className="flex-row justify-end mb-2">
               <TouchableOpacity
                 onPress={() => setNameModalVisible(false)}
