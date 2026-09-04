@@ -230,3 +230,53 @@ export async function endSession(sessionId: string) {
   const sessionRef = ref(db, `sessions/${sessionId}`);
   await set(ref(db, `sessions/${sessionId}/status`), "finished");
 }
+
+export async function createRematchSession(
+  previous: FirebaseSession,
+  hostId: string,
+  hostName: string
+): Promise<string> {
+  const sessionId = generateSessionId();
+  const sessionRef = ref(db, `sessions/${sessionId}`);
+
+  const players: { [key: string]: FirebasePlayer } = {};
+  const previousPlayers = previous.players || {};
+  const existing = Object.values(previousPlayers).some((p) => p.id === hostId);
+
+  if (existing) {
+    for (const p of Object.values(previousPlayers)) {
+      players[p.id] = {
+        id: p.id,
+        name: p.name,
+        isHost: p.id === hostId,
+        score: 0,
+        connected: true,
+      };
+    }
+  } else {
+    players[hostId] = {
+      id: hostId,
+      name: hostName,
+      isHost: true,
+      score: 0,
+      connected: true,
+    };
+  }
+
+  const session: FirebaseSession = {
+    id: sessionId,
+    hostId,
+    status: "waiting",
+    bundles: previous.bundles || [],
+    currentLevel: 0,
+    currentQuestionIndex: 0,
+    seed: Math.floor(Math.random() * 1_000_000),
+    questionCount: previous.questionCount || 30,
+    phaseStartedAt: Date.now(),
+    players,
+    createdAt: Date.now(),
+  };
+
+  await set(sessionRef, session);
+  return sessionId;
+}

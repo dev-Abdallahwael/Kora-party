@@ -4,7 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { useLang } from "../context/LangContext";
 import { usePlayer } from "../context/PlayerContext";
-import { listenToSession, FirebaseSession } from "../utils/sessionService";
+import { listenToSession, createRematchSession, FirebaseSession } from "../utils/sessionService";
 import FootballBackground from "../components/FootballBackground";
 import GradientButton from "../components/GradientButton";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
@@ -18,9 +18,10 @@ type Props = {
 
 export default function ResultScreen({ navigation, route }: Props) {
   const { lang, t } = useLang();
-  const { playerId } = usePlayer();
+  const { playerId, playerName } = usePlayer();
   const { sessionId } = route.params;
   const [session, setSession] = useState<FirebaseSession | null>(null);
+  const [rematching, setRematching] = useState(false);
 
   useEffect(() => {
     const unsub = listenToSession(sessionId, setSession);
@@ -36,6 +37,25 @@ export default function ResultScreen({ navigation, route }: Props) {
   const totalQuestions = session?.questionCount || 30;
   const correctCount = (p: any) =>
     p.answers ? Object.values(p.answers).filter((a: any) => a?.correct).length : 0;
+  const isHost = session?.hostId === playerId;
+
+  const handleRematch = async () => {
+    if (!session || rematching) return;
+    if (!isHost) {
+      return;
+    }
+    setRematching(true);
+    try {
+      const newId = await createRematchSession(
+        session,
+        playerId,
+        playerName || "Host"
+      );
+      navigation.replace("Lobby", { sessionId: newId, bundles: session.bundles });
+    } finally {
+      setRematching(false);
+    }
+  };
 
   if (!session || players.length === 0) {
     return (
@@ -102,10 +122,19 @@ export default function ResultScreen({ navigation, route }: Props) {
         {/* Actions */}
         <View className="mt-4">
           <GradientButton
-            onPress={() => navigation.navigate("Home")}
+            onPress={handleRematch}
             label={t("playAgain")}
             className="mb-3"
+            loading={rematching}
+            disabled={rematching}
           />
+          {!isHost && (
+            <Text className="text-textMuted text-xs text-center mb-3">
+              {lang === "en"
+                ? "The host starts the rematch — wait for a new code."
+                : "المضيف يبدأ المباراة مرة أخرى — انتظر رمزاً جديداً."}
+            </Text>
+          )}
           <GradientButton
             onPress={() => navigation.navigate("Home")}
             colors={["#232340", "#2A2A4A"]}
