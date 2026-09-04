@@ -1,5 +1,5 @@
-import React from "react";
-import { View, Text, TouchableOpacity, TextInput, Image } from "react-native";
+import React, { useRef } from "react";
+import { View, Text, TouchableOpacity, TextInput, Image, Animated } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { BundleType } from "../types";
 import { useLang } from "../context/LangContext";
@@ -87,33 +87,72 @@ function OptionButton({
     bgColor = "bg-primary/10";
   }
 
+  const scale = useRef(new Animated.Value(1)).current;
+  const translateX = useRef(new Animated.Value(0)).current;
+
+  React.useEffect(() => {
+    if (!showResult) return;
+    if (isCorrect) {
+      scale.setValue(0.9);
+      Animated.spring(scale, {
+        toValue: 1,
+        useNativeDriver: true,
+        friction: 4,
+        tension: 120,
+      }).start();
+    } else if (isSelected) {
+      const shake = Animated.sequence([
+        Animated.timing(translateX, { toValue: -10, duration: 60, useNativeDriver: true }),
+        Animated.timing(translateX, { toValue: 10, duration: 60, useNativeDriver: true }),
+        Animated.timing(translateX, { toValue: -8, duration: 60, useNativeDriver: true }),
+        Animated.timing(translateX, { toValue: 8, duration: 60, useNativeDriver: true }),
+        Animated.timing(translateX, { toValue: 0, duration: 60, useNativeDriver: true }),
+      ]);
+      shake.start();
+    }
+  }, [showResult, isCorrect, isSelected, scale, translateX]);
+
+  const pressScale = useRef(new Animated.Value(1)).current;
+  const onPressIn = () => {
+    Animated.timing(pressScale, { toValue: 0.97, duration: 80, useNativeDriver: true }).start();
+  };
+  const onPressOut = () => {
+    Animated.timing(pressScale, { toValue: 1, duration: 80, useNativeDriver: true }).start();
+  };
+
   return (
-    <TouchableOpacity
-      onPress={onPress}
-      disabled={showResult}
-      className={`rounded-2xl p-4 mb-3 border ${borderColor} ${bgColor}`}
-      activeOpacity={0.8}
+    <Animated.View
+      style={{ transform: [{ scale: pressScale }, { translateX }] }}
     >
-      <View className="flex-row items-center">
-        <View className="w-8 h-8 rounded-full bg-surface items-center justify-center mr-3">
-          <Text className="text-textSecondary text-sm font-bold">
-            {String.fromCharCode(65 + index)}
-          </Text>
-        </View>
-        <View className="flex-1">
-          <Text className="text-text font-semibold">{label}</Text>
-          {sublabel && (
-            <Text className="text-textMuted text-xs mt-1">{sublabel}</Text>
+      <TouchableOpacity
+        onPress={onPress}
+        onPressIn={onPressIn}
+        onPressOut={onPressOut}
+        disabled={showResult}
+        className={`rounded-2xl p-4 mb-3 border ${borderColor} ${bgColor}`}
+        activeOpacity={0.8}
+      >
+        <Animated.View style={{ transform: [{ scale }] }} className="flex-row items-center">
+          <View className="w-8 h-8 rounded-full bg-surface items-center justify-center mr-3">
+            <Text className="text-textSecondary text-sm font-bold">
+              {String.fromCharCode(65 + index)}
+            </Text>
+          </View>
+          <View className="flex-1">
+            <Text className="text-text font-semibold">{label}</Text>
+            {sublabel && (
+              <Text className="text-textMuted text-xs mt-1">{sublabel}</Text>
+            )}
+          </View>
+          {showResult && isCorrect && (
+            <Ionicons name="checkmark-circle" size={22} color="#4CAF50" />
           )}
-        </View>
-        {showResult && isCorrect && (
-          <Ionicons name="checkmark-circle" size={22} color="#4CAF50" />
-        )}
-        {showResult && isSelected && !isCorrect && (
-          <Ionicons name="close-circle" size={22} color="#E53935" />
-        )}
-      </View>
-    </TouchableOpacity>
+          {showResult && isSelected && !isCorrect && (
+            <Ionicons name="close-circle" size={22} color="#E53935" />
+          )}
+        </Animated.View>
+      </TouchableOpacity>
+    </Animated.View>
   );
 }
 
@@ -336,42 +375,106 @@ function TrueOrFalse({ data, selectedAnswer, showResult, onSelect, isAr }: any) 
         ].map(({ value, label, color }) => {
           const isSelected = selectedAnswer === value;
           const isCorrect = value === correctValue;
-          let borderColor = "border-border";
-          let bgColor = "bg-surfaceCard";
-          if (showResult && isSelected && isCorrect) {
-            borderColor = "border-success";
-            bgColor = "bg-success/10";
-          } else if (showResult && isSelected && !isCorrect) {
-            borderColor = "border-danger";
-            bgColor = "bg-danger/10";
-          } else if (showResult && isCorrect) {
-            borderColor = "border-success";
-            bgColor = "bg-success/10";
-          } else if (isSelected) {
-            borderColor = "border-primary";
-            bgColor = "bg-primary/10";
-          }
 
           return (
-            <TouchableOpacity
+            <TrueFalseButton
               key={value}
+              value={value}
+              label={label}
+              color={color}
+              isSelected={isSelected}
+              isCorrect={isCorrect}
+              showResult={showResult}
               onPress={() => onSelect(value)}
-              disabled={showResult}
-              className={`flex-1 rounded-2xl py-6 items-center border ${borderColor} ${bgColor}`}
-              activeOpacity={0.8}
-            >
-              <Ionicons
-                name={value === "true" ? "checkmark-circle" : "close-circle"}
-                size={36}
-                color={isSelected && showResult ? color : "#6B6B8D"}
-              />
-              <Text className="text-text font-bold text-lg mt-2">{label}</Text>
-            </TouchableOpacity>
+            />
           );
         })}
       </View>
     </View>
   );
+}
+
+function TrueFalseButton({
+  value,
+  label,
+  color,
+  isSelected,
+  isCorrect,
+  showResult,
+  onPress,
+}: {
+  value: string;
+  label: string;
+  color: string;
+  isSelected: boolean;
+  isCorrect: boolean;
+  showResult: boolean;
+  onPress: () => void;
+}) {
+  const pressScale = useRef(new Animated.Value(1)).current;
+  const scale = useRef(new Animated.Value(1)).current;
+
+  React.useEffect(() => {
+    if (!showResult) return;
+    if (isCorrect) {
+      scale.setValue(0.9);
+      Animated.spring(scale, {
+        toValue: 1,
+        useNativeDriver: true,
+        friction: 4,
+        tension: 120,
+      }).start();
+    } else if (isSelected) {
+      Animated.sequence([
+        Animated.timing(pressScale, { toValue: 0.97, duration: 60, useNativeDriver: true }),
+        Animated.timing(pressScale, { toValue: 1, duration: 60, useNativeDriver: true }),
+      ]).start();
+    }
+  }, [showResult, isCorrect, isSelected, scale, pressScale]);
+
+  const onPressIn = () => {
+    Animated.timing(pressScale, { toValue: 0.95, duration: 80, useNativeDriver: true }).start();
+  };
+  const onPressOut = () => {
+    Animated.timing(pressScale, { toValue: 1, duration: 80, useNativeDriver: true }).start();
+  };
+  const onPressAll = () => {
+    onPress();
+  };
+
+  return (
+    <Animated.View className="flex-1" style={{ transform: [{ scale: pressScale }] }}>
+      <TouchableOpacity
+        onPress={onPressAll}
+        onPressIn={onPressIn}
+        onPressOut={onPressOut}
+        disabled={showResult}
+        className={`flex-1 rounded-2xl py-6 items-center border ${borderColorHelper(
+          isSelected,
+          isCorrect,
+          showResult
+        )}`}
+        activeOpacity={0.8}
+      >
+        <Animated.View style={{ transform: [{ scale }] }}>
+          <Ionicons
+            name={value === "true" ? "checkmark-circle" : "close-circle"}
+            size={36}
+            color={isSelected && showResult ? color : "#6B6B8D"}
+          />
+          <Text className="text-text font-bold text-lg mt-2 text-center">{label}</Text>
+        </Animated.View>
+      </TouchableOpacity>
+    </Animated.View>
+  );
+}
+
+function borderColorHelper(isSelected: boolean, isCorrect: boolean, showResult: boolean) {
+  if (showResult && isSelected && isCorrect) return "border-success bg-success/10";
+  if (showResult && isSelected && !isCorrect) return "border-danger bg-danger/10";
+  if (showResult && isCorrect) return "border-success bg-success/10";
+  if (isSelected) return "border-primary bg-primary/10";
+  return "border-border bg-surfaceCard";
 }
 
 function GuessBySilhouette({ data, selectedAnswer, showResult, onSelect, isAr }: any) {

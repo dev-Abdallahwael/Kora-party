@@ -64,14 +64,14 @@ x. [x] Build all 7 bundle-type question components (QuestionRenderer)
 41. [ ] Create splash screen
 
 ## Phase 8: Daily Challenge & Engagement
-42. [ ] Build Daily Challenge screen (solo mode, no session needed)
-43. [ ] Implement daily streak tracking (AsyncStorage)
-44. [ ] Build rematch flow (new session with same players)
+42. [x] Build Daily Challenge screen (solo mode, no session needed)
+43. [x] Implement daily streak tracking (AsyncStorage)
+44. [x] Build rematch flow (new session with same players)
 
 ## Phase 9: Polish
 45. [ ] Add screen transition animations (slide, fade)
-46. [ ] Add button press animations (scale feedback)
-47. [ ] Add correct/wrong answer feedback animations
+46. [x] Add button press animations (scale feedback)
+47. [x] Add correct/wrong answer feedback animations
 48. [ ] Test all 7 bundle types end-to-end
 49. [ ] Test bilingual switching (EN <-> AR)
 50. [ ] Test RTL layout for Arabic
