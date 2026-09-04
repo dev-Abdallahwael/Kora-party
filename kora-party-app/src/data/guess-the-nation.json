@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "gtn001",
+    "wikipediaLookup": "Lionel Messi",
+    "correctNation": "Argentina",
+    "options": [
+      "Argentina",
+      "Uruguay",
+      "Chile",
+      "Spain"
+    ],
+    "wikipediaLookupAr": "ليونيل ميسي",
+    "correctNationAr": "الأرجنتين",
+    "optionsAr": [
+      "الأرجنتين",
+      "أوروغواي",
+      "تشيلي",
+      "إسبانيا"
+    ]
+  },
+  {
+    "id": "gtn002",
+    "wikipediaLookup": "Cristiano Ronaldo",
+    "correctNation": "Portugal",
+    "options": [
+      "Portugal",
+      "Spain",
+      "Brazil",
+      "Italy"
+    ],
+    "wikipediaLookupAr": "كريستيانو رونالدو",
+    "correctNationAr": "البرتغال",
+    "optionsAr": [
+      "البرتغال",
+      "إسبانيا",
+      "البرازيل",
+      "إيطاليا"
+    ]
+  },
+  {
+    "id": "gtn003",
+    "wikipediaLookup": "Kylian Mbappe",
+    "correctNation": "France",
+    "options": [
+      "France",
+      "Belgium",
+      "Morocco",
+      "Algeria"
+    ],
+    "wikipediaLookupAr": "كيليان مبابي",
+    "correctNationAr": "فرنسا",
+    "optionsAr": [
+      "فرنسا",
+      "بلجيكا",
+      "المغرب",
+      "الجزائر"
+    ]
+  },
+  {
+    "id": "gtn004",
+    "wikipediaLookup": "Mohamed Salah",
+    "correctNation": "Egypt",
+    "options": [
+      "Egypt",
+      "Morocco",
+      "Tunisia",
+      "Algeria"
+    ],
+    "wikipediaLookupAr": "محمد صلاح",
+    "correctNationAr": "مصر",
+    "optionsAr": [
+      "مصر",
+      "المغرب",
+      "تونس",
+      "الجزائر"
+    ]
+  },
+  {
+    "id": "gtn005",
+    "wikipediaLookup": "Erling Haaland",
+    "correctNation": "Norway",
+    "options": [
+      "Norway",
+      "Sweden",
+      "Denmark",
+      "Iceland"
+    ],
+    "wikipediaLookupAr": "إيرلينغ هالاند",
+    "correctNationAr": "النرويج",
+    "optionsAr": [
+      "النرويج",
+      "السويد",
+      "الدنمارك",
+      "آيسلندا"
+    ]
+  },
+  {
+    "id": "gtn006",
+    "wikipediaLookup": "Kevin De Bruyne",
+    "correctNation": "Belgium",
+    "options": [
+      "Belgium",
+      "Netherlands",
+      "France",
+      "Germany"
+    ],
+    "wikipediaLookupAr": "كيفن دي بروين",
+    "correctNationAr": "بلجيكا",
+    "optionsAr": [
+      "بلجيكا",
+      "هولندا",
+      "فرنسا",
+      "ألمانيا"
+    ]
+  },
+  {
+    "id": "gtn007",
+    "wikipediaLookup": "Robert Lewandowski",
+    "correctNation": "Poland",
+    "options": [
+      "Poland",
+      "Czech Republic",
+      "Germany",
+      "Ukraine"
+    ],
+    "wikipediaLookupAr": "روبرت ليفاندوفسكي",
+    "correctNationAr": "بولندا",
+    "optionsAr": [
+      "بولندا",
+      "التشيك",
+      "ألمانيا",
+      "أوكرانيا"
+    ]
+  },
+  {
+    "id": "gtn008",
+    "wikipediaLookup": "Luka Modric",
+    "correctNation": "Croatia",
+    "options": [
+      "Croatia",
+      "Serbia",
+      "Slovenia",
+      "Bosnia and Herzegovina"
+    ],
+    "wikipediaLookupAr": "لوكا مودريتش",
+    "correctNationAr": "كرواتيا",
+    "optionsAr": [
+      "كرواتيا",
+      "صربيا",
+      "سلوفينيا",
+      "البوسنة والهرسك"
+    ]
+  },
+  {
+    "id": "gtn009",
+    "wikipediaLookup": "Sadio Mane",
+    "correctNation": "Senegal",
+    "options": [
+      "Senegal",
+      "Mali",
+      "Ivory Coast",
+      "Ghana"
+    ],
+    "wikipediaLookupAr": "ساديو ماني",
+    "correctNationAr": "السنغال",
+    "optionsAr": [
+      "السنغال",
+      "مالي",
+      "ساحل العاج",
+      "غانا"
+    ]
+  },
+  {
+    "id": "gtn010",
+    "wikipediaLookup": "Virgil van Dijk",
+    "correctNation": "Netherlands",
+    "options": [
+      "Netherlands",
+      "Belgium",
+      "Germany",
+      "Denmark"
+    ],
+    "wikipediaLookupAr": "فيرجيل فان دايك",
+    "correctNationAr": "هولندا",
+    "optionsAr": [
+      "هولندا",
+      "بلجيكا",
+      "ألمانيا",
+      "الدنمارك"
+    ]
+  },
+  {
+    "id": "gtn011",
+    "wikipediaLookup": "Neymar",
+    "correctNation": "Brazil",
+    "options": [
+      "Brazil",
+      "Argentina",
+      "Portugal",
+      "Colombia"
+    ],
+    "wikipediaLookupAr": "نيمار",
+    "correctNationAr": "البرازيل",
+    "optionsAr": [
+      "البرازيل",
+      "الأرجنتين",
+      "البرتغال",
+      "كولومبيا"
+    ]
+  },
+  {
+    "id": "gtn012",
+    "wikipediaLookup": "Son Heung-min",
+    "correctNation": "South Korea",
+    "options": [
+      "South Korea",
+      "Japan",
+      "China",
+      "North Korea"
+    ],
+    "wikipediaLookupAr": "سون هيونغ مين",
+    "correctNationAr": "كوريا الجنوبية",
+    "optionsAr": [
+      "كوريا الجنوبية",
+      "اليابان",
+      "الصين",
+      "كوريا الشمالية"
+    ]
+  },
+  {
+    "id": "gtn013",
+    "wikipediaLookup": "N'Golo Kante",
+    "correctNation": "France",
+    "options": [
+      "France",
+      "Mali",
+      "Senegal",
+      "Ivory Coast"
+    ],
+    "wikipediaLookupAr": "نغولو كانتي",
+    "correctNationAr": "فرنسا",
+    "optionsAr": [
+      "فرنسا",
+      "مالي",
+      "السنغال",
+      "ساحل العاج"
+    ]
+  },
+  {
+    "id": "gtn014",
+    "wikipediaLookup": "Karim Benzema",
+    "correctNation": "France",
+    "options": [
+      "France",
+      "Algeria",
+      "Morocco",
+      "Tunisia"
+    ],
+    "wikipediaLookupAr": "كريم بنزيما",
+    "correctNationAr": "فرنسا",
+    "optionsAr": [
+      "فرنسا",
+      "الجزائر",
+      "المغرب",
+      "تونس"
+    ]
+  },
+  {
+    "id": "gtn015",
+    "wikipediaLookup": "Vinicius Junior",
+    "correctNation": "Brazil",
+    "options": [
+      "Brazil",
+      "Portugal",
+      "Argentina",
+      "Uruguay"
+    ],
+    "wikipediaLookupAr": "فينيسيوس جونيور",
+    "correctNationAr": "البرازيل",
+    "optionsAr": [
+      "البرازيل",
+      "البرتغال",
+      "الأرجنتين",
+      "أوروغواي"
+    ]
+  },
+  {
+    "id": "gtn016",
+    "wikipediaLookup": "Ronaldinho",
+    "correctNation": "Brazil",
+    "options": [
+      "Brazil",
+      "Argentina",
+      "Portugal",
+      "Uruguay"
+    ],
+    "wikipediaLookupAr": "رونالدينيو",
+    "correctNationAr": "البرازيل",
+    "optionsAr": [
+      "البرازيل",
+      "الأرجنتين",
+      "البرتغال",
+      "أوروغواي"
+    ]
+  },
+  {
+    "id": "gtn017",
+    "wikipediaLookup": "Zinedine Zidane",
+    "correctNation": "France",
+    "options": [
+      "France",
+      "Algeria",
+      "Morocco",
+      "Italy"
+    ],
+    "wikipediaLookupAr": "زين الدين زيدان",
+    "correctNationAr": "فرنسا",
+    "optionsAr": [
+      "فرنسا",
+      "الجزائر",
+      "المغرب",
+      "إيطاليا"
+    ]
+  },
+  {
+    "id": "gtn018",
+    "wikipediaLookup": "Ronaldo (footballer, born 1976)",
+    "correctNation": "Brazil",
+    "options": [
+      "Brazil",
+      "Portugal",
+      "Argentina",
+      "Colombia"
+    ],
+    "wikipediaLookupAr": "رونالدو (مواليد 1976)",
+    "correctNationAr": "البرازيل",
+    "optionsAr": [
+      "البرازيل",
+      "البرتغال",
+      "الأرجنتين",
+      "كولومبيا"
+    ]
+  },
+  {
+    "id": "gtn019",
+    "wikipediaLookup": "David Beckham",
+    "correctNation": "England",
+    "options": [
+      "England",
+      "Wales",
+      "Scotland",
+      "Ireland"
+    ],
+    "wikipediaLookupAr": "ديفيد بيكهام",
+    "correctNationAr": "إنجلترا",
+    "optionsAr": [
+      "إنجلترا",
+      "ويلز",
+      "اسكتلندا",
+      "أيرلندا"
+    ]
+  },
+  {
+    "id": "gtn020",
+    "wikipediaLookup": "Thierry Henry",
+    "correctNation": "France",
+    "options": [
+      "France",
+      "Belgium",
+      "Netherlands",
+      "Martinique"
+    ],
+    "wikipediaLookupAr": "تييري هنري",
+    "correctNationAr": "فرنسا",
+    "optionsAr": [
+      "فرنسا",
+      "بلجيكا",
+      "هولندا",
+      "مارتينيك"
+    ]
+  },
+  {
+    "id": "gtn021",
+    "wikipediaLookup": "Andrea Pirlo",
+    "correctNation": "Italy",
+    "options": [
+      "Italy",
+      "Spain",
+      "France",
+      "Argentina"
+    ],
+    "wikipediaLookupAr": "أندريا بيرلو",
+    "correctNationAr": "إيطاليا",
+    "optionsAr": [
+      "إيطاليا",
+      "إسبانيا",
+      "فرنسا",
+      "الأرجنتين"
+    ]
+  },
+  {
+    "id": "gtn022",
+    "wikipediaLookup": "Iker Casillas",
+    "correctNation": "Spain",
+    "options": [
+      "Spain",
+      "Portugal",
+      "Italy",
+      "Argentina"
+    ],
+    "wikipediaLookupAr": "إيكر كاسياس",
+    "correctNationAr": "إسبانيا",
+    "optionsAr": [
+      "إسبانيا",
+      "البرتغال",
+      "إيطاليا",
+      "الأرجنتين"
+    ]
+  },
+  {
+    "id": "gtn023",
+    "wikipediaLookup": "Gianluigi Buffon",
+    "correctNation": "Italy",
+    "options": [
+      "Italy",
+      "France",
+      "Spain",
+      "Argentina"
+    ],
+    "wikipediaLookupAr": "جانلويجي بوفون",
+    "correctNationAr": "إيطاليا",
+    "optionsAr": [
+      "إيطاليا",
+      "فرنسا",
+      "إسبانيا",
+      "الأرجنتين"
+    ]
+  },
+  {
+    "id": "gtn024",
+    "wikipediaLookup": "Didier Drogba",
+    "correctNation": "Ivory Coast",
+    "options": [
+      "Ivory Coast",
+      "Ghana",
+      "Senegal",
+      "Cameroon"
+    ],
+    "wikipediaLookupAr": "ديدييه دروغبا",
+    "correctNationAr": "ساحل العاج",
+    "optionsAr": [
+      "ساحل العاج",
+      "غانا",
+      "السنغال",
+      "الكاميرون"
+    ]
+  },
+  {
+    "id": "gtn025",
+    "wikipediaLookup": "Andres Iniesta",
+    "correctNation": "Spain",
+    "options": [
+      "Spain",
+      "Portugal",
+      "Italy",
+      "France"
+    ],
+    "wikipediaLookupAr": "أندريس إنييستا",
+    "correctNationAr": "إسبانيا",
+    "optionsAr": [
+      "إسبانيا",
+      "البرتغال",
+      "إيطاليا",
+      "فرنسا"
+    ]
+  },
+  {
+    "id": "gtn026",
+    "wikipediaLookup": "Sergio Ramos",
+    "correctNation": "Spain",
+    "options": [
+      "Spain",
+      "Portugal",
+      "Italy",
+      "Argentina"
+    ],
+    "wikipediaLookupAr": "سيرخيو راموس",
+    "correctNationAr": "إسبانيا",
+    "optionsAr": [
+      "إسبانيا",
+      "البرتغال",
+      "إيطاليا",
+      "الأرجنتين"
+    ]
+  },
+  {
+    "id": "gtn027",
+    "wikipediaLookup": "Wayne Rooney",
+    "correctNation": "England",
+    "options": [
+      "England",
+      "Ireland",
+      "Scotland",
+      "Wales"
+    ],
+    "wikipediaLookupAr": "واين روني",
+    "correctNationAr": "إنجلترا",
+    "optionsAr": [
+      "إنجلترا",
+      "أيرلندا",
+      "اسكتلندا",
+      "ويلز"
+    ]
+  },
+  {
+    "id": "gtn028",
+    "wikipediaLookup": "Steven Gerrard",
+    "correctNation": "England",
+    "options": [
+      "England",
+      "Wales",
+      "Scotland",
+      "Ireland"
+    ],
+    "wikipediaLookupAr": "ستيفن جيرارد",
+    "correctNationAr": "إنجلترا",
+    "optionsAr": [
+      "إنجلترا",
+      "ويلز",
+      "اسكتلندا",
+      "أيرلندا"
+    ]
+  },
+  {
+    "id": "gtn029",
+    "wikipediaLookup": "Xabi Alonso",
+    "correctNation": "Spain",
+    "options": [
+      "Spain",
+      "Portugal",
+      "Italy",
+      "France"
+    ],
+    "wikipediaLookupAr": "تشابي ألونسو",
+    "correctNationAr": "إسبانيا",
+    "optionsAr": [
+      "إسبانيا",
+      "البرتغال",
+      "إيطاليا",
+      "فرنسا"
+    ]
+  },
+  {
+    "id": "gtn030",
+    "wikipediaLookup": "Samuel Eto'o",
+    "correctNation": "Cameroon",
+    "options": [
+      "Cameroon",
+      "Nigeria",
+      "Senegal",
+      "Ivory Coast"
+    ],
+    "wikipediaLookupAr": "صامويل إيتو",
+    "correctNationAr": "الكاميرون",
+    "optionsAr": [
+      "الكاميرون",
+      "نيجيريا",
+      "السنغال",
+      "ساحل العاج"
+    ]
+  },
+  {
+    "id": "gtn031",
+    "wikipediaLookup": "Kaka",
+    "correctNation": "Brazil",
+    "options": [
+      "Brazil",
+      "Argentina",
+      "Portugal",
+      "Uruguay"
+    ],
+    "wikipediaLookupAr": "كاكا",
+    "correctNationAr": "البرازيل",
+    "optionsAr": [
+      "البرازيل",
+      "الأرجنتين",
+      "البرتغال",
+      "أوروغواي"
+    ]
+  },
+  {
+    "id": "gtn032",
+    "wikipediaLookup": "Zlatan Ibrahimovic",
+    "correctNation": "Sweden",
+    "options": [
+      "Sweden",
+      "Norway",
+      "Denmark",
+      "Finland"
+    ],
+    "wikipediaLookupAr": "زلاتان إبراهيموفيتش",
+    "correctNationAr": "السويد",
+    "optionsAr": [
+      "السويد",
+      "النرويج",
+      "الدنمارك",
+      "فنلندا"
+    ]
+  },
+  {
+    "id": "gtn033",
+    "wikipediaLookup": "Gareth Bale",
+    "correctNation": "Wales",
+    "options": [
+      "Wales",
+      "England",
+      "Scotland",
+      "Ireland"
+    ],
+    "wikipediaLookupAr": "غاريث بيل",
+    "correctNationAr": "ويلز",
+    "optionsAr": [
+      "ويلز",
+      "إنجلترا",
+      "اسكتلندا",
+      "أيرلندا"
+    ]
+  },
+  {
+    "id": "gtn034",
+    "wikipediaLookup": "Marco Reus",
+    "correctNation": "Germany",
+    "options": [
+      "Germany",
+      "Netherlands",
+      "Austria",
+      "Switzerland"
+    ],
+    "wikipediaLookupAr": "ماركو رويس",
+    "correctNationAr": "ألمانيا",
+    "optionsAr": [
+      "ألمانيا",
+      "هولندا",
+      "النمسا",
+      "سويسرا"
+    ]
+  },
+  {
+    "id": "gtn035",
+    "wikipediaLookup": "Manuel Neuer",
+    "correctNation": "Germany",
+    "options": [
+      "Germany",
+      "Austria",
+      "Netherlands",
+      "Switzerland"
+    ],
+    "wikipediaLookupAr": "مانويل نوير",
+    "correctNationAr": "ألمانيا",
+    "optionsAr": [
+      "ألمانيا",
+      "النمسا",
+      "هولندا",
+      "سويسرا"
+    ]
+  },
+  {
+    "id": "gtn036",
+    "wikipediaLookup": "Thomas Muller",
+    "correctNation": "Germany",
+    "options": [
+      "Germany",
+      "Austria",
+      "Switzerland",
+      "Netherlands"
+    ],
+    "wikipediaLookupAr": "توماس مولر",
+    "correctNationAr": "ألمانيا",
+    "optionsAr": [
+      "ألمانيا",
+      "النمسا",
+      "سويسرا",
+      "هولندا"
+    ]
+  },
+  {
+    "id": "gtn037",
+    "wikipediaLookup": "Mesut Ozil",
+    "correctNation": "Germany",
+    "options": [
+      "Germany",
+      "Turkey",
+      "Netherlands",
+      "Austria"
+    ],
+    "wikipediaLookupAr": "مسعود أوزيل",
+    "correctNationAr": "ألمانيا",
+    "optionsAr": [
+      "ألمانيا",
+      "تركيا",
+      "هولندا",
+      "النمسا"
+    ]
+  },
+  {
+    "id": "gtn038",
+    "wikipediaLookup": "Antoine Griezmann",
+    "correctNation": "France",
+    "options": [
+      "France",
+      "Spain",
+      "Portugal",
+      "Belgium"
+    ],
+    "wikipediaLookupAr": "أنطوان غريزمان",
+    "correctNationAr": "فرنسا",
+    "optionsAr": [
+      "فرنسا",
+      "إسبانيا",
+      "البرتغال",
+      "بلجيكا"
+    ]
+  },
+  {
+    "id": "gtn039",
+    "wikipediaLookup": "Paul Pogba",
+    "correctNation": "France",
+    "options": [
+      "France",
+      "Guinea",
+      "Mali",
+      "Senegal"
+    ],
+    "wikipediaLookupAr": "بول بوغبا",
+    "correctNationAr": "فرنسا",
+    "optionsAr": [
+      "فرنسا",
+      "غينيا",
+      "مالي",
+      "السنغال"
+    ]
+  },
+  {
+    "id": "gtn040",
+    "wikipediaLookup": "Achraf Hakimi",
+    "correctNation": "Morocco",
+    "options": [
+      "Morocco",
+      "Spain",
+      "Algeria",
+      "Tunisia"
+    ],
+    "wikipediaLookupAr": "أشرف حكيمي",
+    "correctNationAr": "المغرب",
+    "optionsAr": [
+      "المغرب",
+      "إسبانيا",
+      "الجزائر",
+      "تونس"
+    ]
+  },
+  {
+    "id": "gtn041",
+    "wikipediaLookup": "Thiago Alcantara",
+    "correctNation": "Spain",
+    "options": [
+      "Spain",
+      "Brazil",
+      "Portugal",
+      "Italy"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn042",
+    "wikipediaLookup": "Mauro Icardi",
+    "correctNation": "Argentina",
+    "options": [
+      "Argentina",
+      "Italy",
+      "Uruguay",
+      "Spain"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn043",
+    "wikipediaLookup": "Jorginho",
+    "correctNation": "Italy",
+    "options": [
+      "Italy",
+      "Brazil",
+      "Portugal",
+      "Argentina"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn044",
+    "wikipediaLookup": "Aymeric Laporte",
+    "correctNation": "Spain",
+    "options": [
+      "Spain",
+      "France",
+      "Senegal",
+      "Algeria"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn045",
+    "wikipediaLookup": "Hakim Ziyech",
+    "correctNation": "Morocco",
+    "options": [
+      "Morocco",
+      "Netherlands",
+      "Algeria",
+      "Tunisia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn046",
+    "wikipediaLookup": "Riyad Mahrez",
+    "correctNation": "Algeria",
+    "options": [
+      "Algeria",
+      "Morocco",
+      "France",
+      "Tunisia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn047",
+    "wikipediaLookup": "Wilfried Zaha",
+    "correctNation": "Ivory Coast",
+    "options": [
+      "Ivory Coast",
+      "England",
+      "Ghana",
+      "Nigeria"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn048",
+    "wikipediaLookup": "Kalidou Koulibaly",
+    "correctNation": "Senegal",
+    "options": [
+      "Senegal",
+      "France",
+      "Mali",
+      "Guinea"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn049",
+    "wikipediaLookup": "Franck Kessie",
+    "correctNation": "Ivory Coast",
+    "options": [
+      "Ivory Coast",
+      "Ghana",
+      "Cameroon",
+      "Senegal"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn050",
+    "wikipediaLookup": "Thomas Partey",
+    "correctNation": "Ghana",
+    "options": [
+      "Ghana",
+      "Nigeria",
+      "Cameroon",
+      "Ivory Coast"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn051",
+    "wikipediaLookup": "Victor Osimhen",
+    "correctNation": "Nigeria",
+    "options": [
+      "Nigeria",
+      "Ghana",
+      "Benin",
+      "Cameroon"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn052",
+    "wikipediaLookup": "Achraf Hakimi",
+    "correctNation": "Morocco",
+    "options": [
+      "Morocco",
+      "Spain",
+      "Algeria",
+      "Tunisia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn053",
+    "wikipediaLookup": "Noussair Mazraoui",
+    "correctNation": "Morocco",
+    "options": [
+      "Morocco",
+      "Netherlands",
+      "Algeria",
+      "France"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn054",
+    "wikipediaLookup": "Sofyan Amrabat",
+    "correctNation": "Morocco",
+    "options": [
+      "Morocco",
+      "Netherlands",
+      "Algeria",
+      "Tunisia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn055",
+    "wikipediaLookup": "Ismael Bennacer",
+    "correctNation": "Algeria",
+    "options": [
+      "Algeria",
+      "France",
+      "Morocco",
+      "Tunisia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn056",
+    "wikipediaLookup": "Rafael Leao",
+    "correctNation": "Portugal",
+    "options": [
+      "Portugal",
+      "Brazil",
+      "Angola",
+      "Spain"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn057",
+    "wikipediaLookup": "Joao Cancelo",
+    "correctNation": "Portugal",
+    "options": [
+      "Portugal",
+      "Brazil",
+      "Spain",
+      "France"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn058",
+    "wikipediaLookup": "Bernardo Silva",
+    "correctNation": "Portugal",
+    "options": [
+      "Portugal",
+      "Brazil",
+      "Spain",
+      "France"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn059",
+    "wikipediaLookup": "Bruno Fernandes",
+    "correctNation": "Portugal",
+    "options": [
+      "Portugal",
+      "Brazil",
+      "Spain",
+      "France"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn060",
+    "wikipediaLookup": "Diogo Jota",
+    "correctNation": "Portugal",
+    "options": [
+      "Portugal",
+      "Brazil",
+      "Spain",
+      "France"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn061",
+    "wikipediaLookup": "Federico Valverde",
+    "correctNation": "Uruguay",
+    "options": [
+      "Uruguay",
+      "Argentina",
+      "Paraguay",
+      "Chile"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn062",
+    "wikipediaLookup": "Darwin Nunez",
+    "correctNation": "Uruguay",
+    "options": [
+      "Uruguay",
+      "Argentina",
+      "Ecuador",
+      "Paraguay"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn063",
+    "wikipediaLookup": "Edinson Cavani",
+    "correctNation": "Uruguay",
+    "options": [
+      "Uruguay",
+      "Argentina",
+      "Paraguay",
+      "Chile"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn064",
+    "wikipediaLookup": "Diego Forlan",
+    "correctNation": "Uruguay",
+    "options": [
+      "Uruguay",
+      "Argentina",
+      "Spain",
+      "Chile"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn065",
+    "wikipediaLookup": "James Rodriguez",
+    "correctNation": "Colombia",
+    "options": [
+      "Colombia",
+      "Ecuador",
+      "Venezuela",
+      "Peru"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn066",
+    "wikipediaLookup": "Juan Cuadrado",
+    "correctNation": "Colombia",
+    "options": [
+      "Colombia",
+      "Ecuador",
+      "Peru",
+      "Venezuela"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn067",
+    "wikipediaLookup": "Radamel Falcao",
+    "correctNation": "Colombia",
+    "options": [
+      "Colombia",
+      "Venezuela",
+      "Ecuador",
+      "Peru"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn068",
+    "wikipediaLookup": "Keylor Navas",
+    "correctNation": "Costa Rica",
+    "options": [
+      "Costa Rica",
+      "Mexico",
+      "Panama",
+      "Colombia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn069",
+    "wikipediaLookup": "Claudio Bravo",
+    "correctNation": "Chile",
+    "options": [
+      "Chile",
+      "Argentina",
+      "Peru",
+      "Ecuador"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn070",
+    "wikipediaLookup": "Arturo Vidal",
+    "correctNation": "Chile",
+    "options": [
+      "Chile",
+      "Argentina",
+      "Peru",
+      "Colombia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn071",
+    "wikipediaLookup": "Alexis Sanchez",
+    "correctNation": "Chile",
+    "options": [
+      "Chile",
+      "Peru",
+      "Argentina",
+      "Ecuador"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn072",
+    "wikipediaLookup": "Javier Hernandez",
+    "correctNation": "Mexico",
+    "options": [
+      "Mexico",
+      "Spain",
+      "Colombia",
+      "Chile"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn073",
+    "wikipediaLookup": "Guillermo Ochoa",
+    "correctNation": "Mexico",
+    "options": [
+      "Mexico",
+      "Spain",
+      "Costa Rica",
+      "Colombia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn074",
+    "wikipediaLookup": "Rafael Marquez",
+    "correctNation": "Mexico",
+    "options": [
+      "Mexico",
+      "Spain",
+      "Brazil",
+      "Colombia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn075",
+    "wikipediaLookup": "Hirving Lozano",
+    "correctNation": "Mexico",
+    "options": [
+      "Mexico",
+      "Colombia",
+      "Spain",
+      "Brazil"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn076",
+    "wikipediaLookup": "Park Ji-sung",
+    "correctNation": "South Korea",
+    "options": [
+      "South Korea",
+      "Japan",
+      "China",
+      "North Korea"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn077",
+    "wikipediaLookup": "Shinji Kagawa",
+    "correctNation": "Japan",
+    "options": [
+      "Japan",
+      "South Korea",
+      "China",
+      "Iran"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn078",
+    "wikipediaLookup": "Hidetoshi Nakata",
+    "correctNation": "Japan",
+    "options": [
+      "Japan",
+      "South Korea",
+      "China",
+      "Thailand"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn079",
+    "wikipediaLookup": "Takefusa Kubo",
+    "correctNation": "Japan",
+    "options": [
+      "Japan",
+      "South Korea",
+      "China",
+      "Spain"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn080",
+    "wikipediaLookup": "Shinji Okazaki",
+    "correctNation": "Japan",
+    "options": [
+      "Japan",
+      "South Korea",
+      "China",
+      "Australia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn081",
+    "wikipediaLookup": "Ali Daei",
+    "correctNation": "Iran",
+    "options": [
+      "Iran",
+      "Iraq",
+      "Turkey",
+      "Afghanistan"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn082",
+    "wikipediaLookup": "Mehdi Taremi",
+    "correctNation": "Iran",
+    "options": [
+      "Iran",
+      "Iraq",
+      "Turkey",
+      "Qatar"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn083",
+    "wikipediaLookup": "Sardar Azmoun",
+    "correctNation": "Iran",
+    "options": [
+      "Iran",
+      "Iraq",
+      "Turkey",
+      "Azerbaijan"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn084",
+    "wikipediaLookup": "Sami Al-Jaber",
+    "correctNation": "Saudi Arabia",
+    "options": [
+      "Saudi Arabia",
+      "Qatar",
+      "UAE",
+      "Kuwait"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn085",
+    "wikipediaLookup": "Hwang Hee-chan",
+    "correctNation": "South Korea",
+    "options": [
+      "South Korea",
+      "Japan",
+      "China",
+      "North Korea"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn086",
+    "wikipediaLookup": "Heung-min Son",
+    "correctNation": "South Korea",
+    "options": [
+      "South Korea",
+      "Japan",
+      "China",
+      "North Korea"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn087",
+    "wikipediaLookup": "Tim Cahill",
+    "correctNation": "Australia",
+    "options": [
+      "Australia",
+      "England",
+      "New Zealand",
+      "Ireland"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn088",
+    "wikipediaLookup": "Harry Kewell",
+    "correctNation": "Australia",
+    "options": [
+      "Australia",
+      "England",
+      "Scotland",
+      "Wales"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn089",
+    "wikipediaLookup": "Mark Viduka",
+    "correctNation": "Australia",
+    "options": [
+      "Australia",
+      "Croatia",
+      "England",
+      "Serbia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn090",
+    "wikipediaLookup": "Brett Emerton",
+    "correctNation": "Australia",
+    "options": [
+      "Australia",
+      "England",
+      "New Zealand",
+      "South Africa"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn091",
+    "wikipediaLookup": "Marcos Senna",
+    "correctNation": "Spain",
+    "options": [
+      "Spain",
+      "Brazil",
+      "Portugal",
+      "Argentina"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn092",
+    "wikipediaLookup": "Deco",
+    "correctNation": "Portugal",
+    "options": [
+      "Portugal",
+      "Brazil",
+      "Spain",
+      "Angola"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn093",
+    "wikipediaLookup": "Pepe",
+    "correctNation": "Portugal",
+    "options": [
+      "Portugal",
+      "Brazil",
+      "Cape Verde",
+      "Spain"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn094",
+    "wikipediaLookup": "Diego Costa",
+    "correctNation": "Spain",
+    "options": [
+      "Spain",
+      "Brazil",
+      "Colombia",
+      "Portugal"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn095",
+    "wikipediaLookup": "Eduardo da Silva",
+    "correctNation": "Croatia",
+    "options": [
+      "Croatia",
+      "Brazil",
+      "Bosnia and Herzegovina",
+      "Serbia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn096",
+    "wikipediaLookup": "Kevin-Prince Boateng",
+    "correctNation": "Ghana",
+    "options": [
+      "Ghana",
+      "Germany",
+      "Nigeria",
+      "Liberia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn097",
+    "wikipediaLookup": "Jerome Boateng",
+    "correctNation": "Germany",
+    "options": [
+      "Germany",
+      "Ghana",
+      "Cameroon",
+      "Austria"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn098",
+    "wikipediaLookup": "Roman Neustadter",
+    "correctNation": "Russia",
+    "options": [
+      "Russia",
+      "Germany",
+      "Ukraine",
+      "Kazakhstan"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn099",
+    "wikipediaLookup": "Ivan Strinic",
+    "correctNation": "Croatia",
+    "options": [
+      "Croatia",
+      "Serbia",
+      "Slovenia",
+      "Bosnia and Herzegovina"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn100",
+    "wikipediaLookup": "Vedran Corluka",
+    "correctNation": "Croatia",
+    "options": [
+      "Croatia",
+      "Bosnia and Herzegovina",
+      "Serbia",
+      "Slovenia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn101",
+    "wikipediaLookup": "Darijo Srna",
+    "correctNation": "Croatia",
+    "options": [
+      "Croatia",
+      "Bosnia and Herzegovina",
+      "Serbia",
+      "Montenegro"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn102",
+    "wikipediaLookup": "Ognjen Vukojevic",
+    "correctNation": "Croatia",
+    "options": [
+      "Croatia",
+      "Serbia",
+      "Bosnia and Herzegovina",
+      "Montenegro"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn103",
+    "wikipediaLookup": "Mladen Petric",
+    "correctNation": "Croatia",
+    "options": [
+      "Croatia",
+      "Switzerland",
+      "Bosnia and Herzegovina",
+      "Serbia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn104",
+    "wikipediaLookup": "Ivan Rakitic",
+    "correctNation": "Croatia",
+    "options": [
+      "Croatia",
+      "Switzerland",
+      "Bosnia and Herzegovina",
+      "Serbia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn105",
+    "wikipediaLookup": "Milan Baros",
+    "correctNation": "Czech Republic",
+    "options": [
+      "Czech Republic",
+      "Slovakia",
+      "Poland",
+      "Croatia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn106",
+    "wikipediaLookup": "Tomas Rosicky",
+    "correctNation": "Czech Republic",
+    "options": [
+      "Czech Republic",
+      "Slovakia",
+      "Poland",
+      "Austria"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn107",
+    "wikipediaLookup": "Jan Koller",
+    "correctNation": "Czech Republic",
+    "options": [
+      "Czech Republic",
+      "Slovakia",
+      "Germany",
+      "Poland"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn108",
+    "wikipediaLookup": "Pavel Nedved",
+    "correctNation": "Czech Republic",
+    "options": [
+      "Czech Republic",
+      "Slovakia",
+      "Poland",
+      "Hungary"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn109",
+    "wikipediaLookup": "Marek Jankulovski",
+    "correctNation": "Czech Republic",
+    "options": [
+      "Czech Republic",
+      "Slovakia",
+      "Poland",
+      "Slovenia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn110",
+    "wikipediaLookup": "Karel Poborsky",
+    "correctNation": "Czech Republic",
+    "options": [
+      "Czech Republic",
+      "Slovakia",
+      "Austria",
+      "Poland"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn111",
+    "wikipediaLookup": "Radoslav Kovac",
+    "correctNation": "Czech Republic",
+    "options": [
+      "Czech Republic",
+      "Slovakia",
+      "Poland",
+      "Serbia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn112",
+    "wikipediaLookup": "Zvonimir Boban",
+    "correctNation": "Croatia",
+    "options": [
+      "Croatia",
+      "Serbia",
+      "Slovenia",
+      "Bosnia and Herzegovina"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn113",
+    "wikipediaLookup": "Robert Prosinecki",
+    "correctNation": "Croatia",
+    "options": [
+      "Croatia",
+      "Serbia",
+      "Bosnia and Herzegovina",
+      "Slovenia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn114",
+    "wikipediaLookup": "Davor Suker",
+    "correctNation": "Croatia",
+    "options": [
+      "Croatia",
+      "Serbia",
+      "Bosnia and Herzegovina",
+      "Montenegro"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn115",
+    "wikipediaLookup": "Predrag Mijatovic",
+    "correctNation": "Montenegro",
+    "options": [
+      "Montenegro",
+      "Serbia",
+      "Croatia",
+      "Bosnia and Herzegovina"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn116",
+    "wikipediaLookup": "Dejan Savicevic",
+    "correctNation": "Montenegro",
+    "options": [
+      "Montenegro",
+      "Serbia",
+      "Croatia",
+      "Bosnia and Herzegovina"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn117",
+    "wikipediaLookup": "Savo Milosevic",
+    "correctNation": "Serbia",
+    "options": [
+      "Serbia",
+      "Montenegro",
+      "Croatia",
+      "Bosnia and Herzegovina"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn118",
+    "wikipediaLookup": "Sinisa Mihajlovic",
+    "correctNation": "Serbia",
+    "options": [
+      "Serbia",
+      "Croatia",
+      "Bosnia and Herzegovina",
+      "Montenegro"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn119",
+    "wikipediaLookup": "Darko Kovacevic",
+    "correctNation": "Serbia",
+    "options": [
+      "Serbia",
+      "Montenegro",
+      "Croatia",
+      "North Macedonia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn120",
+    "wikipediaLookup": "Mateja Kezman",
+    "correctNation": "Serbia",
+    "options": [
+      "Serbia",
+      "Montenegro",
+      "Croatia",
+      "Bosnia and Herzegovina"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn121",
+    "wikipediaLookup": "El Hadji Diouf",
+    "correctNation": "Senegal",
+    "options": [
+      "Senegal",
+      "Mali",
+      "Guinea",
+      "Gambia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn122",
+    "wikipediaLookup": "Henri Camara",
+    "correctNation": "Senegal",
+    "options": [
+      "Senegal",
+      "Guinea",
+      "Mali",
+      "Gambia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn123",
+    "wikipediaLookup": "Papa Bouba Diop",
+    "correctNation": "Senegal",
+    "options": [
+      "Senegal",
+      "Mali",
+      "Guinea",
+      "Mauritania"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn124",
+    "wikipediaLookup": "Habib Beye",
+    "correctNation": "Senegal",
+    "options": [
+      "Senegal",
+      "Mali",
+      "Guinea",
+      "Gambia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn125",
+    "wikipediaLookup": "Khalilou Fadiga",
+    "correctNation": "Senegal",
+    "options": [
+      "Senegal",
+      "Mali",
+      "Guinea",
+      "Mauritania"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn126",
+    "wikipediaLookup": "Mamadou Niang",
+    "correctNation": "Senegal",
+    "options": [
+      "Senegal",
+      "Mali",
+      "Guinea",
+      "Mauritania"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn127",
+    "wikipediaLookup": "Rigobert Song",
+    "correctNation": "Cameroon",
+    "options": [
+      "Cameroon",
+      "Nigeria",
+      "Ghana",
+      "Chad"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn128",
+    "wikipediaLookup": "Geremi",
+    "correctNation": "Cameroon",
+    "options": [
+      "Cameroon",
+      "Nigeria",
+      "Ghana",
+      "Chad"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn129",
+    "wikipediaLookup": "Pierre Wome",
+    "correctNation": "Cameroon",
+    "options": [
+      "Cameroon",
+      "Nigeria",
+      "Ghana",
+      "Gabon"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn130",
+    "wikipediaLookup": "Lauren",
+    "correctNation": "Cameroon",
+    "options": [
+      "Cameroon",
+      "Gabon",
+      "Nigeria",
+      "Equatorial Guinea"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn131",
+    "wikipediaLookup": "Nwankwo Kanu",
+    "correctNation": "Nigeria",
+    "options": [
+      "Nigeria",
+      "Ghana",
+      "Cameroon",
+      "Liberia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn132",
+    "wikipediaLookup": "Jay-Jay Okocha",
+    "correctNation": "Nigeria",
+    "options": [
+      "Nigeria",
+      "Ghana",
+      "Cameroon",
+      "Liberia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn133",
+    "wikipediaLookup": "Taribo West",
+    "correctNation": "Nigeria",
+    "options": [
+      "Nigeria",
+      "Ghana",
+      "Cameroon",
+      "Benin"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn134",
+    "wikipediaLookup": "Celestine Babayaro",
+    "correctNation": "Nigeria",
+    "options": [
+      "Nigeria",
+      "Ghana",
+      "Cameroon",
+      "Benin"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn135",
+    "wikipediaLookup": "Victor Ikpeba",
+    "correctNation": "Nigeria",
+    "options": [
+      "Nigeria",
+      "Ghana",
+      "Cameroon",
+      "Benin"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn136",
+    "wikipediaLookup": "Sunday Oliseh",
+    "correctNation": "Nigeria",
+    "options": [
+      "Nigeria",
+      "Ghana",
+      "Cameroon",
+      "Benin"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn137",
+    "wikipediaLookup": "Blerim Dzemaili",
+    "correctNation": "Switzerland",
+    "options": [
+      "Switzerland",
+      "Albania",
+      "Kosovo",
+      "North Macedonia"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn138",
+    "wikipediaLookup": "Thiago Motta",
+    "correctNation": "Italy",
+    "options": [
+      "Italy",
+      "Brazil",
+      "Argentina",
+      "Portugal"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn139",
+    "wikipediaLookup": "Mauro Camoranesi",
+    "correctNation": "Italy",
+    "options": [
+      "Italy",
+      "Argentina",
+      "Uruguay",
+      "Brazil"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  },
+  {
+    "id": "gtn140",
+    "wikipediaLookup": "Pablo Aimar",
+    "correctNation": "Argentina",
+    "options": [
+      "Argentina",
+      "Uruguay",
+      "Spain",
+      "Chile"
+    ],
+    "wikipediaLookupAr": "",
+    "correctNationAr": "",
+    "optionsAr": ""
+  }
+]

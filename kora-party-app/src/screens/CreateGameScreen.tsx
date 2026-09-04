@@ -87,7 +87,7 @@ export default function CreateGameScreen({ navigation }: Props) {
         <TouchableOpacity
           onPress={() => {
             if (selected.length > 0) {
-              navigation.navigate("Lobby", { sessionId: "TEMP_ID" });
+              navigation.navigate("Lobby", { sessionId: "TEMP_ID", bundles: selected as any });
             }
           }}
           className={`rounded-2xl py-4 items-center mb-4 ${

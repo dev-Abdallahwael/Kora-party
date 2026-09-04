@@ -71,7 +71,7 @@ export default function ResultScreen({ navigation, route }: Props) {
         {/* Actions */}
         <View className="mt-4">
           <TouchableOpacity
-            onPress={() => navigation.navigate("Game", { sessionId })}
+            onPress={() => navigation.navigate("Game", { sessionId, bundles: route.params.bundles || ["guess-the-player"] })}
             className="bg-primary rounded-2xl py-4 items-center mb-3"
             activeOpacity={0.8}
           >

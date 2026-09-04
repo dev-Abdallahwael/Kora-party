@@ -90,7 +90,7 @@ export default function LobbyScreen({ navigation, route }: Props) {
 
         {/* Start Button */}
         <TouchableOpacity
-          onPress={() => navigation.navigate("Game", { sessionId })}
+          onPress={() => navigation.navigate("Game", { sessionId, bundles: route.params.bundles || ["guess-the-player", "true-or-false"] })}
           className="bg-primary rounded-2xl py-4 items-center mb-4"
           activeOpacity={0.8}
         >

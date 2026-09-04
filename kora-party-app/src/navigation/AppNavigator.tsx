@@ -7,14 +7,15 @@ import JoinGameScreen from "../screens/JoinGameScreen";
 import LobbyScreen from "../screens/LobbyScreen";
 import GameScreen from "../screens/GameScreen";
 import ResultScreen from "../screens/ResultScreen";
+import { BundleType } from "../types";
 
 export type RootStackParamList = {
   Home: undefined;
   CreateGame: undefined;
   JoinGame: undefined;
-  Lobby: { sessionId: string };
-  Game: { sessionId: string };
-  Result: { sessionId: string };
+  Lobby: { sessionId: string; bundles?: BundleType[] };
+  Game: { sessionId: string; bundles: BundleType[] };
+  Result: { sessionId: string; bundles?: BundleType[] };
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
