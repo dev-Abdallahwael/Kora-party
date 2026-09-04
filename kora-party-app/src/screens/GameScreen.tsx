@@ -5,6 +5,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { useLang } from "../context/LangContext";
 import { usePlayer } from "../context/PlayerContext";
 import QuestionRenderer from "../components/QuestionRenderer";
+import FootballBackground from "../components/FootballBackground";
 import {
   listenToSession,
   submitAnswer,
@@ -216,7 +217,8 @@ export default function GameScreen({ navigation, route }: Props) {
   const qCount = currentLevelQs.length;
 
   return (
-    <SafeAreaView className="flex-1 bg-background">
+    <SafeAreaView className="flex-1">
+      <FootballBackground>
       <View className="flex-1 px-5 pt-2">
         {/* Top Bar */}
         <View className="flex-row items-center justify-between mb-3">
@@ -337,6 +339,8 @@ export default function GameScreen({ navigation, route }: Props) {
           </TouchableOpacity>
         )}
       </View>
+      </FootballBackground>
     </SafeAreaView>
+
   );
 }

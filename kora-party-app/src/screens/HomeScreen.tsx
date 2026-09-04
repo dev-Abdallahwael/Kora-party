@@ -4,6 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { useLang } from "../context/LangContext";
 import { usePlayer } from "../context/PlayerContext";
+import FootballBackground from "../components/FootballBackground";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/AppNavigator";
 
@@ -25,8 +26,9 @@ export default function HomeScreen({ navigation }: Props) {
   };
 
   return (
-    <SafeAreaView className="flex-1 bg-background">
+    <SafeAreaView className="flex-1">
       <StatusBar barStyle="light-content" />
+      <FootballBackground>
       <View className="flex-1 px-6 pt-4 pb-8">
         {/* Header */}
         <View className="flex-row justify-between items-center mb-8">
@@ -149,6 +151,7 @@ export default function HomeScreen({ navigation }: Props) {
           </Text>
         </View>
       </View>
+      </FootballBackground>
 
       {/* Name Modal */}
       <Modal
@@ -156,13 +159,13 @@ export default function HomeScreen({ navigation }: Props) {
         transparent
         animationType="fade"
       >
-        <View className="flex-1 bg-black/30 items-center justify-center px-6">
+        <View className="flex-1 bg-background items-center justify-center px-6">
           <TouchableOpacity
             style={StyleSheet.absoluteFill}
             activeOpacity={1}
             onPress={() => setNameModalVisible(false)}
           />
-          <View className="bg-surface/95 rounded-3xl p-8 w-full border border-border">
+          <View className="bg-surfaceCard rounded-3xl p-8 w-full border border-border">
             <View className="flex-row justify-end mb-2">
               <TouchableOpacity
                 onPress={() => setNameModalVisible(false)}

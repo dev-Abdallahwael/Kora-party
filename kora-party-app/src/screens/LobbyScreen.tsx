@@ -7,6 +7,7 @@ import { usePlayer } from "../context/PlayerContext";
 import { listenToSession, startGame, setupDisconnectHandler, checkAndTransferHost } from "../utils/sessionService";
 import { FirebaseSession } from "../utils/sessionService";
 import * as Clipboard from "expo-clipboard";
+import FootballBackground from "../components/FootballBackground";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { RouteProp } from "@react-navigation/native";
 import type { RootStackParamList } from "../navigation/AppNavigator";
@@ -64,7 +65,8 @@ export default function LobbyScreen({ navigation, route }: Props) {
   };
 
   return (
-    <SafeAreaView className="flex-1 bg-background">
+    <SafeAreaView className="flex-1">
+      <FootballBackground>
       <View className="flex-1 px-6 pt-4">
         {/* Header */}
         <View className="flex-row items-center justify-between mb-6">
@@ -150,6 +152,7 @@ export default function LobbyScreen({ navigation, route }: Props) {
           </View>
         )}
       </View>
+      </FootballBackground>
     </SafeAreaView>
   );
 }

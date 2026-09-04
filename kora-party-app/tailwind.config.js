@@ -49,7 +49,7 @@ module.exports = {
         text: "#FFFFFF",
         textMuted: "#8A8AB0",
         textSecondary: "#B8B8D2",
-        border: "#B9B9C9",
+        border: "#A0A0B0",
       },
       fontFamily: {
         bold: ["InterBold"],

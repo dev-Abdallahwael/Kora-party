@@ -5,6 +5,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { useLang } from "../context/LangContext";
 import { usePlayer } from "../context/PlayerContext";
 import { joinSession } from "../utils/sessionService";
+import FootballBackground from "../components/FootballBackground";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/AppNavigator";
 
@@ -40,7 +41,8 @@ export default function JoinGameScreen({ navigation }: Props) {
   };
 
   return (
-    <SafeAreaView className="flex-1 bg-background">
+    <SafeAreaView className="flex-1">
+      <FootballBackground>
       <View className="flex-1 px-6 pt-4">
         {/* Header */}
         <View className="flex-row items-center mb-8">
@@ -101,6 +103,7 @@ export default function JoinGameScreen({ navigation }: Props) {
           </View>
         </View>
       </View>
+      </FootballBackground>
     </SafeAreaView>
   );
 }

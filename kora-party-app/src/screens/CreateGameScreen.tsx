@@ -6,6 +6,7 @@ import { useLang } from "../context/LangContext";
 import { usePlayer } from "../context/PlayerContext";
 import { createSession } from "../utils/sessionService";
 import { BundleType } from "../types";
+import FootballBackground from "../components/FootballBackground";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/AppNavigator";
 
@@ -57,7 +58,8 @@ export default function CreateGameScreen({ navigation }: Props) {
   };
 
   return (
-    <SafeAreaView className="flex-1 bg-background">
+    <SafeAreaView className="flex-1">
+      <FootballBackground>
       <View className="flex-1 px-6 pt-4">
         {/* Header */}
         <View className="flex-row items-center mb-6">
@@ -131,6 +133,7 @@ export default function CreateGameScreen({ navigation }: Props) {
           )}
         </TouchableOpacity>
       </View>
+      </FootballBackground>
     </SafeAreaView>
   );
 }
