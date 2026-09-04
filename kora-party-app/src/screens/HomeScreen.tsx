@@ -156,7 +156,7 @@ export default function HomeScreen({ navigation }: Props) {
         transparent
         animationType="fade"
       >
-        <View className="flex-1 bg-black/60 items-center justify-center px-6">
+        <View className="flex-1 bg-surface/95 items-center justify-center px-6">
           <TouchableOpacity
             style={StyleSheet.absoluteFill}
             activeOpacity={1}
