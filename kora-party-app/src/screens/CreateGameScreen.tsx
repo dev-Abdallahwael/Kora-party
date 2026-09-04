@@ -1,8 +1,11 @@
 import React, { useState } from "react";
-import { View, Text, TouchableOpacity, ScrollView } from "react-native";
+import { View, Text, TouchableOpacity, ScrollView, ActivityIndicator } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { useLang } from "../context/LangContext";
+import { usePlayer } from "../context/PlayerContext";
+import { createSession } from "../utils/sessionService";
+import { BundleType } from "../types";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/AppNavigator";
 
@@ -22,12 +25,35 @@ const BUNDLES = [
 
 export default function CreateGameScreen({ navigation }: Props) {
   const { lang, t } = useLang();
+  const { playerId, playerName, setIsHost } = usePlayer();
   const [selected, setSelected] = useState<string[]>([]);
+  const [creating, setCreating] = useState(false);
 
   const toggleBundle = (id: string) => {
     setSelected((prev) =>
       prev.includes(id) ? prev.filter((b) => b !== id) : [...prev, id]
     );
+  };
+
+  const handleCreate = async () => {
+    if (selected.length === 0 || creating) return;
+    setCreating(true);
+    try {
+      setIsHost(true);
+      const sessionId = await createSession(
+        playerId,
+        playerName || "Host",
+        selected as BundleType[]
+      );
+      navigation.navigate("Lobby", {
+        sessionId,
+        bundles: selected as BundleType[],
+      });
+    } catch (err) {
+      console.warn("Failed to create session", err);
+    } finally {
+      setCreating(false);
+    }
   };
 
   return (
@@ -85,23 +111,24 @@ export default function CreateGameScreen({ navigation }: Props) {
 
         {/* Start Button */}
         <TouchableOpacity
-          onPress={() => {
-            if (selected.length > 0) {
-              navigation.navigate("Lobby", { sessionId: "TEMP_ID", bundles: selected as any });
-            }
-          }}
+          onPress={handleCreate}
+          disabled={creating}
           className={`rounded-2xl py-4 items-center mb-4 ${
             selected.length > 0 ? "bg-primary" : "bg-surfaceLighter"
           }`}
           activeOpacity={0.8}
         >
-          <Text
-            className={`text-lg font-bold ${
-              selected.length > 0 ? "text-white" : "text-textMuted"
-            }`}
-          >
-            {t("start")} ({selected.length})
-          </Text>
+          {creating ? (
+            <ActivityIndicator color="white" />
+          ) : (
+            <Text
+              className={`text-lg font-bold ${
+                selected.length > 0 ? "text-white" : "text-textMuted"
+              }`}
+            >
+              {t("start")} ({selected.length})
+            </Text>
+          )}
         </TouchableOpacity>
       </View>
     </SafeAreaView>

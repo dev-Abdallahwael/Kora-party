@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import { View, Text, TouchableOpacity, TextInput } from "react-native";
+import { View, Text, TouchableOpacity, TextInput, ActivityIndicator } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { useLang } from "../context/LangContext";
+import { usePlayer } from "../context/PlayerContext";
+import { joinSession } from "../utils/sessionService";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/AppNavigator";
 
@@ -12,7 +14,30 @@ type Props = {
 
 export default function JoinGameScreen({ navigation }: Props) {
   const { lang, t } = useLang();
+  const { playerId, playerName, setIsHost } = usePlayer();
   const [code, setCode] = useState("");
+  const [joining, setJoining] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const handleJoin = async () => {
+    if (code.length < 4 || joining) return;
+    setJoining(true);
+    setError(null);
+    try {
+      setIsHost(false);
+      const ok = await joinSession(code.toUpperCase(), playerId, playerName || "Guest");
+      if (!ok) {
+        setError(lang === "en" ? "Session not found" : "لم يتم العثور على المباراة");
+        setJoining(false);
+        return;
+      }
+      navigation.navigate("Lobby", { sessionId: code.toUpperCase() });
+    } catch (err) {
+      console.warn("Failed to join session", err);
+      setError(lang === "en" ? "Failed to join. Check your connection." : "فشل الانضمام. تحقق من اتصالك.");
+      setJoining(false);
+    }
+  };
 
   return (
     <SafeAreaView className="flex-1 bg-background">
@@ -38,7 +63,10 @@ export default function JoinGameScreen({ navigation }: Props) {
 
             <TextInput
               value={code}
-              onChangeText={setCode}
+              onChangeText={(v) => {
+                setCode(v.toUpperCase());
+                setError(null);
+              }}
               placeholder="XXXXXX"
               placeholderTextColor="#6B6B8D"
               maxLength={6}
@@ -46,24 +74,29 @@ export default function JoinGameScreen({ navigation }: Props) {
               autoCapitalize="characters"
             />
 
+            {error && (
+              <Text className="text-danger text-center mt-3 text-sm">{error}</Text>
+            )}
+
             <TouchableOpacity
-              onPress={() => {
-                if (code.length >= 4) {
-                  navigation.navigate("Lobby", { sessionId: code });
-                }
-              }}
+              onPress={handleJoin}
+              disabled={joining}
               className={`rounded-2xl py-4 items-center mt-6 ${
                 code.length >= 4 ? "bg-primary" : "bg-surfaceLighter"
               }`}
               activeOpacity={0.8}
             >
-              <Text
-                className={`text-lg font-bold ${
-                  code.length >= 4 ? "text-white" : "text-textMuted"
-                }`}
-              >
-                {t("join")}
-              </Text>
+              {joining ? (
+                <ActivityIndicator color="white" />
+              ) : (
+                <Text
+                  className={`text-lg font-bold ${
+                    code.length >= 4 ? "text-white" : "text-textMuted"
+                  }`}
+                >
+                  {t("join")}
+                </Text>
+              )}
             </TouchableOpacity>
           </View>
         </View>

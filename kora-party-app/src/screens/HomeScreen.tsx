@@ -1,8 +1,9 @@
-import React from "react";
-import { View, Text, TouchableOpacity, StatusBar } from "react-native";
+import React, { useState } from "react";
+import { View, Text, TouchableOpacity, StatusBar, TextInput, Modal } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { useLang } from "../context/LangContext";
+import { usePlayer } from "../context/PlayerContext";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/AppNavigator";
 
@@ -12,6 +13,20 @@ type Props = {
 
 export default function HomeScreen({ navigation }: Props) {
   const { lang, toggleLang, t } = useLang();
+  const { playerName, setPlayerName, hasSetName } = usePlayer();
+  const [nameModalVisible, setNameModalVisible] = useState(false);
+  const [nameInput, setNameInput] = useState("");
+
+  React.useEffect(() => {
+    if (!hasSetName) setNameModalVisible(true);
+  }, [hasSetName]);
+
+  const saveName = () => {
+    if (nameInput.trim().length > 0) {
+      setPlayerName(nameInput.trim());
+      setNameModalVisible(false);
+    }
+  };
 
   return (
     <SafeAreaView className="flex-1 bg-background">
@@ -25,14 +40,25 @@ export default function HomeScreen({ navigation }: Props) {
               Football Trivia
             </Text>
           </View>
-          <TouchableOpacity
-            onPress={toggleLang}
-            className="bg-surfaceLight rounded-full w-10 h-10 items-center justify-center"
-          >
-            <Text className="text-accent text-sm font-bold">
-              {lang === "en" ? "عر" : "EN"}
-            </Text>
-          </TouchableOpacity>
+          <View className="flex-row items-center">
+            {hasSetName && (
+              <TouchableOpacity
+                onPress={() => setNameModalVisible(true)}
+                className="bg-surfaceLight rounded-full px-3 py-2 flex-row items-center mr-2"
+              >
+                <Ionicons name="person" size={14} color="#FFC107" />
+                <Text className="text-text text-xs font-semibold ml-1">{playerName}</Text>
+              </TouchableOpacity>
+            )}
+            <TouchableOpacity
+              onPress={toggleLang}
+              className="bg-surfaceLight rounded-full w-10 h-10 items-center justify-center"
+            >
+              <Text className="text-accent text-sm font-bold">
+                {lang === "en" ? "عر" : "EN"}
+              </Text>
+            </TouchableOpacity>
+          </View>
         </View>
 
         {/* Main Card */}
@@ -127,6 +153,52 @@ export default function HomeScreen({ navigation }: Props) {
           </Text>
         </View>
       </View>
+
+      {/* Name Modal */}
+      <Modal
+        visible={nameModalVisible}
+        transparent
+        animationType="fade"
+      >
+        <View className="flex-1 bg-black/60 items-center justify-center px-6">
+          <View className="bg-surfaceCard rounded-3xl p-8 w-full border border-border">
+            <View className="items-center mb-6">
+              <View className="w-16 h-16 bg-primary/20 rounded-full items-center justify-center mb-4">
+                <Ionicons name="person" size={32} color="#1B5E20" />
+              </View>
+              <Text className="text-text text-xl font-bold text-center">
+                {lang === "en" ? "What's your name?" : "ما اسمك؟"}
+              </Text>
+              <Text className="text-textMuted text-sm text-center mt-2">
+                {lang === "en"
+                  ? "This is how your friends will see you."
+                  : "هكذا سيراك أصدقاؤك."}
+              </Text>
+            </View>
+            <TextInput
+              value={nameInput}
+              onChangeText={setNameInput}
+              placeholder={lang === "en" ? "Enter your name" : "اكتب اسمك"}
+              placeholderTextColor="#6B6B8D"
+              maxLength={20}
+              onSubmitEditing={saveName}
+              autoFocus
+              className="bg-surfaceLighter rounded-2xl py-4 px-5 text-text text-base border border-border"
+            />
+            <TouchableOpacity
+              onPress={saveName}
+              className={`rounded-2xl py-4 items-center mt-4 ${
+                nameInput.trim().length > 0 ? "bg-primary" : "bg-surfaceLighter"
+              }`}
+              activeOpacity={0.8}
+            >
+              <Text className={`text-lg font-bold ${nameInput.trim().length > 0 ? "text-white" : "text-textMuted"}`}>
+                {lang === "en" ? "Continue" : "متابعة"}
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </Modal>
     </SafeAreaView>
   );
 }
